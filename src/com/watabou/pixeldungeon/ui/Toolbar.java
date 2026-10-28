@@ -184,7 +184,7 @@ public class Toolbar extends Component {
 			}
 			
 			if (cell < 0 || cell > Level.LENGTH || (!Dungeon.level.visited[cell] && !Dungeon.level.mapped[cell])) {
-				GameScene.show( new WndMessage( "You don't know what is there." ) ) ;
+				GameScene.show( new WndMessage( "你不知道那里有什么。" ) ) ;
 				return;
 			}
 			
@@ -224,7 +224,7 @@ public class Toolbar extends Component {
 		}	
 		@Override
 		public String prompt() {
-			return "Select a cell to examine";
+			return "选择要查看的格子";
 		}
 	};
 	

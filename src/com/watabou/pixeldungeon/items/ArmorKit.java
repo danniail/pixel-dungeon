@@ -33,15 +33,15 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class ArmorKit extends Item {
 	
-	private static final String TXT_SELECT_ARMOR	= "Select an armor to upgrade";
-	private static final String TXT_UPGRADED		= "you applied the armor kit to upgrade your %s";
+	private static final String TXT_SELECT_ARMOR	= "选择要升级的护甲";
+	private static final String TXT_UPGRADED		= "你使用护甲套件升级了%s";
 	
 	private static final float TIME_TO_UPGRADE = 2;
 	
-	private static final String AC_APPLY = "APPLY";
+	private static final String AC_APPLY = "使用";
 	
 	{
-		name = "armor kit";
+		name = "护甲套件";
 		image = ItemSpriteSheet.KIT;
 		
 		unique = true;
@@ -107,10 +107,7 @@ public class ArmorKit extends Item {
 	
 	@Override
 	public String info() {
-		return
-			"Using this kit of small tools and materials anybody can transform any armor into an \"epic armor\", " +
-			"which will keep all properties of the original armor, but will also provide its wearer a special ability " +
-			"depending on his class. No skills in tailoring, leatherworking or blacksmithing are required.";
+		return "任何人都能用这套小巧的工具和材料，把任意护甲改造成“史诗护甲”：保留原护甲的全部属性，还会根据穿戴者的职业赋予一项特殊能力。无需裁缝、制皮或锻造技巧。";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

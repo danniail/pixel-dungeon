@@ -52,7 +52,7 @@ import com.watabou.utils.Random;
 
 public class Heap implements Bundlable {
 
-	private static final String TXT_MIMIC = "This is a mimic!";
+	private static final String TXT_MIMIC = "这是拟形怪！";
 	
 	private static final int SEEDS_TO_POTION = 3;
 	
@@ -370,7 +370,7 @@ public class Heap implements Bundlable {
 	public void restoreFromBundle( Bundle bundle ) {
 		pos = bundle.getInt( POS );
 		type = Type.valueOf( bundle.getString( TYPE ) );
-		items = new LinkedList<Item>( (Collection<? extends Item>) bundle.getCollection( ITEMS ) ); 
+		items = new LinkedList<Item>( (Collection<? extends Item>)(Collection<?>) bundle.getCollection( ITEMS ) );
 	}
 
 	@Override

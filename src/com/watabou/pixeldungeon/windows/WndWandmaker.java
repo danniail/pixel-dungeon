@@ -27,12 +27,12 @@ import com.watabou.pixeldungeon.utils.Utils;
 public class WndWandmaker extends WndQuest {
 	
 	private static final String TXT_MESSAGE	= 
-		"Oh, I see you have succeeded! I do hope it hasn't troubled you too much. " +
-		"As I promised, you can choose one of my high quality wands.";
-	private static final String TXT_BATTLE		= "Battle wand";
-	private static final String TXT_NON_BATTLE	= "Non-battle wand";
+		"哦，看来你成功了！希望没让你太费周折。" +
+		"正如我承诺的，你可以从我的高品质法杖中选一根。";
+	private static final String TXT_BATTLE		= "战斗法杖";
+	private static final String TXT_NON_BATTLE	= "非战斗法杖";
 	
-	private static final String TXT_FARAWELL	= "Good luck in your quest, %s!";
+	private static final String TXT_FARAWELL	= "祝你冒险顺利，%s！";
 	
 	private Wandmaker wandmaker;
 	private Item questItem;

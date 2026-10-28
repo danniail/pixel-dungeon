@@ -39,7 +39,7 @@ public class Wraith extends Mob {
 	private int level;
 	
 	{
-		name = "wraith";
+		name = "幽魂";
 		spriteClass = WraithSprite.class;
 		
 		HP = HT = 1;
@@ -81,7 +81,7 @@ public class Wraith extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	@Override
@@ -92,9 +92,7 @@ public class Wraith extends Mob {
 
 	@Override
 	public String description() {
-		return
-			"A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. " +
-			"Being an ethereal entity, it is very hard to hit with a regular weapon.";
+		return "幽魂是坟墓或墓穴被惊扰的罪人所化的复仇之灵。作为虚体存在，普通武器很难击中它。";
 	}
 	
 	public static void spawnAround( int pos ) {

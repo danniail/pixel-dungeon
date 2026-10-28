@@ -29,11 +29,11 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Sorrowmoss extends Plant {
 
 	private static final String TXT_DESC = 
-		"A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom.";
+		"悲苔是一种花（不是苔藓），花瓣锋利如刀，涂着致命的毒液。";
 	
 	{
 		image = 2;
-		plantName = "Sorrowmoss";
+		plantName = "悲苔";
 	}
 	
 	@Override
@@ -56,9 +56,9 @@ public class Sorrowmoss extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Sorrowmoss";
+			plantName = "悲苔";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_SORROWMOSS;
 			
 			plantClass = Sorrowmoss.class;

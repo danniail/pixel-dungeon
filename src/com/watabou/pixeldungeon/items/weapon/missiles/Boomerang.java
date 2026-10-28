@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.sprites.MissileSprite;
 public class Boomerang extends MissileWeapon {
 
 	{
-		name = "boomerang";
+		name = "回旋镖";
 		image = ItemSpriteSheet.BOOMERANG;
 		
 		STR = 10;
@@ -107,6 +107,6 @@ public class Boomerang extends MissileWeapon {
 	@Override
 	public String desc() {
 		return 
-			"Thrown to the enemy this flat curved wooden missile will return to the hands of its thrower.";
+			"把这个扁平弯曲的木制投掷武器掷向敌人，它会飞回投掷者手中。";
 	}
 }

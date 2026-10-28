@@ -38,15 +38,15 @@ public class Armor extends EquipableItem {
 	
 	private static final int HITS_TO_KNOW	= 10;
 	
-	private static final String TXT_EQUIP_CURSED	= "your %s constricts around you painfully";
-		
-	private static final String TXT_IDENTIFY	= "you are now familiar enough with your %s to identify it. It is %s.";
-	
-	private static final String TXT_TO_STRING	= "%s :%d";
-	private static final String TXT_BROKEN		= "broken %s :%d";
-	
-	private static final String TXT_INCOMPATIBLE = 
-		"Interaction of different types of magic has erased the glyph on this armor!";
+	private static final String TXT_EQUIP_CURSED	= "你的%s痛苦地勒紧你";
+
+	private static final String TXT_IDENTIFY	= "你现在对%s足够熟悉，能鉴定它了。它是%s。";
+
+	private static final String TXT_TO_STRING	= "%s ：%d";
+	private static final String TXT_BROKEN		= "损坏的%s ：%d";
+
+	private static final String TXT_INCOMPATIBLE =
+		"不同类型魔法的相互作用，抹去了这件护甲上的符印！";
 	
 	public int tier;
 	public int STR;
@@ -219,42 +219,42 @@ public class Armor extends EquipableItem {
 		StringBuilder info = new StringBuilder( desc() );
 		
 		if (levelKnown) {
-			info.append( 
-				"\n\nThis " + name + " provides damage absorption up to " +
-				"" + Math.max( DR(), 0 ) + " points per attack. " );
-			
+			info.append(
+				"\n\n这件" + name + "每次攻击最多吸收" +
+				"" + Math.max( DR(), 0 ) + "点伤害。" );
+
 			if (STR > Dungeon.hero.STR()) {
-				
+
 				if (isEquipped( Dungeon.hero )) {
-					info.append( 
-						"\n\nBecause of your inadequate strength your " +
-						"movement speed and defense skill is decreased. " );
+					info.append(
+						"\n\n由于你的力量不足，你的" +
+						"移动速度和防御技能下降了。" );
 				} else {
-					info.append( 
-						"\n\nBecause of your inadequate strength wearing this armor " +
-						"will decrease your movement speed and defense skill. " );
+					info.append(
+						"\n\n由于你的力量不足，穿上这件护甲" +
+						"会降低你的移动速度和防御技能。" );
 				}
-				
+
 			}
 		} else {
-			info.append( 
-				"\n\nTypical " + name + " provides damage absorption up to " + typicalDR() + " points per attack " +
-				" and requires " + typicalSTR() + " points of strength. " );
+			info.append(
+				"\n\n普通的" + name + "每次攻击最多吸收" + typicalDR() + "点伤害，" +
+				"需要" + typicalSTR() + "点力量。" );
 			if (typicalSTR() > Dungeon.hero.STR()) {
-				info.append( "Probably this armor is too heavy for you. " );
+				info.append( "这件护甲对你来说可能太重了。" );
 			}
 		}
-		
+
 		if (glyph != null) {
-			info.append( "It is enchanted." );
+			info.append( "它带有附魔。" );
 		}
-		
+
 		if (isEquipped( Dungeon.hero )) {
-			info.append( "\n\nYou are wearing the " + name + 
-				(cursed ? ", and because it is cursed, you are powerless to remove it." : ".") ); 
+			info.append( "\n\n你穿着" + name +
+				(cursed ? "，但由于它被诅咒，你无法将它脱下。" : "。") );
 		} else {
 			if (cursedKnown && cursed) {
-				info.append( "\n\nYou can feel a malevolent magic lurking within the " + name + "." );
+				info.append( "\n\n你能感觉到" + name + "中潜藏着邪恶的魔力。" );
 			}
 		}
 		

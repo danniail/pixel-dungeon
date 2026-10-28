@@ -27,11 +27,11 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class ScrollOfUpgrade extends InventoryScroll {
 
-	private static final String TXT_LOOKS_BETTER	= "your %s certainly looks better now";
+	private static final String TXT_LOOKS_BETTER	= "你的%s看起来确实好多了";
 	
 	{
-		name = "Scroll of Upgrade";
-		inventoryTitle = "Select an item to upgrade";
+		name = "升级卷轴";
+		inventoryTitle = "选择要升级的物品";
 		mode = WndBag.Mode.UPGRADEABLE;
 	}
 	
@@ -57,11 +57,6 @@ public class ScrollOfUpgrade extends InventoryScroll {
 	
 	@Override
 	public String desc() {
-		return
-			"This scroll will upgrade a single item, improving its quality. A wand will " +
-			"increase in power and in number of charges; a weapon will inflict more damage " +
-			"or find its mark more frequently; a suit of armor will deflect additional blows; " +
-			"the effect of a ring on its wearer will intensify. Weapons and armor will also " +
-			"require less strength to use, and any curses on the item will be lifted.";
+		return "这张卷轴会升级一件物品，提升其品质。法杖会增强威力和充能数；武器会造成更多伤害或更易命中；护甲会挡下更多攻击；戒指对佩戴者的效果会增强。武器和护甲所需的力量也会降低，物品上的任何诅咒都会被解除。";
 	}
 }

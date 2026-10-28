@@ -34,12 +34,12 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class MageArmor extends ClassArmor {	
 	
-	private static final String AC_SPECIAL = "MOLTEN EARTH"; 
+	private static final String AC_SPECIAL = "熔土之术"; 
 	
-	private static final String TXT_NOT_MAGE	= "Only mages can use this armor!";
+	private static final String TXT_NOT_MAGE	= "只有法师能使用这件护甲！";
 	
 	{
-		name = "mage robe";
+		name = "法师长袍";
 		image = ItemSpriteSheet.ARMOR_MAGE;
 	}
 	
@@ -50,9 +50,7 @@ public class MageArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return
-			"Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies " +
-			"in his field of view will be set on fire and unable to move at the same time.";
+		return "穿着这件华丽长袍，法师能施放熔土之术：视野内所有敌人都会被点燃，同时无法移动。";
 	}
 	
 	@Override

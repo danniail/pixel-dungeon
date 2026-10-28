@@ -37,12 +37,12 @@ abstract public class Weapon extends KindOfWeapon {
 	private static final int HITS_TO_KNOW	= 20;
 	
 	private static final String TXT_IDENTIFY		= 
-		"You are now familiar enough with your %s to identify it. It is %s.";
+		"你现在对%s足够熟悉，能鉴定它了。它是%s。";
 	private static final String TXT_INCOMPATIBLE	= 
-		"Interaction of different types of magic has negated the enchantment on this weapon!";
+		"不同类型魔法的相互作用，抹去了这件武器上的附魔！";
 	
 	private static final String TXT_TO_STRING	= "%s :%d";
-	private static final String TXT_BROKEN		= "broken %s :%d";
+	private static final String TXT_BROKEN		= "损坏的%s :%d";
 	
 	public int		STR	= 10;
 	public float	ACU	= 1;

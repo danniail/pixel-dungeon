@@ -33,7 +33,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfChallenge extends Scroll {
 
 	{
-		name = "Scroll of Challenge";
+		name = "挑战卷轴";
 	}
 	
 	@Override
@@ -56,7 +56,7 @@ public class ScrollOfChallenge extends Scroll {
 			}
 		}
 		
-		GLog.w( "The scroll emits a challenging roar that echoes throughout the dungeon!" );
+		GLog.w( "卷轴发出挑衅的怒吼，响彻整个地牢！" );
 		setKnown();
 		
 		curUser.sprite.centerEmitter().start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );		
@@ -68,8 +68,6 @@ public class ScrollOfChallenge extends Scroll {
 	
 	@Override
 	public String desc() {
-		return 
-			"When read aloud, this scroll will unleash a challenging roar " +
-			"that will awaken all monsters and alert them to the reader's location.";
+		return "大声朗读时，卷轴会发出充满挑衅的怒吼，惊醒所有怪物，并让它们察觉读者的位置。";
 	}
 }

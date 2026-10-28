@@ -31,7 +31,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfTerror extends Scroll {
 
 	{
-		name = "Scroll of Terror";
+		name = "恐惧卷轴";
 	}
 	
 	@Override
@@ -54,13 +54,13 @@ public class ScrollOfTerror extends Scroll {
 		
 		switch (count) {
 		case 0:
-			GLog.i( "The scroll emits a brilliant flash of red light" );
+			GLog.i( "卷轴发出一道耀眼的红光" );
 			break;
 		case 1:
-			GLog.i( "The scroll emits a brilliant flash of red light and the " + affected.name + " flees!" );
+			GLog.i( "卷轴发出一道耀眼的红光，" + affected.name + "逃跑了！" );
 			break;
 		default:
-			GLog.i( "The scroll emits a brilliant flash of red light and the monsters flee!" );
+			GLog.i( "卷轴发出一道耀眼的红光，怪物们逃跑了！" );
 		}
 		setKnown();
 		
@@ -69,9 +69,7 @@ public class ScrollOfTerror extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"A flash of red light will overwhelm all creatures in your field of view with terror, " +
-			"and they will turn and flee. Attacking a fleeing enemy will dispel the effect.";
+		return "一道红光会让你视野内的所有生物陷入恐惧，转身逃跑。攻击逃跑的敌人会解除效果。";
 	}
 	
 	@Override

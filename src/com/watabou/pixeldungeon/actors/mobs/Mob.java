@@ -44,13 +44,13 @@ import com.watabou.utils.Random;
 
 public abstract class Mob extends Char {
 	
-	private static final String	TXT_DIED	= "You hear something died in the distance";
+	private static final String	TXT_DIED	= "你听见远处有什么东西死了";
 	
-	protected static final String	TXT_ECHO	= "echo of ";
+	protected static final String	TXT_ECHO	= "回声：";
 	
 	protected static final String TXT_NOTICE1	= "?!";
 	protected static final String TXT_RAGE		= "#$%^";
-	protected static final String TXT_EXP		= "%+dEXP";
+	protected static final String TXT_EXP		= "%+d经验";
 	
 	public AiState SLEEPEING	= new Sleeping();
 	public AiState HUNTING		= new Hunting();
@@ -407,7 +407,7 @@ public abstract class Mob extends Char {
 	}
 	
 	public String description() {
-		return "Real description is coming soon!";
+		return "真正的描述即将推出！";
 	}
 	
 	public void notice() {
@@ -415,7 +415,7 @@ public abstract class Mob extends Char {
 	}
 	
 	public void yell( String str ) {
-		GLog.n( "%s: \"%s\" ", name, str );
+		GLog.n( "%s：“%s” ", name, str );
 	}
 	
 	public interface AiState {
@@ -459,7 +459,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return Utils.format( "This %s is sleeping", name );
+			return Utils.format( "这只 %s 正在睡觉", name );
 		}
 	}
 	
@@ -496,7 +496,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return Utils.format( "This %s is wandering", name );
+			return Utils.format( "这只 %s 正在游荡", name );
 		}
 	}
 	
@@ -535,7 +535,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return Utils.format( "This %s is hunting", name );
+			return Utils.format( "这只 %s 正在狩猎", name );
 		}
 	}
 	
@@ -570,7 +570,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return Utils.format( "This %s is fleeing", name );
+			return Utils.format( "这只 %s 正在逃跑", name );
 		}
 	}
 	
@@ -587,7 +587,7 @@ public abstract class Mob extends Char {
 		
 		@Override
 		public String status() {
-			return Utils.format( "This %s is passive", name );
+			return Utils.format( "这只 %s 很被动", name );
 		}
 	}
 }

@@ -27,11 +27,11 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Dreamweed extends Plant {
 
 	private static final String TXT_DESC = 
-		"Upon touching a Dreamweed it secretes a glittering cloud of confusing gas.";
+		"触碰幻梦草时，它会分泌出一团闪烁的、令人迷惑的气体。";
 	
 	{
 		image = 3;
-		plantName = "Dreamweed";
+		plantName = "幻梦草";
 	}
 	
 	@Override
@@ -50,9 +50,9 @@ public class Dreamweed extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Dreamweed";
+			plantName = "幻梦草";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_DREAMWEED;
 			
 			plantClass = Dreamweed.class;

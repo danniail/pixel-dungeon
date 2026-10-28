@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.sprites.RatKingSprite;
 public class RatKing extends NPC {
 
 	{
-		name = "rat king";
+		name = "鼠王";
 		spriteClass = RatKingSprite.class;
 		
 		state = SLEEPEING;
@@ -65,17 +65,15 @@ public class RatKing extends NPC {
 		sprite.turnTo( pos, Dungeon.hero.pos );
 		if (state == SLEEPEING) {
 			notice();
-			yell( "I'm not sleeping!" );
+			yell( "我没在睡觉！" );
 			state = WANDERING;
 		} else {
-			yell( "What is it? I have no time for this nonsense. My kingdom won't rule itself!" );
+			yell( "什么事？我没时间胡闹，我的王国可不会自己统治自己！" );
 		}
 	}
 	
 	@Override
 	public String description() {
-		return 
-			"This rat is a little bigger than a regular marsupial rat " +
-			"and it's wearing a tiny crown on its head.";
+		return "这只老鼠比普通有袋巨鼠稍大一点，头上还戴着一顶小皇冠。";
 	}
 }

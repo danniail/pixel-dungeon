@@ -32,7 +32,7 @@ import com.watabou.utils.Callback;
 public class WandOfAmok extends Wand {
 
 	{
-		name = "Wand of Amok";
+		name = "狂乱法杖";
 	}
 
 	@Override
@@ -48,7 +48,7 @@ public class WandOfAmok extends Wand {
 
 		} else {
 			
-			GLog.i( "nothing happened" );
+			GLog.i( "什么也没发生" );
 			
 		}
 	}
@@ -60,8 +60,6 @@ public class WandOfAmok extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"The purple light from this wand will make the target run amok " +
-			"attacking random creatures in its vicinity.";
+		return "法杖发出的紫光会让目标陷入狂乱，攻击它附近的随机生物。";
 	}
 }

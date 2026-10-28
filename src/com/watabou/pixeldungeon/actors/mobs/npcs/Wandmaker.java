@@ -55,7 +55,7 @@ import com.watabou.utils.Random;
 public class Wandmaker extends NPC {
 
 	{	
-		name = "old wandmaker";
+		name = "老法杖匠";
 		spriteClass = WandmakerSprite.class;
 	}
 	
@@ -72,7 +72,7 @@ public class Wandmaker extends NPC {
 	
 	@Override
 	public String defenseVerb() {
-		return "absorbed";
+		return "吸收";
 	}
 	
 	@Override
@@ -101,8 +101,8 @@ public class Wandmaker extends NPC {
 	@Override
 	public String description() {
 		return 
-			"This old but hale gentleman wears a slightly confused " +
-			"expression. He is protected by a magic shield.";
+			"这位年迈却矍铄的绅士，脸上带着一丝困惑，" +
+			"他被一面魔法护盾保护着。";
 	}
 	
 	public static class Quest {
@@ -293,12 +293,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler berryQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - " +
-				"a _Rotberry seed_. Being a magic user, I'm quite able to defend myself against local monsters, " +
-				"but I'm getting lost in no time, it's very embarrassing. Probably you could help me? I would be " +
-				"happy to pay for your service with one of my best wands.";
+				"哦，在这种地方遇到正派人，真是惊喜！我来这儿是为了一种稀有材料——" +
+				"一颗 _腐烂浆果种子_。作为施法者，我完全能对付这里的怪物，" +
+				"但我很快就会迷路，这很尴尬。也许你能帮我？我很乐意" +
+				"用我最好的法杖之一来支付你的酬劳。";
 			txtQuest2 = 
-				"Any luck with a _Rotberry seed_, %s? No? Don't worry, I'm not in a hurry.";
+				"找到 _腐烂浆果种子_ 了吗，%s？没有？别担心，我不急。";
 		}
 
 		@Override
@@ -319,12 +319,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler dustQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - " +
-				"_corpse dust_. It can be gathered from skeletal remains and there is an ample number of them in the dungeon. " +
-				"Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, " +
-				"it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.";
+				"哦，在这种地方遇到正派人，真是惊喜！我来这儿是为了一种稀有材料——" +
+				"_尸尘_。可以从骸骨残骸中收集，地牢里有大量这种东西。" +
+				"作为施法者，我完全能对付这里的怪物，但我很快就会迷路，" +
+				"这很尴尬。也许你能帮我？我很乐意用我最好的法杖之一来支付你的酬劳。";
 			txtQuest2 = 
-				"Any luck with _corpse dust_, %s? Bone piles are the most obvious places to look.";
+				"找到 _尸尘_ 了吗，%s？骨堆是最明显的寻找地点。";
 		}
 		
 		@Override
@@ -359,12 +359,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler fishQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient: " +
-				"a _phantom fish_. You can catch it with your bare hands, but it's very hard to notice in the water. " +
-				"Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, " +
-				"it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.";
+				"哦，在这种地方遇到正派人，真是惊喜！我来这儿是为了一种稀有材料：" +
+				"一条 _幻影鱼_。你可以徒手抓住它，但它在水里很难被发现。" +
+				"作为施法者，我完全能对付这里的怪物，但我很快就会迷路，" +
+				"这很尴尬。也许你能帮我？我很乐意用我最好的法杖之一来支付你的酬劳。";
 			txtQuest2 = 
-				"Any luck with a _phantom fish_, %s? You may want to try searching for it in one of the local pools.";
+				"抓到 _幻影鱼_ 了吗，%s？你可以试试在附近的水池里找找。";
 		}
 		
 		@Override

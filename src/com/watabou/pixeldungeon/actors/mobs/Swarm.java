@@ -38,7 +38,7 @@ import com.watabou.utils.Random;
 public class Swarm extends Mob {
 
 	{
-		name = "swarm of flies";
+		name = "苍蝇群";
 		spriteClass = SwarmSprite.class;
 		
 		HP = HT = 80;
@@ -114,7 +114,7 @@ public class Swarm extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	private Swarm split() {
@@ -138,8 +138,6 @@ public class Swarm extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"The deadly swarm of flies buzzes angrily. Every non-magical attack " +
-			"will split it into two smaller but equally dangerous swarms.";
+		return "致命的苍蝇群愤怒地嗡嗡作响。每次非魔法攻击都会把它分裂成两个更小却同样危险的蝇群。";
 	}
 }

@@ -34,7 +34,7 @@ public class ScrollOfMirrorImage extends Scroll {
 	private static final int NIMAGES	= 3;
 	
 	{
-		name = "Scroll of Mirror Image";
+		name = "镜像卷轴";
 	}
 	
 	@Override
@@ -75,6 +75,6 @@ public class ScrollOfMirrorImage extends Scroll {
 	@Override
 	public String desc() {
 		return 
-			"The incantation on this scroll will create illusionary twins of the reader, which will chase his enemies.";
+			"卷轴上的咒语会为读者创造出幻象分身，追击他的敌人。";
 	}
 }

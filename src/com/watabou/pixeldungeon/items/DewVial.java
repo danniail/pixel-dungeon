@@ -35,20 +35,20 @@ public class DewVial extends Item {
 
 	private static final int MAX_VOLUME	= 10;
 	
-	private static final String AC_DRINK	= "DRINK";
+	private static final String AC_DRINK	= "饮用";
 	
 	private static final float TIME_TO_DRINK = 1f;
 	
-	private static final String TXT_VALUE	= "%+dHP";
+	private static final String TXT_VALUE	= "%+d生命";
 	private static final String TXT_STATUS	= "%d/%d";
 	
-	private static final String TXT_AUTO_DRINK	= "The dew vial was emptied to heal your wounds.";
-	private static final String TXT_COLLECTED	= "You collected a dewdrop into your dew vial.";
-	private static final String TXT_FULL		= "Your dew vial is full!";
-	private static final String TXT_EMPTY		= "Your dew vial is empty!";
+	private static final String TXT_AUTO_DRINK	= "露珠瓶被倒空，用来治愈你的伤口。";
+	private static final String TXT_COLLECTED	= "你把一滴露珠收集进露珠瓶。";
+	private static final String TXT_FULL		= "你的露珠瓶满了！";
+	private static final String TXT_EMPTY		= "你的露珠瓶空了！";
 	
 	{
-		name = "dew vial";
+		name = "露珠瓶";
 		image = ItemSpriteSheet.VIAL;
 		
 		defaultAction = AC_DRINK;
@@ -174,10 +174,7 @@ public class DewVial extends Item {
 	
 	@Override
 	public String info() {
-		return 
-			"You can store excess dew in this tiny vessel for drinking it later. " +
-			"If the vial is full, in a moment of deadly peril the dew will be " +
-			"consumed automatically.";
+		return "你可以把多余的露珠储存在这个小瓶中，留待日后饮用。当瓶子装满、而你身处致命险境时，露珠会被自动消耗。";
 	}
 	
 	@Override

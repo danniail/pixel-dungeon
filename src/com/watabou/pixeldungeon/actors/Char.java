@@ -62,14 +62,14 @@ import com.watabou.utils.Random;
 
 public abstract class Char extends Actor {
 
-	protected static final String TXT_HIT		= "%s hit %s";
-	protected static final String TXT_KILL		= "%s killed you...";
-	protected static final String TXT_DEFEAT	= "%s defeated %s";
+	protected static final String TXT_HIT		= "%s 命中了 %s";
+	protected static final String TXT_KILL		= "%s 杀死了你……";
+	protected static final String TXT_DEFEAT	= "%s 击败了 %s";
 	
-	private static final String TXT_YOU_MISSED	= "%s %s your attack";
-	private static final String TXT_SMB_MISSED	= "%s %s %s's attack";
+	private static final String TXT_YOU_MISSED	= "%s %s了你的攻击";
+	private static final String TXT_SMB_MISSED	= "%s %s了 %s 的攻击";
 	
-	private static final String TXT_OUT_OF_PARALYSIS	= "The pain snapped %s out of paralysis";
+	private static final String TXT_OUT_OF_PARALYSIS	= "疼痛让 %s 从麻痹中惊醒";
 	
 	public int pos = 0;
 	

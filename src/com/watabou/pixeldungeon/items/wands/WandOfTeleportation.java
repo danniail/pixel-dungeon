@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfTeleportation extends Wand {
 
 	{
-		name = "Wand of Teleportation";
+		name = "传送法杖";
 	}
 
 	@Override
@@ -63,13 +63,13 @@ public class WandOfTeleportation extends Wand {
 				ch.pos = pos;
 				ch.sprite.place( ch.pos );
 				ch.sprite.visible = Dungeon.visible[pos];
-				GLog.i( curUser.name + " teleported " + ch.name + " to somewhere" );
+				GLog.i( curUser.name + " 传送了 " + ch.name + "到某处" );
 				
 			}
 
 		} else {
 			
-			GLog.i( "nothing happened" );
+			GLog.i( "什么也没发生" );
 			
 		}
 	}
@@ -81,8 +81,6 @@ public class WandOfTeleportation extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"A blast from this wand will teleport a creature against " +
-			"its will to a random place on the current level.";
+		return "法杖的冲击会违背生物的意愿，将其传送到当前层的随机位置。";
 	}
 }

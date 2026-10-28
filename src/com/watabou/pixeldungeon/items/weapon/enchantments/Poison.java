@@ -26,7 +26,7 @@ import com.watabou.utils.Random;
 
 public class Poison extends Weapon.Enchantment {
 
-	private static final String TXT_VENOMOUS	= "venomous %s";
+	private static final String TXT_VENOMOUS	= "剧毒%s";
 	
 	private static ItemSprite.Glowing PURPLE = new ItemSprite.Glowing( 0x4400AA );
 	

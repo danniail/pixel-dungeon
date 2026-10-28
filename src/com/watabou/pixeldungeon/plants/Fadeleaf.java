@@ -30,12 +30,12 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Fadeleaf extends Plant {
 
 	private static final String TXT_DESC = 
-		"Touching a Fadeleaf will teleport any creature " +
-		"to a random place on the current level.";
+		"触碰隐叶会把任意生物" +
+		"传送到当前层的随机位置。";
 	
 	{
 		image = 6;
-		plantName = "Fadeleaf";
+		plantName = "隐叶";
 	}
 	
 	@Override
@@ -80,9 +80,9 @@ public class Fadeleaf extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Fadeleaf";
+			plantName = "隐叶";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_FADELEAF;
 			
 			plantClass = Fadeleaf.class;

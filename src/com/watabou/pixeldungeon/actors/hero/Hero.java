@@ -111,19 +111,19 @@ import com.watabou.utils.Random;
 
 public class Hero extends Char {
 	
-	private static final String TXT_LEAVE = "One does not simply leave Pixel Dungeon.";
+	private static final String TXT_LEAVE = "一个人可不能轻易离开像素地牢。";
 	
-	private static final String TXT_LEVEL_UP = "level up!";
+	private static final String TXT_LEVEL_UP = "升级了！";
 	private static final String TXT_NEW_LEVEL = 
-		"Welcome to level %d! Now you are healthier and more focused. " +
-		"It's easier for you to hit enemies and dodge their attacks.";
+		"欢迎来到第%d级！现在你更健康、更专注。" +
+		"你更容易命中敌人，也更容易闪避他们的攻击。";
 	
-	public static final String TXT_YOU_NOW_HAVE	= "You now have %s";
+	public static final String TXT_YOU_NOW_HAVE	= "你现在拥有 %s";
 	
-	private static final String TXT_SOMETHING_ELSE	= "There is something else here";
-	private static final String TXT_LOCKED_CHEST	= "This chest is locked and you don't have matching key";
-	private static final String TXT_LOCKED_DOOR		= "You don't have a matching key";
-	private static final String TXT_NOTICED_SMTH	= "You noticed something";
+	private static final String TXT_SOMETHING_ELSE	= "这里还有别的东西";
+	private static final String TXT_LOCKED_CHEST	= "这只箱子锁着，你没有匹配的钥匙";
+	private static final String TXT_LOCKED_DOOR		= "你没有匹配的钥匙";
+	private static final String TXT_NOTICED_SMTH	= "你注意到了什么";
 	
 	private static final String TXT_WAIT	= "...";
 	private static final String TXT_SEARCH	= "search";
@@ -1079,33 +1079,33 @@ public class Hero extends Char {
 		
 		if (sprite != null) {
 			if (buff instanceof Burning) {
-				GLog.w( "You catch fire!" );
+				GLog.w( "你着火了！" );
 				interrupt();
 			} else if (buff instanceof Paralysis) {
-				GLog.w( "You are paralysed!" );
+				GLog.w( "你被麻痹了！" );
 				interrupt();
 			} else if (buff instanceof Poison) {
-				GLog.w( "You are poisoned!" );
+				GLog.w( "你中毒了！" );
 				interrupt();
 			} else if (buff instanceof Ooze) {
-				GLog.w( "Caustic ooze eats your flesh. Wash away it!" );
+				GLog.w( "腐蚀性软泥在啃噬你的血肉，快把它洗掉！" );
 			} else if (buff instanceof Roots) {
-				GLog.w( "You can't move!" );
+				GLog.w( "你无法移动！" );
 			} else if (buff instanceof Weakness) {
-				GLog.w( "You feel weakened!" );
+				GLog.w( "你感到虚弱！" );
 			} else if (buff instanceof Blindness) {
-				GLog.w( "You are blinded!" );
+				GLog.w( "你失明了！" );
 			} else if (buff instanceof Fury) {
-				GLog.w( "You become furious!" );
+				GLog.w( "你狂暴了！" );
 				sprite.showStatus( CharSprite.POSITIVE, "furious" );
 			} else if (buff instanceof Charm) {
-				GLog.w( "You are charmed!" );
+				GLog.w( "你被魅惑了！" );
 			}  else if (buff instanceof Cripple) {
-				GLog.w( "You are crippled!" );
+				GLog.w( "你残废了！" );
 			} else if (buff instanceof Bleeding) {
-				GLog.w( "You are bleeding!" );
+				GLog.w( "你在流血！" );
 			} else if (buff instanceof Vertigo) {
-				GLog.w( "Everything is spinning around you!" );
+				GLog.w( "周围的一切都在旋转！" );
 				interrupt();
 			}
 			

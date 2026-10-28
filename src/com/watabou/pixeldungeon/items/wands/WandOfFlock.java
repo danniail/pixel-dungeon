@@ -38,7 +38,7 @@ import com.watabou.utils.Random;
 public class WandOfFlock extends Wand {
 
 	{
-		name = "Wand of Flock";
+		name = "羊群法杖";
 	}
 	
 	@Override
@@ -101,15 +101,15 @@ public class WandOfFlock extends Wand {
 	@Override
 	public String desc() {
 		return 
-			"A flick of this wand summons a flock of magic sheep, creating temporary impenetrable obstacle.";
+			"轻挥法杖可召唤一群魔法绵羊，形成暂时无法穿越的障碍。";
 	}
 	
 	public static class Sheep extends NPC {
 		
-		private static final String[] QUOTES = {"Baa!", "Baa?", "Baa.", "Baa..."};
+		private static final String[] QUOTES = {"咩！", "咩？", "咩。", "咩……"};
 		
 		{
-			name = "sheep";
+			name = "绵羊";
 			spriteClass = SheepSprite.class;
 		}
 		
@@ -139,8 +139,8 @@ public class WandOfFlock extends Wand {
 		@Override
 		public String description() {
 			return 
-				"This is a magic sheep. What's so magical about it? You can't kill it. " +
-				"It will stand there until it magcially fades away, all the while chewing cud with a blank stare.";
+				"这是一只魔法绵羊。它哪里魔法？你杀不死它。" +
+				"它会一直站在那里，直到魔法般消失，全程茫然地反刍。";
 		}
 
 		@Override

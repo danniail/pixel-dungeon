@@ -96,14 +96,14 @@ public class LastLevel extends Level {
 	public String tileName( int tile ) {
 		switch (tile) {
 		case Terrain.WATER:
-			return "Cold lava";
+			return "冰冷的熔岩";
 		case Terrain.GRASS:
-			return "Embermoss";
+			return "余烬苔藓";
 		case Terrain.HIGH_GRASS:
-			return "Emberfungi";
+			return "余烬真菌";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "Pillar";
+			return "柱子";
 		default:
 			return super.tileName( tile );
 		}
@@ -113,10 +113,10 @@ public class LastLevel extends Level {
 	public String tileDesc(int tile) {
 		switch (tile) {
 		case Terrain.WATER:
-			return "It looks like lava, but it's cold and probably safe to touch.";
+			return "看起来像熔岩，但它是冷的，触碰也许安全。";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "The pillar is made of real humanoid skulls. Awesome."; 
+			return "柱子由真正的类人生物头骨堆成，令人惊叹。"; 
 		default:
 			return super.tileDesc( tile );
 		}

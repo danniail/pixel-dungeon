@@ -24,7 +24,7 @@ import com.watabou.utils.Random;
 public class Dart extends MissileWeapon {
 
 	{
-		name = "dart";
+		name = "飞镖";
 		image = ItemSpriteSheet.DART;
 	}
 	
@@ -49,9 +49,7 @@ public class Dart extends MissileWeapon {
 	
 	@Override
 	public String desc() {
-		return 
-			"These simple metal spikes are weighted to fly true and " +
-			"sting their prey with a flick of the wrist.";
+		return "这些简单的金属尖刺经过配重，能笔直飞行，只需手腕一抖即可刺中目标。";
 	}
 	
 	@Override

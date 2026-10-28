@@ -49,16 +49,16 @@ public abstract class Wand extends KindOfWeapon {
 
 	private static final int USAGES_TO_KNOW	= 40;
 	
-	public static final String AC_ZAP	= "ZAP";
-	
-	private static final String TXT_WOOD	= "This thin %s wand is warm to the touch. Who knows what it will do when used?";
-	private static final String TXT_DAMAGE	= "When this wand is used as a melee weapon, its average damage is %d points per hit.";
-	private static final String TXT_WEAPON	= "You can use this wand as a melee weapon.";
-			
-	private static final String TXT_FIZZLES		= "your wand fizzles; it must be out of charges for now";
-	private static final String TXT_SELF_TARGET	= "You can't target yourself";
-	
-	private static final String TXT_IDENTIFY	= "You are now familiar enough with your %s.";
+	public static final String AC_ZAP	= "施放";
+
+	private static final String TXT_WOOD	= "这根细长的%s法杖摸起来温热。使用它会发生什么，谁知道呢？";
+	private static final String TXT_DAMAGE	= "当这根法杖当作近战武器使用时，它每次命中的平均伤害为%d点。";
+	private static final String TXT_WEAPON	= "你可以把这根法杖当作近战武器使用。";
+
+	private static final String TXT_FIZZLES		= "你的法杖嘶嘶作响，暂时没有充能了";
+	private static final String TXT_SELF_TARGET	= "你不能以自己为目标";
+
+	private static final String TXT_IDENTIFY	= "你现在对你的%s足够熟悉了。";
 	
 	private static final float TIME_TO_ZAP	= 1f;
 	
@@ -87,8 +87,8 @@ public abstract class Wand extends KindOfWeapon {
 		WandOfDisintegration.class,
 		WandOfAvalanche.class
 	};
-	private static final String[] woods = 
-		{"holly", "yew", "ebony", "cherry", "teak", "rowan", "willow", "mahogany", "bamboo", "purpleheart", "oak", "birch"};
+	private static final String[] woods =
+		{"冬青", "紫杉", "乌木", "樱桃木", "柚木", "花楸", "柳木", "红木", "竹", "紫心木", "橡木", "桦木"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.WAND_HOLLY, 
 		ItemSpriteSheet.WAND_YEW, 
@@ -252,7 +252,7 @@ public abstract class Wand extends KindOfWeapon {
 		}
 		
 		if (isBroken()) {
-			sb.insert( 0, "broken " );
+			sb.insert( 0, "损坏的" );
 		}
 		
 		return sb.toString();
@@ -260,7 +260,7 @@ public abstract class Wand extends KindOfWeapon {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : wood + " wand";
+		return isKnown() ? name : wood + "法杖";
 	}
 	
 	@Override
@@ -456,7 +456,7 @@ public abstract class Wand extends KindOfWeapon {
 		
 		@Override
 		public String prompt() {
-			return "Choose direction to zap";
+			return "选择施放方向";
 		}
 	};
 	

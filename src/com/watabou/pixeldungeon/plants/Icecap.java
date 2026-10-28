@@ -29,11 +29,11 @@ import com.watabou.utils.PathFinder;
 
 public class Icecap extends Plant {
 
-	private static final String TXT_DESC = "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity.";
+	private static final String TXT_DESC = "触碰冰冠草时，它会释放花粉，冻结附近的一切。";
 	
 	{
 		image = 1;
-		plantName = "Icecap";
+		plantName = "冰冠草";
 	}
 	
 	@Override
@@ -58,9 +58,9 @@ public class Icecap extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Icecap";
+			plantName = "冰冠草";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_ICECAP;
 			
 			plantClass = Icecap.class;

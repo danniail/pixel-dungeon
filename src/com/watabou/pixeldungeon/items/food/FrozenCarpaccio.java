@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class FrozenCarpaccio extends Food {
 
 	{
-		name = "frozen carpaccio";
+		name = "冻生肉片";
 		image = ItemSpriteSheet.CARPACCIO;
 		energy = Hunger.STARVING - Hunger.HUNGRY;
 	}
@@ -48,22 +48,22 @@ public class FrozenCarpaccio extends Food {
 			
 			switch (Random.Int( 5 )) {
 			case 0:
-				GLog.i( "You see your hands turn invisible!" );
+				GLog.i( "你看见自己的手变隐形了！" );
 				Buff.affect( hero, Invisibility.class, Invisibility.DURATION );
 				break;
 			case 1:
-				GLog.i( "You feel your skin hardens!" );
+				GLog.i( "你感到皮肤变硬了！" );
 				Buff.affect( hero, Barkskin.class ).level( hero.HT / 4 );
 				break;
 			case 2:
-				GLog.i( "Refreshing!" );
+				GLog.i( "神清气爽！" );
 				Buff.detach( hero, Poison.class );
 				Buff.detach( hero, Cripple.class );
 				Buff.detach( hero, Weakness.class );
 				Buff.detach( hero, Bleeding.class );
 				break;
 			case 3:
-				GLog.i( "You feel better!" );
+				GLog.i( "你感觉好多了！" );
 				if (hero.HP < hero.HT) {
 					hero.HP = Math.min( hero.HP + hero.HT / 4, hero.HT );
 					hero.sprite.emitter().burst( Speck.factory( Speck.HEALING ), 1 );
@@ -75,9 +75,7 @@ public class FrozenCarpaccio extends Food {
 	
 	@Override
 	public String info() {
-		return 
-			"It's a piece of frozen raw meat. The only way to eat it is " +
-			"by cutting thin slices of it. And this way it's suprisingly good.";
+		return "一块冷冻的生肉。唯一的吃法是切成薄片，而且这样吃意外地不错。";
 	}
 	
 	public int price() {

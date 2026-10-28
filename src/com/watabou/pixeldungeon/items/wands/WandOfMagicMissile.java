@@ -38,19 +38,19 @@ import com.watabou.utils.Random;
 
 public class WandOfMagicMissile extends Wand {
 
-	public static final String AC_DISENCHANT	= "DISENCHANT";
+	public static final String AC_DISENCHANT	= "分解";
 	
-	private static final String TXT_SELECT_WAND	= "Select a wand to upgrade";
+	private static final String TXT_SELECT_WAND	= "选择要升级的法杖";
 	
 	private static final String TXT_DISENCHANTED = 
-		"you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s";
+		"你分解魔法飞弹法杖，用它的精华升级了%s";
 	
 	private static final float TIME_TO_DISENCHANT	= 2f;
 	
 	private boolean disenchantEquipped;
 	
 	{
-		name = "Wand of Magic Missile";
+		name = "魔法飞弹法杖";
 		image = ItemSpriteSheet.WAND_MAGIC_MISSILE;
 	}
 	
@@ -76,7 +76,7 @@ public class WandOfMagicMissile extends Wand {
 			
 			if (ch == curUser && !ch.isAlive()) {
 				Dungeon.fail( Utils.format( ResultDescriptions.WAND, name, Dungeon.depth ) );
-				GLog.n( "You killed yourself with your own Wand of Magic Missile..." );
+				GLog.n( "你用自己的魔法飞弹法杖把自己打死了……" );
 			}
 		}
 	}
@@ -120,7 +120,7 @@ public class WandOfMagicMissile extends Wand {
 	@Override
 	public String desc() {
 		return
-			"This wand launches missiles of pure magical energy, dealing moderate damage to a target creature.";
+			"法杖发射纯粹的魔法能量飞弹，对目标生物造成中等伤害。";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

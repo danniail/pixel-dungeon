@@ -39,16 +39,16 @@ import com.watabou.utils.Bundle;
 
 public class Potion extends Item {
 	
-	public static final String AC_DRINK	= "DRINK";
-	
-	private static final String TXT_HARMFUL		= "Harmful potion!";
-	private static final String TXT_BENEFICIAL	= "Beneficial potion";
-	private static final String TXT_YES			= "Yes, I know what I'm doing";
-	private static final String TXT_NO			= "No, I changed my mind";
-	private static final String TXT_R_U_SURE_DRINK = 
-		"Are you sure you want to drink it? In most cases you should throw such potions at your enemies.";
-	private static final String TXT_R_U_SURE_THROW = 
-		"Are you sure you want to throw it? In most cases it makes sense to drink it.";
+	public static final String AC_DRINK	= "饮用";
+
+	private static final String TXT_HARMFUL		= "有害药水！";
+	private static final String TXT_BENEFICIAL	= "有益药水";
+	private static final String TXT_YES			= "是，我知道自己在做什么";
+	private static final String TXT_NO			= "否，我改主意了";
+	private static final String TXT_R_U_SURE_DRINK =
+		"你确定要喝下它吗？大多数情况下，你应该把这种药水扔向敌人。";
+	private static final String TXT_R_U_SURE_THROW =
+		"你确定要扔出它吗？大多数情况下，喝下它才是明智的。";
 	
 	private static final float TIME_TO_DRINK = 1f;
 	
@@ -67,8 +67,8 @@ public class Potion extends Item {
 		PotionOfFrost.class
 	};
 	private static final String[] colors = {
-		"turquoise", "crimson", "azure", "jade", "golden", "magenta", 
-		"charcoal", "ivory", "amber", "bistre", "indigo", "silver"};
+		"绿松石色", "绯红色", "天蓝色", "翡翠色", "金色", "品红色",
+		"炭黑色", "象牙色", "琥珀色", "茶褐色", "靛蓝色", "银色"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.POTION_TURQUOISE, 
 		ItemSpriteSheet.POTION_CRIMSON, 
@@ -214,7 +214,7 @@ public class Potion extends Item {
 	
 	public void shatter( int cell ) {
 		if (Dungeon.visible[cell]) {
-			GLog.i( "The flask shatters and " + color() + " liquid splashes harmlessly" );
+			GLog.i( "瓶子碎裂，" + color() + "的液体无害地溅开" );
 			Sample.INSTANCE.play( Assets.SND_SHATTER );
 			splash( cell );
 		}
@@ -244,15 +244,15 @@ public class Potion extends Item {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : color + " potion";
+		return isKnown() ? name : color + "药水";
 	}
 	
 	@Override
 	public String info() {
 		return isKnown() ?
 			desc() :
-			"This flask contains a swirling " + color + " liquid. " +
-			"Who knows what it will do when drunk or thrown?";
+			"这个瓶子里装着旋转的" + color + "液体。" +
+			"喝下或扔出它会发生什么，谁知道呢？";
 	}
 	
 	@Override

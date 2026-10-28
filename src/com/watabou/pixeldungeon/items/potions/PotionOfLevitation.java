@@ -25,22 +25,19 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfLevitation extends Potion {
 
 	{
-		name = "Potion of Levitation";
+		name = "漂浮药水";
 	}
 	
 	@Override
 	protected void apply( Hero hero ) {
 		setKnown();
 		Buff.affect( hero, Levitation.class, Levitation.DURATION );
-		GLog.i( "You float into the air!" );
+		GLog.i( "你飘到了空中！" );
 	}
 	
 	@Override
 	public String desc() {
-		return
-			"Drinking this curious liquid will cause you to hover in the air, " +
-			"able to drift effortlessly over traps. Flames and gases " +
-			"fill the air, however, and cannot be bypassed while airborne.";
+		return "喝下这种奇特液体会让你悬浮空中，能轻松飘过陷阱。但火焰和气体会弥漫在空中，漂浮时无法避开。";
 	}
 	
 	@Override

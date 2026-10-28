@@ -30,12 +30,12 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfRemoveCurse extends Scroll {
 
 	private static final String TXT_PROCCED	= 
-		"Your pack glows with a cleansing light, and a malevolent energy disperses.";
+		"你的背包发出净化之光，邪恶的能量消散了。";
 	private static final String TXT_NOT_PROCCED	= 
-		"Your pack glows with a cleansing light, but nothing happens.";
+		"你的背包发出净化之光，但什么也没发生。";
 	
 	{
-		name = "Scroll of Remove Curse";
+		name = "驱魔卷轴";
 	}
 	
 	@Override
@@ -67,10 +67,7 @@ public class ScrollOfRemoveCurse extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"The incantation on this scroll will instantly strip from " +
-			"the reader's weapon, armor, rings and carried items any evil " +
-			"enchantments that might prevent the wearer from removing them.";
+		return "卷轴上的咒语会立即剥离读者武器、护甲、戒指和携带物品上的邪恶附魔——正是这些附魔让穿戴者无法取下它们。";
 	}
 	
 	public static boolean uncurse( Hero hero, Item... items ) {

@@ -35,8 +35,8 @@ public class WndChooseWay extends Window {
 		
 		super();
 		
-		final String TXT_MASTERY	= "Which way will you follow?";
-		final String TXT_CANCEL		= "I'll decide later";
+		final String TXT_MASTERY	= "你要走哪条路？";
+		final String TXT_CANCEL		= "我稍后再决定";
 		
 		float bottom = createCommonStuff( tome, way1.desc() + "\n\n" + way2.desc() + "\n\n" + TXT_MASTERY );
 		
@@ -76,10 +76,10 @@ public class WndChooseWay extends Window {
 		
 		super();
 		
-		final String TXT_REMASTERY	= "Do you want to respec into %s?";
+		final String TXT_REMASTERY	= "你想转职为%s吗？";
 		
-		final String TXT_OK		= "Yes, I want to respec";
-		final String TXT_CANCEL	= "Maybe later";
+		final String TXT_OK		= "是，我要转职";
+		final String TXT_CANCEL	= "以后再说";
 		
 		float bottom = createCommonStuff( tome, way.desc() + "\n\n" + Utils.format( TXT_REMASTERY, Utils.indefinite( way.title() ) ) );
 		

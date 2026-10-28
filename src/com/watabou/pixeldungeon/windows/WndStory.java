@@ -46,32 +46,32 @@ public class WndStory extends Window {
 	
 	static {
 		CHAPTERS.put( ID_SEWERS, 
-		"The Dungeon lies right beneath the City, its upper levels actually constitute the City's sewer system. " +
-		"Being nominally a part of the City, these levels are not that dangerous. No one will call it a safe place, " +
-		"but at least you won't need to deal with evil magic here." );
+		"地牢就在城市正下方，它的上层实际上构成了城市的下水道系统。" +
+		"名义上属于城市，这些层并不那么危险。没人会说这是个安全的地方，" +
+		"但至少你不必在这里对付邪恶魔法。" );
 		
 		CHAPTERS.put( ID_PRISON, 
-		"Many years ago an underground prison was built here for the most dangerous criminals. At the time it seemed " +
-		"like a very clever idea, because this place indeed was very hard to escape. But soon dark miasma started to permeate " +
-		"from below, driving prisoners and guards insane. In the end the prison was abandoned, though some convicts " +
-		"were left locked up here." );
+		"许多年前，这里建了一座地下监狱，关押最危险的罪犯。当时这" +
+		"看起来是个绝妙的主意，因为这里确实很难逃脱。但很快，黑暗的瘴气开始渗出，" +
+		"让囚犯和守卫发疯。最终监狱被废弃，尽管有些囚犯" +
+		"还被锁在这里。" );
 		
 		CHAPTERS.put( ID_CAVES, 
-		"The caves, which stretch down under the abandoned prison, are sparcely populated. They lie too deep to be exploited " +
-		"by the City and they are too poor in minerals to interest the dwarves. In the past there was a trade outpost " +
-		"somewhere here on the route between these two states, but it has perished since the decline of Dwarven Metropolis. " +
-		"Only omnipresent gnolls and subterranean animals dwell here now." );
+		"废弃监狱下方延伸的洞穴人烟稀少。它们太深，城市无法开采；" +
+		"矿物又太贫乏，矮人不感兴趣。过去，在这条商路上" +
+		"曾有一个贸易前哨站，但自矮人城邦衰落以来，它也消亡了。" +
+		"如今只有无处不在的豺狼和地下动物栖息于此。" );
 		
 		CHAPTERS.put( ID_METROPOLIS, 
-		"Dwarven Metropolis was once the greatest of dwarven city-states. In its heyday the mechanized army of dwarves " +
-		"has successfully repelled the invasion of the old god and his demon army. But it is said, that the returning warriors " +
-		"have brought seeds of corruption with them, and that victory was the beginning of the end for the underground kingdom." );
+		"矮人城邦曾是最伟大的矮人城邦。鼎盛时期，矮人的机械化军队" +
+		"成功击退了古神和他的恶魔大军的入侵。但据说，归来的战士" +
+		"带回了腐败的种子，那场胜利正是这个地下王国走向终结的开端。" );
 		
 		CHAPTERS.put( ID_HALLS,
-		"In the past these levels were the outskirts of Metropolis. After the costly victory in the war with the old god " +
-		"dwarves were too weakened to clear them of remaining demons. Gradually demons have tightened their grip on this place " +
-		"and now it's called Demon Halls.\n\n" +
-		"Very few adventurers have ever descended this far..." );
+		"过去这些层是城邦的郊区。在与古神的战争中付出惨重代价后，" +
+		"矮人太过虚弱，无法清除残余的恶魔。恶魔逐渐收紧了对这里的控制，" +
+		"如今这里被称为恶魔大厅。\n\n" +
+		"极少有冒险者能走到这么远……" );
 	};
 	
 	private BitmapTextMultiline tf;

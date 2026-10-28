@@ -33,13 +33,13 @@ import com.watabou.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {
 	
-	private static final String TXT_NO_ENEMIES 		= "No enemies in sight";
-	private static final String TXT_NOT_HUNTRESS	= "Only huntresses can use this armor!";
+	private static final String TXT_NO_ENEMIES 		= "视野内没有敌人";
+	private static final String TXT_NOT_HUNTRESS	= "只有女猎手能使用这件护甲！";
 	
-	private static final String AC_SPECIAL = "SPECTRAL BLADES"; 
+	private static final String AC_SPECIAL = "幽灵之刃"; 
 	
 	{
-		name = "huntress cloak";
+		name = "猎手斗篷";
 		image = ItemSpriteSheet.ARMOR_HUNTRESS;
 	}
 	
@@ -99,9 +99,6 @@ public class HuntressArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return
-			"A huntress in such cloak can create a fan of spectral blades. Each of these blades " +
-			"will target a single enemy in the huntress's field of view, inflicting damage depending " +
-			"on her currently equipped melee weapon.";
+		return "穿着这种斗篷的女猎手能召唤扇形的幽灵之刃。每把飞刃会锁定她视野内的一个敌人，伤害取决于她当前装备的近战武器。";
 	}
 }

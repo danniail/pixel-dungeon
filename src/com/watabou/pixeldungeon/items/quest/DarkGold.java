@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class DarkGold extends Item {
 	
 	{
-		name = "dark gold ore";
+		name = "暗金矿石";
 		image = ItemSpriteSheet.ORE;
 		
 		stackable = true;
@@ -42,9 +42,7 @@ public class DarkGold extends Item {
 	
 	@Override
 	public String info() {
-		return
-			"This metal is called dark not because of its color (it doesn't differ from the normal gold), " +
-			"but because it melts under the daylight, making it useless on the surface.";
+		return "这种金属被称为“暗”金，并非因为颜色（它和普通黄金没区别），而是因为它在日光下会融化，在地面上毫无用处。";
 	}
 	
 	@Override

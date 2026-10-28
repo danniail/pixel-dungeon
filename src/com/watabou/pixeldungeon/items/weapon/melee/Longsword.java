@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Longsword extends MeleeWeapon {
 	
 	{
-		name = "longsword";
+		name = "长剑";
 		image = ItemSpriteSheet.LONG_SWORD;
 	}
 	
@@ -32,6 +32,6 @@ public class Longsword extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "This towering blade inflicts heavy damage by investing its heft into every cut.";
+		return "这把高耸的剑刃把重量倾注于每一次斩击，造成沉重伤害。";
 	}
 }

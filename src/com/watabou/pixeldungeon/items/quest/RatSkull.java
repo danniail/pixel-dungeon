@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class RatSkull extends Item {
 	
 	{
-		name = "giant rat skull";
+		name = "巨鼠头骨";
 		image = ItemSpriteSheet.SKULL;
 		
 		unique = true;
@@ -42,7 +42,7 @@ public class RatSkull extends Item {
 	@Override
 	public String info() {
 		return
-			"It could be a nice hunting trophy, but it smells too bad to place it on a wall.";
+			"它本可以做成不错的狩猎战利品，但气味太难闻，没法挂在墙上。";
 	}
 	
 	@Override

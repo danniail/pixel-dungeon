@@ -30,10 +30,10 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Amulet extends Item {
 	
-	private static final String AC_END = "END THE GAME";
+	private static final String AC_END = "结束游戏";
 	
 	{
-		name = "Amulet of Yendor";
+		name = "延多护符";
 		image = ItemSpriteSheet.AMULET;
 		
 		unique = true;
@@ -97,8 +97,6 @@ public class Amulet extends Item {
 	
 	@Override
 	public String info() {
-		return 
-			"The Amulet of Yendor is the most powerful known artifact of unknown origin. It is said that the amulet " +
-			"is able to fulfil any wish if its owner's will-power is strong enough to \"persuade\" it to do it.";
+		return "延多护符是已知最强大、来历不明的神器。传说只要主人的意志力足够强大，能够“说服”它，护符就能实现任何愿望。";
 	}
 }

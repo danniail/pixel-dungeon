@@ -31,45 +31,45 @@ import com.watabou.pixeldungeon.windows.WndMessage;
 public class Sign {
 
 	private static final String TXT_DEAD_END = 
-		"What are you doing here?!";
+		"你在这里做什么？！";
 	
 	private static final String[] TIPS = {
-		"Don't overestimate your strength, use weapons and armor you can handle.",
-		"Not all doors in the dungeon are visible at first sight. If you are stuck, search for hidden doors.",
-		"Remember, that raising your strength is not the only way to access better equipment. You can go " +
-			"the other way, lowering its strength requirement with Scrolls of Upgrade.",
-		"You can spend your gold in shops on deeper levels of the dungeon. The first one is on the 6th level.",
+		"别高估自己的力量，使用你能驾驭的武器和护甲。",
+		"地牢里并非所有门都一眼可见。如果你卡住了，搜索暗门。",
+		"记住，提升力量并非获得更好装备的唯一途径。你可以" +
+			"反其道而行，用升级卷轴降低装备的力量需求。",
+		"你可以在地牢更深处的商店花金币。第一家商店在第6层。",
 			
-		"Beware of Goo!",
+		"小心胶泥！",
 		
-		"Pixel-Mart - all you need for successful adventure!",
-		"Identify your potions and scrolls as soon as possible. Don't put it off to the moment " +
-			"when you actually need them.",
-		"Being hungry doesn't hurt, but starving does hurt.",
-		"Surprise attack has a better chance to hit. For example, you can ambush your enemy behind " +
-			"a closed door when you know it is approaching.",
+		"像素超市——成功冒险所需的一切！",
+		"尽快鉴定你的药水和卷轴。别拖到" +
+			"真正需要它们的时候。",
+		"饥饿不碍事，但极度饥饿会受伤。",
+		"突袭命中几率更高。比如，你可以" +
+			"知道敌人接近时，躲在关闭的门后伏击。",
 		
-		"Don't let The Tengu out!",
+		"别让天狗出来！",
 		
-		"Pixel-Mart. Spend money. Live longer.",
-		"When you're attacked by several monsters at the same time, try to retreat behind a door.",
-		"If you are burning, you can't put out the fire in the water while levitating.",
-		"There is no sense in possessing more than one Ankh at the same time, because you will lose them upon resurrecting.",
+		"像素超市。花钱，活得更久。",
+		"当你同时被多个怪物攻击时，试着退到门后。",
+		"如果你着火，漂浮时无法在水里灭火。",
+		"同时拥有多个安卡没有意义，复活时你会失去它们。",
 		
-		"DANGER! Heavy machinery can cause injury, loss of limbs or death!",
+		"危险！重型机械可能造成伤害、断肢或死亡！",
 		
-		"Pixel-Mart. A safer life in dungeon.",
-		"When you upgrade an enchanted weapon, there is a chance to destroy that enchantment.",
-		"Weapons and armors deteriorate faster than wands and rings, but there are more ways to fix them.",
-		"The only way to obtain a Scroll of Wipe Out is to receive it as a gift from the dungeon spirits.",
+		"像素超市。地牢里更安全的生活。",
+		"升级附魔武器时，有可能破坏该附魔。",
+		"武器和护甲比法杖、戒指损耗更快，但修复方法也更多。",
+		"获得湮灭卷轴的唯一途径，是地牢怨灵的馈赠。",
 		
-		"No weapons allowed in the presence of His Majesty!",
+		"国王陛下在场，禁止携带武器！",
 		
-		"Pixel-Mart. Special prices for demon hunters!"
+		"像素超市。恶魔猎手专享价！"
 	};
 	
 	private static final String TXT_BURN =
-		"As you try to read the sign it bursts into greenish flames.";
+		"你试图读告示牌时，它爆成绿色的火焰。";
 	
 	public static void read( int pos ) {
 		

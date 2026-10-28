@@ -130,7 +130,7 @@ public class PrisonLevel extends RegularLevel {
 	public String tileName( int tile ) {
 		switch (tile) {
 		case Terrain.WATER:
-			return "Dark cold water.";
+			return "冰冷的黑水。";
 		default:
 			return super.tileName( tile );
 		}
@@ -140,9 +140,9 @@ public class PrisonLevel extends RegularLevel {
 	public String tileDesc(int tile) {
 		switch (tile) {
 		case Terrain.EMPTY_DECO:
-			return "There are old blood stains on the floor.";
+			return "地上有陈旧的血迹。";
 		case Terrain.BOOKSHELF:
-			return "This is probably a vestige of a prison library. Might it burn?";
+			return "这也许是监狱图书馆的遗迹。它会燃烧吗？";
 		default:
 			return super.tileDesc( tile );
 		}

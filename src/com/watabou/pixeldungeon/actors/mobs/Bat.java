@@ -29,7 +29,7 @@ import com.watabou.utils.Random;
 public class Bat extends Mob {
 
 	{
-		name = "vampire bat";
+		name = "吸血蝙蝠";
 		spriteClass = BatSprite.class;
 		
 		HP = HT = 30;
@@ -62,7 +62,7 @@ public class Bat extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	@Override
@@ -80,9 +80,7 @@ public class Bat extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by " +
-			"replenishing their health with each successful attack.";
+		return "这些轻快而顽强的洞穴穹顶居民，能靠每次成功攻击恢复生命，击败比自己大得多的对手。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

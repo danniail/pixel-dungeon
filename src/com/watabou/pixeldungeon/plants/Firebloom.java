@@ -29,11 +29,11 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Firebloom extends Plant {
 
-	private static final String TXT_DESC = "When something touches a Firebloom, it bursts into flames.";
+	private static final String TXT_DESC = "当有东西触碰火焰花时，它会爆成火焰。";
 	
 	{
 		image = 0;
-		plantName = "Firebloom";
+		plantName = "火焰花";
 	}
 	
 	@Override
@@ -54,9 +54,9 @@ public class Firebloom extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Firebloom";
+			plantName = "火焰花";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_FIREBLOOM;
 			
 			plantClass = Firebloom.class;

@@ -36,11 +36,11 @@ import com.watabou.pixeldungeon.ui.Window;
 public class AboutScene extends PixelScene {
 
 	private static final String TXT = 
-		"Code & graphics: Watabou\n" +
-		"Music: Cube_Code\n\n" + 
-		"This game is inspired by Brian Walker's Brogue. " +
-		"Try it on Windows, Mac OS or Linux - it's awesome! ;)\n\n" +
-		"Please visit official website for additional info:";
+		"代码与美术：Watabou\n" +
+		"音乐：Cube_Code\n\n" + 
+		"本游戏灵感来自 Brian Walker 的《Brogue》。" +
+		"可以在 Windows、Mac OS 或 Linux 上试试，非常棒！;)\n\n" +
+		"请访问官方网站了解更多信息：";
 	
 	private static final String LNK = "pixeldungeon.watabou.ru";
 	

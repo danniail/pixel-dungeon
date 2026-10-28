@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.items.Item;
 public class RingOfThorns extends Ring {
 
 	{
-		name = "Ring of Thorns";
+		name = "荆棘之戒";
 	}
 	
 	@Override
@@ -59,9 +59,8 @@ public class RingOfThorns extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"Though this ring doesn't provide real thorns, an enemy that attacks you " +
-			"will itself be wounded by a fraction of the damage that it inflicts. " +
-			"Upgrading this ring won't give any additional bonuses." :
+			"虽然戒指上没有真正的荆棘，但攻击你的敌人会因它造成" +
+			"的部分伤害而受伤。升级这枚戒指不会带来额外好处。" :
 			super.desc();
 	}
 	

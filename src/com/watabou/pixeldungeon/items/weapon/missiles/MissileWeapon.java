@@ -31,11 +31,11 @@ import com.watabou.pixeldungeon.windows.WndOptions;
 
 abstract public class MissileWeapon extends Weapon {
 
-	private static final String TXT_MISSILES	= "Missile weapon";
-	private static final String TXT_YES			= "Yes, I know what I'm doing";
-	private static final String TXT_NO			= "No, I changed my mind";
-	private static final String TXT_R_U_SURE	= 
-		"Do you really want to equip it as a melee weapon?";
+	private static final String TXT_MISSILES	= "投掷武器";
+	private static final String TXT_YES			= "是，我知道自己在做什么";
+	private static final String TXT_NO			= "否，我改主意了";
+	private static final String TXT_R_U_SURE	=
+		"你确定要把它当作近战武器装备吗？";
 	
 	{
 		stackable = true;
@@ -122,23 +122,23 @@ abstract public class MissileWeapon extends Weapon {
 		
 		int min = min();
 		int max = max();
-		info.append( "\n\nAverage damage of this weapon equals to " + (min + (max - min) / 2) + " points per hit. " );
-		
+		info.append( "\n\n这种武器每次命中的平均伤害为" + (min + (max - min) / 2) + "点。" );
+
 		if (Dungeon.hero.belongings.backpack.items.contains( this )) {
 			if (STR > Dungeon.hero.STR()) {
-				info.append( 
-					"Because of your inadequate strength the accuracy and speed " +
-					"of your attack with this " + name + " is decreased." );
+				info.append(
+					"由于你的力量不足，使用这把" + name +
+					"攻击的精准度和速度都下降了。" );
 			}
 			if (STR < Dungeon.hero.STR()) {
-				info.append( 
-					"Because of your excess strength the damage " +
-					"of your attack with this " + name + " is increased." );
+				info.append(
+					"由于你的力量富余，使用这把" + name +
+					"攻击的伤害提升了。" );
 			}
 		}
-		
+
 		if (isEquipped( Dungeon.hero )) {
-			info.append( "\n\nYou hold the " + name + " at the ready." ); 
+			info.append( "\n\n你手持" + name + "，随时准备出击。" );
 		}
 		
 		return info.toString();

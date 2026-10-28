@@ -42,10 +42,10 @@ import com.watabou.utils.Callback;
 
 public class WandOfReach extends Wand {
 
-	private static final String TXT_YOU_NOW_HAVE	= "You have magically transported %s into your backpack"; 
+	private static final String TXT_YOU_NOW_HAVE	= "你用魔法把%s移进了背包"; 
 	
 	{
-		name = "Wand of Reach";
+		name = "延伸法杖";
 		hitChars = false;
 	}
 	
@@ -128,9 +128,6 @@ public class WandOfReach extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"This utility wand can be used to grab objects from a distance and to switch places with enemies. " +
-			"Waves of magic force radiated from it will affect all cells on their way triggering traps, " +
-			"trampling high vegetation, opening closed doors and closing open ones.";
+		return "这根实用法杖可从远处抓取物品，或与敌人交换位置。它发出的魔法力波会影响沿途所有格子：触发陷阱、踩倒高草、打开关闭的门、并关上敞开的门。";
 	}
 }

@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Quarterstaff extends MeleeWeapon {
 
 	{
-		name = "quarterstaff";
+		name = "长棍";
 		image = ItemSpriteSheet.QUARTERSTAFF;
 	}
 	
@@ -32,6 +32,6 @@ public class Quarterstaff extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "A staff of hardwood, its ends are shod with iron.";
+		return "一根硬木长棍，两端包铁。";
 	}
 }

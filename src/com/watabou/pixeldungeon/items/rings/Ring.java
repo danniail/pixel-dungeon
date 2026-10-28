@@ -42,13 +42,13 @@ public class Ring extends EquipableItem {
 	
 	private static final float TIME_TO_EQUIP = 1f;
 	
-	private static final String TXT_IDENTIFY = 
-		"you are now familiar enough with your %s to identify it. It is %s.";
-	
-	private static final String TXT_UNEQUIP_TITLE = "Unequip one ring";
-	private static final String TXT_UNEQUIP_MESSAGE = 
-		"You can only wear two rings at a time. " +
-		"Unequip one of your equipped rings.";
+	private static final String TXT_IDENTIFY =
+		"你现在对%s足够熟悉，能鉴定它了。它是%s。";
+
+	private static final String TXT_UNEQUIP_TITLE = "脱下一枚戒指";
+	private static final String TXT_UNEQUIP_MESSAGE =
+		"你一次只能戴两枚戒指。" +
+		"脱下你已装备的其中一枚。";
 	
 	protected Buff buff;
 	
@@ -66,8 +66,8 @@ public class Ring extends EquipableItem {
 		RingOfElements.class,
 		RingOfThorns.class
 	};
-	private static final String[] gems = 
-		{"diamond", "opal", "garnet", "ruby", "amethyst", "topaz", "onyx", "tourmaline", "emerald", "sapphire", "quartz", "agate"};
+	private static final String[] gems =
+		{"钻石", "欧泊", "石榴石", "红宝石", "紫水晶", "黄玉", "缟玛瑙", "碧玺", "祖母绿", "蓝宝石", "石英", "玛瑙"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.RING_DIAMOND, 
 		ItemSpriteSheet.RING_OPAL, 
@@ -163,7 +163,7 @@ public class Ring extends EquipableItem {
 			cursedKnown = true;
 			if (cursed) {
 				equipCursed( hero );
-				GLog.n( "your " + this + " tightens around your finger painfully" );
+				GLog.n( "你的" + this + "痛苦地勒紧你的手指" );
 			}
 			
 			hero.spendAndNext( TIME_TO_EQUIP );
@@ -255,39 +255,39 @@ public class Ring extends EquipableItem {
 	
 	@Override
 	public String toString() {
-		return 
-			levelKnown && isBroken() ? 
-				"broken " + super.toString() : 
+		return
+			levelKnown && isBroken() ?
+				"损坏的" + super.toString() :
 				super.toString();
 	}
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : gem + " ring";
+		return isKnown() ? name : gem + "戒指";
 	}
 	
 	@Override
 	public String desc() {
-		return 
-			"This metal band is adorned with a large " + gem + " gem " +
-			"that glitters in the darkness. Who knows what effect it has when worn?";
+		return
+			"这枚金属环上镶嵌着一颗硕大的" + gem + "宝石，" +
+			"在黑暗中闪闪发光。戴上它会有什么效果，谁知道呢？";
 	}
 	
 	@Override
 	public String info() {
 		if (isEquipped( Dungeon.hero )) {
-			
-			return desc() + "\n\n" + "The " + name() + " is on your finger" + 
-				(cursed ? ", and because it is cursed, you are powerless to remove it." : "." );
-			
+
+			return desc() + "\n\n" + name() + "戴在你手指上" +
+				(cursed ? "，但由于它被诅咒，你无法将它脱下。" : "。" );
+
 		} else if (cursed && cursedKnown) {
-			
-			return desc() + "\n\nYou can feel a malevolent magic lurking within the " + name() + ".";
-			
+
+			return desc() + "\n\n你能感觉到" + name() + "中潜藏着邪恶的魔力。";
+
 		} else {
-			
+
 			return desc();
-			
+
 		}
 	}
 	
@@ -345,7 +345,7 @@ public class Ring extends EquipableItem {
 	
 	public class RingBuff extends Buff {
 		
-		private static final String TXT_KNOWN = "This is a %s"; 
+		private static final String TXT_KNOWN = "这是一枚%s";
 		
 		public int level;
 		public RingBuff() {

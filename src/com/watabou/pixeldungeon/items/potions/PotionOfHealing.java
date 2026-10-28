@@ -30,14 +30,14 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfHealing extends Potion {
 
 	{
-		name = "Potion of Healing";
+		name = "治疗药水";
 	}
 	
 	@Override
 	protected void apply( Hero hero ) {
 		setKnown();
 		heal( Dungeon.hero );
-		GLog.p( "Your wounds heal completely." );
+		GLog.p( "你的伤口完全愈合。" );
 	}
 	
 	public static void heal( Hero hero ) {
@@ -54,7 +54,7 @@ public class PotionOfHealing extends Potion {
 	@Override
 	public String desc() {
 		return
-			"An elixir that will instantly return you to full health and cure poison.";
+			"这剂灵丹能立即让你恢复满血，并治愈中毒。";
 	}
 	
 	@Override

@@ -37,7 +37,7 @@ import com.watabou.utils.Random;
 public class Statue extends Mob {
 	
 	{
-		name = "animated statue";
+		name = "活化雕像";
 		spriteClass = StatueSprite.class;
 
 		EXP = 0;
@@ -144,8 +144,8 @@ public class Statue extends Mob {
 	@Override
 	public String description() {
 		return
-			"You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. " +
-			"While the statue itself is made of stone, the _" + weapon.name() + "_, it's wielding, looks real.";
+			"你会以为这只是地牢里又一尊丑陋的雕像，但它发红光的眼睛暴露了它。" +
+			"雕像本身由石头制成，而它手中挥舞的_" + weapon.name() + "_看起来却是真的。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

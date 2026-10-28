@@ -38,14 +38,14 @@ import com.watabou.pixeldungeon.utils.Utils;
 
 public class WndHero extends WndTabbed {
 	
-	private static final String TXT_STATS	= "Stats";
-	private static final String TXT_BUFFS	= "Buffs";
+	private static final String TXT_STATS	= "属性";
+	private static final String TXT_BUFFS	= "状态";
 	
-	private static final String TXT_EXP		= "Experience";
-	private static final String TXT_STR		= "Strength";
-	private static final String TXT_HEALTH	= "Health";
-	private static final String TXT_GOLD	= "Gold Collected";
-	private static final String TXT_DEPTH	= "Maximum Depth";
+	private static final String TXT_EXP		= "经验";
+	private static final String TXT_STR		= "力量";
+	private static final String TXT_HEALTH	= "生命";
+	private static final String TXT_GOLD	= "收集金币";
+	private static final String TXT_DEPTH	= "最深层数";
 	
 	private static final int WIDTH		= 100;
 	private static final int TAB_WIDTH	= 40;
@@ -92,9 +92,9 @@ public class WndHero extends WndTabbed {
 	
 	private class StatsTab extends Group {
 		
-		private static final String TXT_TITLE		= "Level %d %s";
-		private static final String TXT_CATALOGUS	= "Catalogus";
-		private static final String TXT_JOURNAL		= "Journal";
+		private static final String TXT_TITLE		= "等级 %d %s";
+		private static final String TXT_CATALOGUS	= "图鉴";
+		private static final String TXT_JOURNAL		= "日志";
 		
 		private static final int GAP = 5;
 		

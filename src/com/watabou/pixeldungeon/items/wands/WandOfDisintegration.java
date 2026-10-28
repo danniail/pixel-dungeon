@@ -36,7 +36,7 @@ import com.watabou.utils.Random;
 public class WandOfDisintegration extends Wand {
 
 	{
-		name = "Wand of Disintegration";
+		name = "分解法杖";
 		hitChars = false;
 	}
 	
@@ -107,8 +107,6 @@ public class WandOfDisintegration extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"This wand emits a beam of destructive energy, which pierces all creatures in its way. " +
-			"The more targets it hits, the more damage it inflicts to each of them.";
+		return "法杖发射一束毁灭能量，穿透沿途所有生物。击中的目标越多，对每个目标造成的伤害越高。";
 	}
 }

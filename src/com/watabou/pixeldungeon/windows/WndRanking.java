@@ -44,11 +44,11 @@ import com.watabou.pixeldungeon.utils.Utils;
 
 public class WndRanking extends WndTabbed {
 	
-	private static final String TXT_ERROR		= "Unable to load additional information";
+	private static final String TXT_ERROR		= "无法加载更多信息";
 	
-	private static final String TXT_STATS	= "Stats";
-	private static final String TXT_ITEMS	= "Items";
-	private static final String TXT_BADGES	= "Badges";
+	private static final String TXT_STATS	= "属性";
+	private static final String TXT_ITEMS	= "物品";
+	private static final String TXT_BADGES	= "徽章";
 	
 	private static final int WIDTH			= 112;
 	private static final int HEIGHT			= 134;
@@ -143,22 +143,22 @@ public class WndRanking extends WndTabbed {
 		
 		private static final int GAP	= 4;
 		
-		private static final String TXT_TITLE	= "Level %d %s";
+		private static final String TXT_TITLE	= "等级 %d %s";
 		
-		private static final String TXT_CHALLENGES	= "Challenges";
+		private static final String TXT_CHALLENGES	= "挑战";
 		
-		private static final String TXT_HEALTH	= "Health";
-		private static final String TXT_STR		= "Strength";
+		private static final String TXT_HEALTH	= "生命";
+		private static final String TXT_STR		= "力量";
 		
-		private static final String TXT_DURATION	= "Game Duration";
+		private static final String TXT_DURATION	= "游戏时长";
 		
-		private static final String TXT_DEPTH	= "Maximum Depth";
-		private static final String TXT_ENEMIES	= "Mobs Killed";
-		private static final String TXT_GOLD	= "Gold Collected";
+		private static final String TXT_DEPTH	= "最深层数";
+		private static final String TXT_ENEMIES	= "击杀怪物";
+		private static final String TXT_GOLD	= "收集金币";
 		
-		private static final String TXT_FOOD	= "Food Eaten";
-		private static final String TXT_ALCHEMY	= "Potions Cooked";
-		private static final String TXT_ANKHS	= "Ankhs Used";
+		private static final String TXT_FOOD	= "进食次数";
+		private static final String TXT_ALCHEMY	= "酿造药水";
+		private static final String TXT_ANKHS	= "使用安卡";
 		
 		public StatsTab() {
 			super();

@@ -26,7 +26,7 @@ import com.watabou.utils.Random;
 public class Crab extends Mob {
 
 	{
-		name = "sewer crab";
+		name = "下水道螃蟹";
 		spriteClass = CrabSprite.class;
 		
 		HP = HT = 15;
@@ -57,7 +57,7 @@ public class Crab extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "parried";
+		return "格挡";
 	}
 	
 	@Override
@@ -68,9 +68,6 @@ public class Crab extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"These huge crabs are at the top of the food chain in the sewers. " +
-			"They are extremely fast and their thick exoskeleton can withstand " +
-			"heavy blows.";
+		return "这些巨大的螃蟹位于下水道食物链顶端。它们速度极快，厚实的外骨骼能承受重击。";
 	}
 }

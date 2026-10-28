@@ -33,13 +33,13 @@ import com.watabou.utils.Random;
 
 public class Thief extends Mob {
 
-	protected static final String TXT_STOLE	= "%s stole %s from you!";
-	protected static final String TXT_CARRIES	= "\n\n%s is carrying a _%s_. Stolen obviously.";
+	protected static final String TXT_STOLE	= "%s 偷了你的 %s！";
+	protected static final String TXT_CARRIES	= "\n\n%s 带着 _%s_，显然是偷来的。";
 	
 	public Item item;
 	
 	{
-		name = "crazy thief";
+		name = "疯狂盗贼";
 		spriteClass = ThiefSprite.class;
 		
 		HP = HT = 20;
@@ -134,16 +134,7 @@ public class Thief extends Mob {
 	
 	@Override
 	public String description() {
-		String desc =
-			"Deeper levels of the dungeon have always been a hiding place for all kinds of criminals. " +
-			"Not all of them could keep a clear mind during their extended periods so far from daylight. Long ago, " +
-			"these crazy thieves and bandits have forgotten who they are and why they steal.";
-		
-		if (item != null) {
-			desc += String.format( TXT_CARRIES, Utils.capitalize( this.name ), item.name() );
-		}
-		
-		return desc;
+		return "地牢更深处一直是各种罪犯的藏身之处。在远离阳光的漫长岁月里，并非所有人都能保持清醒。很久以前，这些疯狂的盗贼和强盗就忘记了自己是谁、为何而偷。";
 	}
 	
 	private class Fleeing extends Mob.Fleeing {

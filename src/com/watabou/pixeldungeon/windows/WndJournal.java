@@ -38,7 +38,7 @@ public class WndJournal extends Window {
 	
 	private static final int ITEM_HEIGHT	= 18;
 	
-	private static final String TXT_TITLE	= "Journal";
+	private static final String TXT_TITLE	= "日志";
 	
 	private BitmapText txtTitle;
 	private ScrollPane list;

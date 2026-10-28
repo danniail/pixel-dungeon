@@ -25,8 +25,8 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class WndSadGhost extends WndQuest {
 	
-	private static final String TXT_WEAPON	= "Ghost's weapon";
-	private static final String TXT_ARMOR	= "Ghost's armor";
+	private static final String TXT_WEAPON	= "幽魂的武器";
+	private static final String TXT_ARMOR	= "幽魂的护甲";
 	
 	private Ghost ghost;
 	private Item questItem;
@@ -53,7 +53,7 @@ public class WndSadGhost extends WndQuest {
 			Dungeon.level.drop( reward, ghost.pos ).sprite.drop();
 		}
 		
-		ghost.yell( "Farewell, adventurer!" );
+		ghost.yell( "永别了，冒险者！" );
 		ghost.die( null );
 		
 		Ghost.Quest.complete();

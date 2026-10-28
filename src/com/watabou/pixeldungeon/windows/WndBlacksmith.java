@@ -47,12 +47,12 @@ public class WndBlacksmith extends Window {
 	private RedButton btnReforge;
 	
 	private static final String TXT_PROMPT =
-		"Ok, a deal is a deal, dat's what I can do for you: I can reforge " +
-		"2 items and turn them into one of a better quality.";
+		"好，一言为定，我能为你做的是：把" +
+		"2件物品重铸，合二为一，品质更好。";
 	private static final String TXT_SELECT =
-		"Select an item to reforge";
+		"选择要重铸的物品";
 	private static final String TXT_REFORGE =
-		"Reforge them";
+		"重铸它们";
 	
 	public WndBlacksmith( Blacksmith troll, Hero hero ) {
 		

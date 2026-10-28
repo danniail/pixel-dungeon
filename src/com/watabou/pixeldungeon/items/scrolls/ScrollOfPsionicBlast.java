@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 public class ScrollOfPsionicBlast extends Scroll {
 
 	{
-		name = "Scroll of Psionic Blast";
+		name = "灵能冲击卷轴";
 	}
 	
 	@Override
@@ -59,10 +59,7 @@ public class ScrollOfPsionicBlast extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"This scroll contains destructive energy, that can be psionically channeled to inflict a " +
-			"massive damage to all creatures within a field of view. An accompanying flash of light will " +
-			"temporarily blind everybody in the area of effect including the reader of the scroll.";
+		return "这张卷轴蕴含毁灭性能量，可通过灵能引导，对视野内所有生物造成巨大伤害。伴随的闪光会短暂致盲效果范围内的所有人，包括读者。";
 	}
 	
 	@Override

@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfSatiety extends Ring {
 
 	{
-		name = "Ring of Satiety";
+		name = "饱食之戒";
 	}
 	
 	@Override
@@ -31,7 +31,7 @@ public class RingOfSatiety extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"Wearing this ring you can go without food longer. Degraded rings of satiety will cause the opposite effect." :
+			"佩戴它你可以更长时间不进食。损坏的饱食之戒会产生相反效果。" :
 			super.desc();
 	}
 	

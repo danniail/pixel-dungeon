@@ -34,10 +34,10 @@ import com.watabou.utils.Random;
 
 public class Monk extends Mob {
 
-	public static final String TXT_DISARM	= "%s has knocked the %s from your hands!";
+	public static final String TXT_DISARM	= "%s 把你手中的 %s 打落了！";
 	
 	{
-		name = "dwarf monk";
+		name = "矮人武僧";
 		spriteClass = MonkSprite.class;
 		
 		HP = HT = 70;
@@ -72,7 +72,7 @@ public class Monk extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "parried";
+		return "格挡";
 	}
 	
 	@Override
@@ -102,9 +102,7 @@ public class Monk extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. " +
-			"They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.";
+		return "这些武僧是狂热者，致力于保护城市秘密，不让任何外来者知晓。他们不使用任何护甲或武器，完全依靠徒手格斗之术。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

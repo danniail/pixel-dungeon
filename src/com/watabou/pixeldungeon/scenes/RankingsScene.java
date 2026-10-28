@@ -40,11 +40,11 @@ public class RankingsScene extends PixelScene {
 	
 	private static final int DEFAULT_COLOR	= 0xCCCCCC;
 	
-	private static final String TXT_TITLE		= "Top Rankings";
-	private static final String TXT_TOTAL		= "Games played: ";
-	private static final String TXT_NO_GAMES	= "No games have been played yet.";
+	private static final String TXT_TITLE		= "排行榜";
+	private static final String TXT_TOTAL		= "游戏场次：";
+	private static final String TXT_NO_GAMES	= "还没有进行过游戏。";
 	
-	private static final String TXT_NO_INFO	= "No additional information";
+	private static final String TXT_NO_INFO	= "无更多信息";
 	
 	private static final float ROW_HEIGHT_L	= 22;
 	private static final float ROW_HEIGHT_P	= 28;

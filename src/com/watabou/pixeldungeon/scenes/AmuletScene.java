@@ -31,8 +31,8 @@ import com.watabou.utils.Random;
 
 public class AmuletScene extends PixelScene {
 
-	private static final String TXT_EXIT	= "Let's call it a day";
-	private static final String TXT_STAY	= "I'm not done yet";
+	private static final String TXT_EXIT	= "今天就到此为止";
+	private static final String TXT_STAY	= "我还没结束";
 	
 	private static final int WIDTH			= 120;
 	private static final int BTN_HEIGHT		= 18;
@@ -40,10 +40,10 @@ public class AmuletScene extends PixelScene {
 	private static final float LARGE_GAP	= 8;
 	
 	private static final String TXT = 
-		"You finally hold it in your hands, the Amulet of Yendor. Using its power " +
-		"you can take over the world or bring peace and prosperity to people or whatever. " +
-		"Anyway, your life will change forever and this game will end here. " +
-		"Or you can stay a mere mortal a little longer.";
+		"你终于把延多护符握在手中。借助它的力量，" +
+		"你可以统治世界，或为人们带来和平与繁荣，等等。" +
+		"无论如何，你的人生将永远改变，游戏也将在此结束。" +
+		"或者，你可以再多做一会儿凡人。";
 	
 	public static boolean noText = false;
 	

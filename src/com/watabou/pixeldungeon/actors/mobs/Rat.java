@@ -25,7 +25,7 @@ import com.watabou.utils.Random;
 public class Rat extends Mob {
 
 	{
-		name = "marsupial rat";
+		name = "有袋巨鼠";
 		spriteClass = RatSprite.class;
 		
 		HP = HT = 8;
@@ -58,8 +58,6 @@ public class Rat extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"Marsupial rats are aggressive, but rather weak denizens " +
-			"of the sewers. They can be dangerous only in big numbers.";
+		return "有袋巨鼠是下水道中好斗却相当弱小的居民。只有数量庞大时它们才会构成威胁。";
 	}
 }

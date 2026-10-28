@@ -28,10 +28,10 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Dewdrop extends Item {
 
-	private static final String TXT_VALUE	= "%+dHP";
+	private static final String TXT_VALUE	= "%+d生命";
 	
 	{
-		name = "dewdrop";
+		name = "露珠";
 		image = ItemSpriteSheet.DEWDROP;
 		
 		stackable = true;
@@ -70,6 +70,6 @@ public class Dewdrop extends Item {
 	
 	@Override
 	public String info() {
-		return "A crystal clear dewdrop.";
+		return "一滴晶莹剔透的露珠。";
 	}
 }

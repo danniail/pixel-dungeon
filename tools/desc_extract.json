@@ -1,0 +1,582 @@
+[
+ {
+  "id": 0,
+  "file": "src/com/watabou/pixeldungeon/items/Amulet.java",
+  "text": "延多护符是已知最强大、来历不明的神器。传说只要主人的意志力足够强大，能够“说服”它，护符就能实现任何愿望。"
+ },
+ {
+  "id": 1,
+  "file": "src/com/watabou/pixeldungeon/items/Ankh.java",
+  "text": "这个古老的不朽象征，赋予你死后复活的能力。复活时，所有未装备的物品都会丢失。"
+ },
+ {
+  "id": 2,
+  "file": "src/com/watabou/pixeldungeon/items/ArmorKit.java",
+  "text": "任何人都能用这套小巧的工具和材料，把任意护甲改造成“史诗护甲”：保留原护甲的全部属性，还会根据穿戴者的职业赋予一项特殊能力。无需裁缝、制皮或锻造技巧。"
+ },
+ {
+  "id": 3,
+  "file": "src/com/watabou/pixeldungeon/items/Bomb.java",
+  "text": "这是一枚装满黑火药的小型炸弹。方便的是，炸弹投出时引信会自动点燃。"
+ },
+ {
+  "id": 4,
+  "file": "src/com/watabou/pixeldungeon/items/DewVial.java",
+  "text": "你可以把多余的露珠储存在这个小瓶中，留待日后饮用。当瓶子装满、而你身处致命险境时，露珠会被自动消耗。"
+ },
+ {
+  "id": 5,
+  "file": "src/com/watabou/pixeldungeon/items/Dewdrop.java",
+  "text": "一滴晶莹剔透的露珠。"
+ },
+ {
+  "id": 6,
+  "file": "src/com/watabou/pixeldungeon/items/Honeypot.java",
+  "text": "这只小蜜罐里蜂蜜不多，但里面有一只金色蜜蜂，而且它不想离开。"
+ },
+ {
+  "id": 7,
+  "file": "src/com/watabou/pixeldungeon/items/TomeOfMastery.java",
+  "text": "这本破旧的皮面书并不厚，但你隐约觉得能从中学到很多。不过要记住，阅读它可能需要一些时间。"
+ },
+ {
+  "id": 8,
+  "file": "src/com/watabou/pixeldungeon/items/Torch.java",
+  "text": "在以昏暗著称的恶魔大厅里，这是不可或缺的物品。"
+ },
+ {
+  "id": 9,
+  "file": "src/com/watabou/pixeldungeon/items/Weightstone.java",
+  "text": "使用磨刀石，你可以调整近战武器的平衡，提升它的速度或精准度。"
+ },
+ {
+  "id": 10,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/BattleAxe.java",
+  "text": "这把战斧巨大的钢制斧刃，让每一击都势大力沉。"
+ },
+ {
+  "id": 11,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Dagger.java",
+  "text": "一把简单的铁匕首，木柄已被磨得光滑。"
+ },
+ {
+  "id": 12,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Glaive.java",
+  "text": "在长杆末端装上剑刃的长柄武器。"
+ },
+ {
+  "id": 13,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Knuckles.java",
+  "text": "一块贴合指关节的铁具。"
+ },
+ {
+  "id": 14,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Longsword.java",
+  "text": "这把高耸的剑刃把重量倾注于每一次斩击，造成沉重伤害。"
+ },
+ {
+  "id": 15,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Mace.java",
+  "text": "这把武器的铁质锤头能造成可观伤害。"
+ },
+ {
+  "id": 16,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/MeleeWeapon.java",
+  "text": "\\n\\nbrokenupgradeddegradedThis  is  tier- melee weapon. Its average damage is  points per hit. Its typical average damage is  points per hit and usually it requires  points of strength. Probably this weapon is too heavy for you. This is a rather fastslow and  but accurateinaccurate weapon. This is a rather accurateinaccurate weapon. It was balanced to make it faster. It was balanced to make it more accurate. It is enchanted.Because of your inadequate strength the accuracy and speed of your attack with this  is decreased.Because of your excess strength the damage of your attack with this  is increased.You hold the  at the ready, and because it is cursed, you are powerless to let go..You can feel a malevolent magic lurking within ."
+ },
+ {
+  "id": 17,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Quarterstaff.java",
+  "text": "一根硬木长棍，两端包铁。"
+ },
+ {
+  "id": 18,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java",
+  "text": "它确实很短，只比匕首长几英寸。"
+ },
+ {
+  "id": 19,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Spear.java",
+  "text": "一根细长的木杆，顶端装着磨尖的铁头。"
+ },
+ {
+  "id": 20,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/Sword.java",
+  "text": "这把锋利的钢剑刃闪着令人安心的光芒。"
+ },
+ {
+  "id": 21,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/melee/WarHammer.java",
+  "text": "很少有生物能承受这铅钢巨物的粉碎一击，但只有最强壮的冒险者才能有效使用它。"
+ },
+ {
+  "id": 22,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/Boomerang.java",
+  "text": "把这个扁平弯曲的木制投掷武器掷向敌人，它会飞回投掷者手中。"
+ },
+ {
+  "id": 23,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/CurareDart.java",
+  "text": "这些邪恶的小飞镖伤害不高，但能麻痹目标，让它在一段时间内无法动弹、任人宰割。"
+ },
+ {
+  "id": 24,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/Dart.java",
+  "text": "这些简单的金属尖刺经过配重，能笔直飞行，只需手腕一抖即可刺中目标。"
+ },
+ {
+  "id": 25,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/IncendiaryDart.java",
+  "text": "每枚飞镖上的尖刺用来固定在目标身上，而绑在镖身的不稳定化合物会爆发出耀眼的火焰。"
+ },
+ {
+  "id": 26,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/Javelin.java",
+  "text": "这根金属长物经过配重，飞行时让尖端始终朝前。"
+ },
+ {
+  "id": 27,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/MissileWeapon.java",
+  "text": "\\n\\nAverage damage of this weapon equals to  points per hit. Because of your inadequate strength the accuracy and speed of your attack with this  is decreased.Because of your excess strength the damage of your attack with this  is increased.\\n\\nYou hold the  at the ready."
+ },
+ {
+  "id": 28,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/Shuriken.java",
+  "text": "星形金属片，刀刃锋利，命中时造成可观伤害，投掷速度极快。"
+ },
+ {
+  "id": 29,
+  "file": "src/com/watabou/pixeldungeon/items/weapon/missiles/Tamahawk.java",
+  "text": "这把投掷斧并不太重，但仍需要相当的力量才能有效使用。"
+ },
+ {
+  "id": 30,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/Scroll.java",
+  "text": "This parchment is covered with indecipherable writing, and bears a title of rune . Who knows what it will do when read aloud?"
+ },
+ {
+  "id": 31,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfChallenge.java",
+  "text": "大声朗读时，卷轴会发出充满挑衅的怒吼，惊醒所有怪物，并让它们察觉读者的位置。"
+ },
+ {
+  "id": 32,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java",
+  "text": "这张卷轴能为武器或护甲附上随机的附魔，赋予其特殊能力。"
+ },
+ {
+  "id": 33,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java",
+  "text": "永久揭示一件物品的全部秘密。"
+ },
+ {
+  "id": 34,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java",
+  "text": "舒缓的旋律会让你视野内的所有生物陷入沉睡，让你有机会逃跑或发动突袭。"
+ },
+ {
+  "id": 35,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMagicMapping.java",
+  "text": "阅读这张卷轴时，一幅清晰无比的图像会铭刻在你的记忆中，让你掌握本层的精确布局、揭示所有隐藏秘密。但物品和生物的位置仍未知。"
+ },
+ {
+  "id": 36,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMirrorImage.java",
+  "text": "卷轴上的咒语会为读者创造出幻象分身，追击他的敌人。"
+ },
+ {
+  "id": 37,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfPsionicBlast.java",
+  "text": "这张卷轴蕴含毁灭性能量，可通过灵能引导，对视野内所有生物造成巨大伤害。伴随的闪光会短暂致盲效果范围内的所有人，包括读者。"
+ },
+ {
+  "id": 38,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java",
+  "text": "这张羊皮纸中封存的原始魔力，释放时会将读者所有法杖充能至满。"
+ },
+ {
+  "id": 39,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java",
+  "text": "卷轴上的咒语会立即剥离读者武器、护甲、戒指和携带物品上的邪恶附魔——正是这些附魔让穿戴者无法取下它们。"
+ },
+ {
+  "id": 40,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java",
+  "text": "羊皮纸上的法术会立即把读者传送到本层的随机位置。可用来逃离险境，但倒霉的读者可能落到更危险的地方。"
+ },
+ {
+  "id": 41,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java",
+  "text": "一道红光会让你视野内的所有生物陷入恐惧，转身逃跑。攻击逃跑的敌人会解除效果。"
+ },
+ {
+  "id": 42,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfUpgrade.java",
+  "text": "这张卷轴会升级一件物品，提升其品质。法杖会增强威力和充能数；武器会造成更多伤害或更易命中；护甲会挡下更多攻击；戒指对佩戴者的效果会增强。武器和护甲所需的力量也会降低，物品上的任何诅咒都会被解除。"
+ },
+ {
+  "id": 43,
+  "file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfWipeOut.java",
+  "text": "阅读这张卷轴可释放地牢怨灵的怒火，杀死当前层的一切。嗯，几乎是一切，一些更强大的生物可能不受影响。"
+ },
+ {
+  "id": 44,
+  "file": "src/com/watabou/pixeldungeon/items/wands/Wand.java",
+  "text": "\\n\\n"
+ },
+ {
+  "id": 45,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfAmok.java",
+  "text": "法杖发出的紫光会让目标陷入狂乱，攻击它附近的随机生物。"
+ },
+ {
+  "id": 46,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfAvalanche.java",
+  "text": "法杖的放电击中墙壁（或其他坚固障碍）时，会引发石块崩塌，伤害并眩晕受影响区域内的所有生物。"
+ },
+ {
+  "id": 47,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfBlink.java",
+  "text": "这根法杖能让你沿选定方向传送。生物和无生命的障碍物会阻挡传送。"
+ },
+ {
+  "id": 48,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfDisintegration.java",
+  "text": "法杖发射一束毁灭能量，穿透沿途所有生物。击中的目标越多，对每个目标造成的伤害越高。"
+ },
+ {
+  "id": 49,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfFirebolt.java",
+  "text": "法杖释放魔法火焰，会点燃可燃地面，伤害并点燃命中的生物。"
+ },
+ {
+  "id": 50,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java",
+  "text": "轻挥法杖可召唤一群魔法绵羊，形成暂时无法穿越的障碍。"
+ },
+ {
+  "id": 51,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfLightning.java",
+  "text": "法杖召唤致命的电弧，对站得很近的数个生物造成伤害。"
+ },
+ {
+  "id": 52,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java",
+  "text": "法杖发射纯粹的魔法能量飞弹，对目标生物造成中等伤害。"
+ },
+ {
+  "id": 53,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfPoison.java",
+  "text": "这根扭曲木棍的邪恶冲击会让目标染上致命剧毒。中毒的生物会周期性受到伤害，直到效果结束。效果持续时间随法杖等级增加。"
+ },
+ {
+  "id": 54,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfReach.java",
+  "text": "这根实用法杖可从远处抓取物品，或与敌人交换位置。它发出的魔法力波会影响沿途所有格子：触发陷阱、踩倒高草、打开关闭的门、并关上敞开的门。"
+ },
+ {
+  "id": 55,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfRegrowth.java",
+  "text": "“当生命终结，新的生命总会开始生长……永恒的循环永不停止！”"
+ },
+ {
+  "id": 56,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfSlowness.java",
+  "text": "法杖会让生物在效果结束前，以平常一半的速度移动和攻击。"
+ },
+ {
+  "id": 57,
+  "file": "src/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java",
+  "text": "法杖的冲击会违背生物的意愿，将其传送到当前层的随机位置。"
+ },
+ {
+  "id": 58,
+  "file": "src/com/watabou/pixeldungeon/items/potions/Potion.java",
+  "text": "This flask contains a swirling  liquid. Who knows what it will do when drunk or thrown?"
+ },
+ {
+  "id": 59,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfExperience.java",
+  "text": "无数战斗的传奇经历化为液态，这剂药水能立即提升你的经验等级。"
+ },
+ {
+  "id": 60,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfFrost.java",
+  "text": "接触空气后，这种化学物质会蒸发成冰冻云雾，让接触到的生物原地冻结，无法行动。"
+ },
+ {
+  "id": 61,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfHealing.java",
+  "text": "这剂灵丹能立即让你恢复满血，并治愈中毒。"
+ },
+ {
+  "id": 62,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfInvisibility.java",
+  "text": "喝下药水会让你暂时隐形。隐形时敌人无法看见你。攻击敌人，或在敌人眼前使用法杖或卷轴，都会解除效果。"
+ },
+ {
+  "id": 63,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfLevitation.java",
+  "text": "喝下这种奇特液体会让你悬浮空中，能轻松飘过陷阱。但火焰和气体会弥漫在空中，漂浮时无法避开。"
+ },
+ {
+  "id": 64,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfLiquidFlame.java",
+  "text": "瓶中装着不稳定的化合物，接触空气会剧烈燃烧。"
+ },
+ {
+  "id": 65,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfMight.java",
+  "text": "这强大的液体会流遍你的肌肉，永久增加1点力量和5点生命值。"
+ },
+ {
+  "id": 66,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java",
+  "text": "喝下后，你的心灵会与远处生物的灵能印记共鸣，让你隔墙感知生物的存在。这药水还能让你看穿附近的墙壁和门。"
+ },
+ {
+  "id": 67,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfParalyticGas.java",
+  "text": "接触空气后，瓶中液体会蒸发成令人麻木的黄色雾气。吸入云雾者会立即麻痹，云雾散去后仍有一段时间无法移动。可将它掷向远处敌人，使其被毒气笼罩。"
+ },
+ {
+  "id": 68,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java",
+  "text": "这种试剂能迅速中和效果区域内的所有有害气体。喝下它可让你暂时免疫这些气体。"
+ },
+ {
+  "id": 69,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java",
+  "text": "这强大的液体会流遍你的肌肉，永久增加1点力量。"
+ },
+ {
+  "id": 70,
+  "file": "src/com/watabou/pixeldungeon/items/potions/PotionOfToxicGas.java",
+  "text": "拔开或打碎这个加压玻璃瓶，会让里面的东西爆成一团致命的绿色毒气。你可以把药水掷向远处敌人，而不是亲手拔开。"
+ },
+ {
+  "id": 71,
+  "file": "src/com/watabou/pixeldungeon/items/armor/Armor.java",
+  "text": "\\n\\nThis  provides damage absorption up to  points per attack. \\n\\nBecause of your inadequate strength your movement speed and defense skill is decreased. \\n\\nBecause of your inadequate strength wearing this armor will decrease your movement speed and defense skill. \\n\\nTypical  provides damage absorption up to  points per attack  and requires  points of strength. Probably this armor is too heavy for you. It is enchanted.\\n\\nYou are wearing the , and because it is cursed, you are powerless to remove it..\\n\\nYou can feel a malevolent magic lurking within the ."
+ },
+ {
+  "id": 72,
+  "file": "src/com/watabou/pixeldungeon/items/armor/ClassArmor.java",
+  "text": "这东西看起来棒极了！"
+ },
+ {
+  "id": 73,
+  "file": "src/com/watabou/pixeldungeon/items/armor/ClothArmor.java",
+  "text": "这种轻便护甲提供基础防护。"
+ },
+ {
+  "id": 74,
+  "file": "src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java",
+  "text": "穿着这种斗篷的女猎手能召唤扇形的幽灵之刃。每把飞刃会锁定她视野内的一个敌人，伤害取决于她当前装备的近战武器。"
+ },
+ {
+  "id": 75,
+  "file": "src/com/watabou/pixeldungeon/items/armor/LeatherArmor.java",
+  "text": "用鞣制的怪物皮革制成的护甲。不如布甲轻便，但防护更好。"
+ },
+ {
+  "id": 76,
+  "file": "src/com/watabou/pixeldungeon/items/armor/MageArmor.java",
+  "text": "穿着这件华丽长袍，法师能施放熔土之术：视野内所有敌人都会被点燃，同时无法移动。"
+ },
+ {
+  "id": 77,
+  "file": "src/com/watabou/pixeldungeon/items/armor/MailArmor.java",
+  "text": "相互咬合的金属环构成坚固而柔韧的护甲。"
+ },
+ {
+  "id": 78,
+  "file": "src/com/watabou/pixeldungeon/items/armor/PlateArmor.java",
+  "text": "巨大的金属板拼接成铠甲，为强壮到能承受其惊人重量的冒险者提供无与伦比的防护。"
+ },
+ {
+  "id": 79,
+  "file": "src/com/watabou/pixeldungeon/items/armor/RogueArmor.java",
+  "text": "穿着这件深色装束，盗贼能施展一个叫“烟雾弹”的把戏（虽然没有真正的爆炸物）：他会致盲能看见他的敌人，然后闪身跳开。"
+ },
+ {
+  "id": 80,
+  "file": "src/com/watabou/pixeldungeon/items/armor/ScaleArmor.java",
+  "text": "缝在皮背心的金属鳞片构成柔韧而有防护的护甲。"
+ },
+ {
+  "id": 81,
+  "file": "src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java",
+  "text": "这件护甲看似沉重，却能让战士向目标位置英勇跳跃，落地时震晕周围所有敌人。"
+ },
+ {
+  "id": 82,
+  "file": "src/com/watabou/pixeldungeon/items/quest/CorpseDust.java",
+  "text": "这团尸尘外表和普通尘球没什么两样。但你隐约觉得最好尽快摆脱它。"
+ },
+ {
+  "id": 83,
+  "file": "src/com/watabou/pixeldungeon/items/quest/DarkGold.java",
+  "text": "这种金属被称为“暗”金，并非因为颜色（它和普通黄金没区别），而是因为它在日光下会融化，在地面上毫无用处。"
+ },
+ {
+  "id": 84,
+  "file": "src/com/watabou/pixeldungeon/items/quest/DriedRose.java",
+  "text": "玫瑰早已干枯，却不知为何保留了所有花瓣。"
+ },
+ {
+  "id": 85,
+  "file": "src/com/watabou/pixeldungeon/items/quest/DwarfToken.java",
+  "text": "许多矮人和它们一些较大的造物，都带着这些用途不明的小金属片。也许是首饰，也许是某种证件。矮人真是奇怪的民族。"
+ },
+ {
+  "id": 86,
+  "file": "src/com/watabou/pixeldungeon/items/quest/PhantomFish.java",
+  "text": "你几乎看不见空气中这条微小的半透明鱼。在水中它几乎完全隐形。"
+ },
+ {
+  "id": 87,
+  "file": "src/com/watabou/pixeldungeon/items/quest/Pickaxe.java",
+  "text": "这是一件用来敲碎石块的坚固大工具。也许能当武器用。"
+ },
+ {
+  "id": 88,
+  "file": "src/com/watabou/pixeldungeon/items/quest/RatSkull.java",
+  "text": "它本可以做成不错的狩猎战利品，但气味太难闻，没法挂在墙上。"
+ },
+ {
+  "id": 89,
+  "file": "src/com/watabou/pixeldungeon/items/food/ChargrilledMeat.java",
+  "text": "看起来像一块不错的牛排。"
+ },
+ {
+  "id": 90,
+  "file": "src/com/watabou/pixeldungeon/items/food/Food.java",
+  "text": "没什么花哨的：肉干、几块饼干之类的东西。"
+ },
+ {
+  "id": 91,
+  "file": "src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java",
+  "text": "一块冷冻的生肉。唯一的吃法是切成薄片，而且这样吃意外地不错。"
+ },
+ {
+  "id": 92,
+  "file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java",
+  "text": "风险自负！"
+ },
+ {
+  "id": 93,
+  "file": "src/com/watabou/pixeldungeon/items/food/OverpricedRation.java",
+  "text": "看起来和标准口粮一模一样，只是更小。"
+ },
+ {
+  "id": 94,
+  "file": "src/com/watabou/pixeldungeon/items/food/Pasty.java",
+  "text": "这是正宗的康沃尔馅饼，传统的牛肉土豆馅。"
+ },
+ {
+  "id": 95,
+  "file": "src/com/watabou/pixeldungeon/items/keys/GoldenKey.java",
+  "text": "这把金钥匙上的齿纹细小而精巧。也许能打开某个箱子的锁？"
+ },
+ {
+  "id": 96,
+  "file": "src/com/watabou/pixeldungeon/items/keys/IronKey.java",
+  "text": "这把古老铁钥匙上的齿纹已被磨损，皮质挂绳也被岁月磨旧。它会打开哪扇门？"
+ },
+ {
+  "id": 97,
+  "file": "src/com/watabou/pixeldungeon/items/keys/SkeletonKey.java",
+  "text": "这把钥匙看起来很严肃：头部是骷髅形状。也许能打开某扇重要的门。"
+ },
+ {
+  "id": 98,
+  "file": "src/com/watabou/pixeldungeon/items/rings/Ring.java",
+  "text": "This metal band is adorned with a large  gem that glitters in the darkness. Who knows what effect it has when worn?"
+ },
+ {
+  "id": 99,
+  "file": "src/com/watabou/pixeldungeon/items/rings/Ring.java",
+  "text": "\\n\\nThe  is on your finger, and because it is cursed, you are powerless to remove it..\\n\\nYou can feel a malevolent magic lurking within the ."
+ },
+ {
+  "id": 100,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfAccuracy.java",
+  "text": "这枚戒指提升你命中敌人的几率。"
+ },
+ {
+  "id": 101,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfDetection.java",
+  "text": "Wearing this ring will allow the wearer to notice hidden secrets - traps and secret doors - without taking time to search. Degraded rings of detection will dull your senses, making it harder to notice secrets even when actively searching for them."
+ },
+ {
+  "id": 102,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfElements.java",
+  "text": "This ring provides resistance to different elements, such as fire, electricity, gases etc. Also it decreases duration of negative effects."
+ },
+ {
+  "id": 103,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfEvasion.java",
+  "text": "这枚戒指提升你闪避敌人攻击的几率。"
+ },
+ {
+  "id": 104,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfHaggler.java",
+  "text": "In fact this ring doesn't provide any magic effect, but it demonstrates to shopkeepers and vendors, that the owner of the ring is a member of The Thieves' Guild. Usually they are glad to give a discount in exchange for temporary immunity guarantee. Upgrading this ring won't give any additional bonuses."
+ },
+ {
+  "id": 105,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfHaste.java",
+  "text": "这枚戒指加快佩戴者的时间流速，让所有动作都更快一些。"
+ },
+ {
+  "id": 106,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfHerbalism.java",
+  "text": "这枚戒指提升你从踩倒的草丛中采集露珠和种子的几率。"
+ },
+ {
+  "id": 107,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfMending.java",
+  "text": "This ring increases the body's regenerative properties, allowing one to recover lost health at an accelerated rate. Degraded rings will decrease or even halt one's natural regeneration."
+ },
+ {
+  "id": 108,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfPower.java",
+  "text": "Your wands will become more powerful in the energy field that radiates from this ring. Degraded rings of power will instead weaken your wands."
+ },
+ {
+  "id": 109,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfSatiety.java",
+  "text": "佩戴它你可以更长时间不进食。损坏的饱食之戒会产生相反效果。"
+ },
+ {
+  "id": 110,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfShadows.java",
+  "text": "Enemies will be less likely to notice you if you wear this ring. Degraded rings of shadows will alert enemies who might otherwise not have noticed your presence."
+ },
+ {
+  "id": 111,
+  "file": "src/com/watabou/pixeldungeon/items/rings/RingOfThorns.java",
+  "text": "Though this ring doesn't provide real thorns, an enemy that attacks you will itself be wounded by a fraction of the damage that it inflicts. Upgrading this ring won't give any additional bonuses."
+ },
+ {
+  "id": 112,
+  "file": "src/com/watabou/pixeldungeon/items/bags/Keyring.java",
+  "text": "这是一个铜制钥匙环，让你把所有钥匙与其他物品分开存放。"
+ },
+ {
+  "id": 113,
+  "file": "src/com/watabou/pixeldungeon/items/bags/ScrollHolder.java",
+  "text": "你可以把任意数量的卷轴放进这个筒形容器。它节省背包空间，并保护卷轴免受火烧。"
+ },
+ {
+  "id": 114,
+  "file": "src/com/watabou/pixeldungeon/items/bags/SeedPouch.java",
+  "text": "这个小巧的天鹅绒袋子能装任意数量的种子，非常方便。"
+ },
+ {
+  "id": 115,
+  "file": "src/com/watabou/pixeldungeon/items/bags/WandHolster.java",
+  "text": "This slim holder is made of leather of some exotic animal. It allows to compactly carry up to  wands."
+ }
+]

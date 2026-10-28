@@ -24,7 +24,7 @@ import com.watabou.utils.Random;
 public class Shuriken extends MissileWeapon {
 
 	{
-		name = "shuriken";
+		name = "手里剑";
 		image = ItemSpriteSheet.SHURIKEN;
 		
 		STR = 13;
@@ -53,9 +53,7 @@ public class Shuriken extends MissileWeapon {
 	
 	@Override
 	public String desc() {
-		return 
-			"Star-shaped pieces of metal with razor-sharp blades do significant damage " +
-			"when they hit a target. They can be thrown at very high rate.";
+		return "星形金属片，刀刃锋利，命中时造成可观伤害，投掷速度极快。";
 	}
 	
 	@Override

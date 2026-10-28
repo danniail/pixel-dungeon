@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class ScaleArmor extends Armor {
 
 	{
-		name = "scale armor";
+		name = "鳞甲";
 		image = ItemSpriteSheet.ARMOR_SCALE;
 	}
 	
@@ -34,6 +34,6 @@ public class ScaleArmor extends Armor {
 	@Override
 	public String desc() {
 		return 
-			"The metal scales sewn onto a leather vest create a flexible, yet protective armor.";
+			"缝在皮背心的金属鳞片构成柔韧而有防护的护甲。";
 	}
 }

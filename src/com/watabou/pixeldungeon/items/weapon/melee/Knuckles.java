@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Knuckles extends MeleeWeapon {
 
 	{
-		name = "knuckleduster";
+		name = "指虎";
 		image = ItemSpriteSheet.KNUCKLEDUSTER;
 	}
 	
@@ -32,6 +32,6 @@ public class Knuckles extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "A piece of iron shaped to fit around the knuckles.";
+		return "一块贴合指关节的铁具。";
 	}
 }

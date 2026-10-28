@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 public class Golem extends Mob {
 	
 	{
-		name = "golem";
+		name = "石魔像";
 		spriteClass = GolemSprite.class;
 		
 		HP = HT = 85;
@@ -63,7 +63,7 @@ public class Golem extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "blocked";
+		return "抵挡";
 	}
 	
 	@Override
@@ -75,10 +75,7 @@ public class Golem extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. " +
-			"They used spirits of earth as the \"soul\" for the mechanical bodies of golems, which were believed to be " +
-			"most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak.";
+		return "矮人试图将机械知识与新掌握的元素束缚之力结合。他们用大地之灵作为石魔像机械躯体的“灵魂”，认为这是最可控的。尽管如此，仪式中最微小的失误也可能引发失控。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

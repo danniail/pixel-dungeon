@@ -183,9 +183,9 @@ public class LastShopLevel extends RegularLevel {
 	public String tileName( int tile ) {
 		switch (tile) {
 		case Terrain.WATER:
-			return "Suspiciously colored water";
+			return "颜色可疑的水";
 		case Terrain.HIGH_GRASS:
-			return "High blooming flowers";
+			return "盛开的高花";
 		default:
 			return super.tileName( tile );
 		}
@@ -195,14 +195,14 @@ public class LastShopLevel extends RegularLevel {
 	public String tileDesc(int tile) {
 		switch (tile) {
 		case Terrain.ENTRANCE:
-			return "A ramp leads up to the upper depth.";
+			return "坡道通向上一层。";
 		case Terrain.EXIT:
-			return "A ramp leads down to the Inferno.";
+			return "坡道通向炼狱。";
 		case Terrain.WALL_DECO:
 		case Terrain.EMPTY_DECO:
-			return "Several tiles are missing here.";
+			return "这里缺了几块地砖。";
 		case Terrain.EMPTY_SP:
-			return "Thick carpet covers the floor.";
+			return "厚厚的地毯铺在地上。";
 		default:
 			return super.tileDesc( tile );
 		}

@@ -33,10 +33,10 @@ import com.watabou.pixeldungeon.utils.Utils;
 public class WndImp extends Window {
 	
 	private static final String TXT_MESSAGE	= 
-		"Oh yes! You are my hero!\n" +
-		"Regarding your reward, I don't have cash with me right now, but I have something better for you. " +
-		"This is my family heirloom ring: my granddad took it off a dead paladin's finger.";
-	private static final String TXT_REWARD		= "Take the ring";
+		"哦，太棒了！你就是我的英雄！\n" +
+		"关于你的报酬，我现在身上没带钱，但我有更好的东西给你。" +
+		"这是我的传家戒指：我爷爷从一个死去圣骑士的手指上取下来的。";
+	private static final String TXT_REWARD		= "收下戒指";
 	
 	private static final int WIDTH		= 120;
 	private static final int BTN_HEIGHT	= 20;

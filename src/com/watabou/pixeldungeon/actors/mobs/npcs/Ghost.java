@@ -56,7 +56,7 @@ import com.watabou.utils.Random;
 public class Ghost extends NPC {
 
 	{
-		name = "sad ghost";
+		name = "悲伤幽魂";
 		spriteClass = GhostSprite.class;
 		
 		flying = true;
@@ -77,7 +77,7 @@ public class Ghost extends NPC {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	@Override
@@ -114,8 +114,8 @@ public class Ghost extends NPC {
 	@Override
 	public String description() {
 		return 
-			"The ghost is barely visible. It looks like a shapeless " +
-			"spot of faint light with a sorrowful face.";
+			"幽魂几乎看不见，它看起来像一团没有形状的" +
+			"微光，带着悲伤的面容。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();
@@ -354,17 +354,17 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler roseQuest = new QuestHandler() {
 		private static final String TXT_ROSE1	=
-			"Hello adventurer... Once I was like you - strong and confident... " +
-			"And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... " +
-			"It's very important to me... Some monster stole it from my body...";
+			"你好，冒险者……我曾和你一样——强壮而自信……" +
+			"现在我死了……但我无法离开这里……除非我找回我的 _干枯玫瑰_……" +
+			"它对我很重要……有怪物从我身上偷走了它……";
 		
 		private static final String TXT_ROSE2	=
-			"Please... Help me... _Find the rose_...";
+			"求求你……帮帮我……_找到那朵玫瑰_……";
 		
 		private static final String TXT_ROSE3	= 
-			"Yes! Yes!!! This is it! Please give it to me! " +
-			"And you can take one of these items, maybe they " +
-			"will be useful to you in your journey...";
+			"对！就是它！请把它给我！" +
+			"你可以从这些物品中选一件，也许它们" +
+			"会在你的旅途中派上用场……";
 
 		public void interact( Ghost ghost ) {
 			if (Quest.given) {
@@ -388,17 +388,17 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler ratQuest = new QuestHandler() {
 		private static final String TXT_RAT1	=
-			"Hello adventurer... Once I was like you - strong and confident... " +
-			"And now I'm dead... But I can't leave this place... Not until I have my revenge... " +
-			"Slay the _fetid rat_, that has taken my life...";
+			"你好，冒险者……我曾和你一样——强壮而自信……" +
+			"现在我死了……但我无法离开这里……除非我能复仇……" +
+			"杀死那只夺走我生命的 _恶臭巨鼠_……";
 			
 		private static final String TXT_RAT2	=
-			"Please... Help me... _Slay the abomination_...";
+			"求求你……帮帮我……_杀死那个怪物_……";
 		
 		private static final String TXT_RAT3	= 
-			"Yes! The ugly creature is slain and I can finally rest... " +
-			"Please take one of these items, maybe they " +
-			"will be useful to you in your journey...";
+			"太好了！那丑陋的怪物已被杀死，我终于可以安息了……" +
+			"请从这些物品中选一件，也许它们" +
+			"会在你的旅途中派上用场……";
 		
 		public void interact( Ghost ghost ) {
 			if (Quest.given) {
@@ -422,16 +422,16 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler curseQuest = new QuestHandler() {
 		private static final String TXT_CURSE1 =
-			"Hello adventurer... Once I was like you - strong and confident... " +
-			"And now I'm dead... But I can't leave this place, as I am bound by a horrid curse... " +
-			"Please... Help me... _Destroy the curse_...";
+			"你好，冒险者……我曾和你一样——强壮而自信……" +
+			"现在我死了……但我无法离开这里，因为我被可怕的诅咒束缚……" +
+			"求求你……帮帮我……_破除诅咒_……";
 		private static final String TXT_CURSE2 =
-			"Thank you, %s! The curse is broken and I can finally rest... " +
-			"Please take one of these items, maybe they " +
-			"will be useful to you in your journey...";
+			"谢谢你，%s！诅咒已被破除，我终于可以安息了……" +
+			"请从这些物品中选一件，也许它们" +
+			"会在你的旅途中派上用场……";
 		
-		private static final String TXT_YES	= "Yes, I will do it for you";
-		private static final String TXT_NO	= "No, I can't help you";
+		private static final String TXT_YES	= "好，我愿意帮你";
+		private static final String TXT_NO	= "不，我帮不了你";
 		
 		public void interact( final Ghost ghost ) {
 			if (Quest.given) {

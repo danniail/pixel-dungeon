@@ -35,13 +35,13 @@ import com.watabou.utils.PathFinder;
 
 public class PotionOfPurity extends Potion {
 
-	private static final String TXT_FRESHNESS	= "You feel uncommon freshness in the air.";
-	private static final String TXT_NO_SMELL	= "You've stopped sensing any smells!";
+	private static final String TXT_FRESHNESS	= "你感到空气中异常清新。";
+	private static final String TXT_NO_SMELL	= "你闻不到任何气味了！";
 	
 	private static final int DISTANCE	= 2;
 	
 	{
-		name = "Potion of Purification";
+		name = "净化药水";
 	}
 	
 	@Override
@@ -118,9 +118,7 @@ public class PotionOfPurity extends Potion {
 	
 	@Override
 	public String desc() {
-		return 
-			"This reagent will quickly neutralize all harmful gases in the area of effect. " +
-			"Drinking it will give you a temporary immunity to such gases.";
+		return "这种试剂能迅速中和效果区域内的所有有害气体。喝下它可让你暂时免疫这些气体。";
 	}
 	
 	@Override

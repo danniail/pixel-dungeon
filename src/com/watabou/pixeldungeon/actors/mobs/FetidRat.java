@@ -32,7 +32,7 @@ import com.watabou.utils.Random;
 public class FetidRat extends Mob {
 
 	{
-		name = "fetid rat";
+		name = "恶臭巨鼠";
 		spriteClass = FetidRatSprite.class;
 		
 		HP = HT = 15;
@@ -61,7 +61,7 @@ public class FetidRat extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	@Override
@@ -81,8 +81,7 @@ public class FetidRat extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.";
+		return "这只有袋巨鼠比普通巨鼠大得多，周身笼罩着恶臭的云雾。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

@@ -49,7 +49,7 @@ public class Terror extends FlavourBuff {
 	
 	@Override
 	public String toString() {
-		return "Terror";
+		return "恐惧";
 	}
 	
 	public static void recover( Char target ) {

@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfMindVision extends Potion {
 
 	{
-		name = "Potion of Mind Vision";
+		name = "心灵视界药水";
 	}
 	
 	@Override
@@ -36,18 +36,15 @@ public class PotionOfMindVision extends Potion {
 		Dungeon.observe();
 		
 		if (Dungeon.level.mobs.size() > 0) {
-			GLog.i( "You can somehow feel the presence of other creatures' minds!" );
+			GLog.i( "你隐约能感到其他生物的心灵存在！" );
 		} else {
-			GLog.i( "You can somehow tell that you are alone on this level at the moment." );
+			GLog.i( "你隐约感到此刻本层只有你一个人。" );
 		}
 	}
 	
 	@Override
 	public String desc() {
-		return
-			"After drinking this, your mind will become attuned to the psychic signature " +
-			"of distant creatures, enabling you to sense biological presences through walls. " +
-			"Also this potion will permit you to see through nearby walls and doors.";
+		return "喝下后，你的心灵会与远处生物的灵能印记共鸣，让你隔墙感知生物的存在。这药水还能让你看穿附近的墙壁和门。";
 	}
 	
 	@Override

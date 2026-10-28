@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 public class RingOfElements extends Ring {
 
 	{
-		name = "Ring of Elements";
+		name = "元素之戒";
 	}
 	
 	@Override
@@ -42,8 +42,8 @@ public class RingOfElements extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"This ring provides resistance to different elements, such as fire, " +
-			"electricity, gases etc. Also it decreases duration of negative effects." :
+			"这枚戒指提供对不同元素的抗性，如火、电、气体等。" +
+			"它还能缩短负面效果的持续时间。" :
 			super.desc();
 	}
 

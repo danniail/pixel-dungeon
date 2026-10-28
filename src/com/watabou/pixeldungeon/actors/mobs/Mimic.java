@@ -44,7 +44,7 @@ public class Mimic extends Mob {
 	private int level;
 	
 	{
-		name = "mimic";
+		name = "拟形怪";
 		spriteClass = MimicSprite.class;
 	}
 	
@@ -64,7 +64,7 @@ public class Mimic extends Mob {
 	@Override
 	public void restoreFromBundle( Bundle bundle ) {
 		super.restoreFromBundle( bundle );
-		items = new ArrayList<Item>( (Collection<? extends Item>) bundle.getCollection( ITEMS ) ); 
+		items = new ArrayList<Item>( (Collection<? extends Item>)(Collection<?>) bundle.getCollection( ITEMS ) );
 		adjustStats( bundle.getInt( LEVEL ) );
 	}
 	
@@ -120,9 +120,7 @@ public class Mimic extends Mob {
 
 	@Override
 	public String description() {
-		return
-			"Mimics are magical creatures which can take any shape they wish. In dungeons they almost always " +
-			"choose a shape of a treasure chest, because they know how to beckon an adventurer.";
+		return "拟形怪是能随心所欲变化形态的魔法生物。在地牢中它们几乎总是选择宝箱的形状，因为它们知道如何引诱冒险者。";
 	}
 	
 	public static Mimic spawnAt( int pos, List<Item> items ) {

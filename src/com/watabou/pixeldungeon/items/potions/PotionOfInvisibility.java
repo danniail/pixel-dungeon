@@ -31,23 +31,20 @@ public class PotionOfInvisibility extends Potion {
 	private static final float ALPHA	= 0.4f;
 	
 	{
-		name = "Potion of Invisibility";
+		name = "隐形药水";
 	}
 	
 	@Override
 	protected void apply( Hero hero ) {
 		setKnown();
 		Buff.affect( hero, Invisibility.class, Invisibility.DURATION );
-		GLog.i( "You see your hands turn invisible!" );
+		GLog.i( "你看见自己的手变隐形了！" );
 		Sample.INSTANCE.play( Assets.SND_MELD );
 	}
 	
 	@Override
 	public String desc() {
-		return
-			"Drinking this potion will render you temporarily invisible. While invisible, " +
-			"enemies will be unable to see you. Attacking an enemy, as well as using a wand or a scroll " +
-			"before enemy's eyes, will dispel the effect.";
+		return "喝下药水会让你暂时隐形。隐形时敌人无法看见你。攻击敌人，或在敌人眼前使用法杖或卷轴，都会解除效果。";
 	}
 	
 	@Override

@@ -91,7 +91,7 @@ public abstract class Level implements Bundlable {
 	
 	protected static final float TIME_TO_RESPAWN	= 50;
 	
-	private static final String TXT_HIDDEN_PLATE_CLICKS = "A hidden pressure plate clicks!";
+	private static final String TXT_HIDDEN_PLATE_CLICKS = "一块隐藏的压力板咔哒作响！";
 	
 	public static boolean resizingNeeded;
 	public static int loadedMapSize;
@@ -896,7 +896,7 @@ public abstract class Level implements Bundlable {
 		
 		switch (tile) {
 		case Terrain.CHASM:
-			return "Chasm";
+			return "深渊";
 		case Terrain.EMPTY:
 		case Terrain.EMPTY_SP:
 		case Terrain.EMPTY_DECO:
@@ -906,68 +906,68 @@ public abstract class Level implements Bundlable {
 		case Terrain.SECRET_POISON_TRAP:
 		case Terrain.SECRET_ALARM_TRAP:
 		case Terrain.SECRET_LIGHTNING_TRAP:
-			return "Floor";
+			return "地板";
 		case Terrain.GRASS:
-			return "Grass";
+			return "草地";
 		case Terrain.WATER:
-			return "Water";
+			return "水";
 		case Terrain.WALL:
 		case Terrain.WALL_DECO:
 		case Terrain.SECRET_DOOR:
-			return "Wall";
+			return "墙壁";
 		case Terrain.DOOR:
-			return "Closed door";
+			return "关闭的门";
 		case Terrain.OPEN_DOOR:
-			return "Open door";
+			return "敞开的门";
 		case Terrain.ENTRANCE:
-			return "Depth entrance";
+			return "本层入口";
 		case Terrain.EXIT:
-			return "Depth exit";
+			return "本层出口";
 		case Terrain.EMBERS:
-			return "Embers";
+			return "余烬";
 		case Terrain.LOCKED_DOOR:
-			return "Locked door";
+			return "上锁的门";
 		case Terrain.PEDESTAL:
-			return "Pedestal";
+			return "基座";
 		case Terrain.BARRICADE:
-			return "Barricade";
+			return "栅栏";
 		case Terrain.HIGH_GRASS:
-			return "High grass";
+			return "高草";
 		case Terrain.LOCKED_EXIT:
-			return "Locked depth exit";
+			return "上锁的本层出口";
 		case Terrain.UNLOCKED_EXIT:
-			return "Unlocked depth exit";
+			return "未锁的本层出口";
 		case Terrain.SIGN:
-			return "Sign";
+			return "告示牌";
 		case Terrain.WELL:
-			return "Well";
+			return "井";
 		case Terrain.EMPTY_WELL:
-			return "Empty well";
+			return "空井";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "Statue";
+			return "雕像";
 		case Terrain.TOXIC_TRAP:
-			return "Toxic gas trap";
+			return "毒气陷阱";
 		case Terrain.FIRE_TRAP:
-			return "Fire trap";
+			return "火焰陷阱";
 		case Terrain.PARALYTIC_TRAP:
-			return "Paralytic gas trap";
+			return "麻痹气体陷阱";
 		case Terrain.POISON_TRAP:
-			return "Poison dart trap";
+			return "毒镖陷阱";
 		case Terrain.ALARM_TRAP:
-			return "Alarm trap";
+			return "警报陷阱";
 		case Terrain.LIGHTNING_TRAP:
-			return "Lightning trap";
+			return "闪电陷阱";
 		case Terrain.GRIPPING_TRAP:
-			return "Gripping trap";
+			return "夹持陷阱";
 		case Terrain.SUMMONING_TRAP:
-			return "Summoning trap";
+			return "召唤陷阱";
 		case Terrain.INACTIVE_TRAP:
-			return "Triggered trap";
+			return "已触发的陷阱";
 		case Terrain.BOOKSHELF:
-			return "Bookshelf";
+			return "书架";
 		case Terrain.ALCHEMY:
-			return "Alchemy pot";
+			return "炼金釜";
 		default:
 			return "???";
 		}
@@ -977,26 +977,26 @@ public abstract class Level implements Bundlable {
 		
 		switch (tile) {
 		case Terrain.CHASM:
-			return "You can't see the bottom.";
+			return "你看不见底。";
 		case Terrain.WATER:
-			return "In case of burning step into the water to extinguish the fire.";
+			return "如果着火，踏进水里灭火。";
 		case Terrain.ENTRANCE:
-			return "Stairs lead up to the upper depth.";
+			return "楼梯通向上一层。";
 		case Terrain.EXIT:
 		case Terrain.UNLOCKED_EXIT:
-			return "Stairs lead down to the lower depth.";
+			return "楼梯通向下一层。";
 		case Terrain.EMBERS:
-			return "Embers cover the floor.";
+			return "余烬铺满地面。";
 		case Terrain.HIGH_GRASS:
-			return "Dense vegetation blocks the view.";
+			return "茂密的植被挡住了视线。";
 		case Terrain.LOCKED_DOOR:
-			return "This door is locked, you need a matching key to unlock it.";
+			return "这扇门锁着，你需要匹配的钥匙才能打开。";
 		case Terrain.LOCKED_EXIT:
-			return "Heavy bars block the stairs leading down.";
+			return "沉重的铁栏挡住了向下的楼梯。";
 		case Terrain.BARRICADE:
-			return "The wooden barricade is firmly set but has dried over the years. Might it burn?";
+			return "木栅栏很牢固，但岁月已让它干枯。它会燃烧吗？";
 		case Terrain.SIGN:
-			return "You can't read the text from here.";
+			return "你从这里看不清文字。";
 		case Terrain.TOXIC_TRAP:
 		case Terrain.FIRE_TRAP:
 		case Terrain.PARALYTIC_TRAP:
@@ -1005,16 +1005,16 @@ public abstract class Level implements Bundlable {
 		case Terrain.LIGHTNING_TRAP:
 		case Terrain.GRIPPING_TRAP:
 		case Terrain.SUMMONING_TRAP:
-			return "Stepping onto a hidden pressure plate will activate the trap.";
+			return "踩到隐藏的压力板会触发陷阱。";
 		case Terrain.INACTIVE_TRAP:
-			return "The trap has been triggered before and it's not dangerous anymore.";
+			return "这个陷阱之前已被触发，不再危险。";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "Someone wanted to adorn this place, but failed, obviously.";
+			return "有人想装饰这个地方，但显然失败了。";
 		case Terrain.ALCHEMY:
-			return "Drop some seeds here to cook a potion.";
+			return "把种子扔到这里，酿造药水。";
 		case Terrain.EMPTY_WELL:
-			return "The well has run dry.";
+			return "井已经干涸。";
 		default:
 			if (tile >= Terrain.WATER_TILES) {
 				return tileDesc( Terrain.WATER );

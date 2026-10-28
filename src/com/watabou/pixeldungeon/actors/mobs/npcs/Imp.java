@@ -41,35 +41,35 @@ import com.watabou.utils.Random;
 public class Imp extends NPC {
 
 	{
-		name = "ambitious imp";
+		name = "野心小恶魔";
 		spriteClass = ImpSprite.class;
 	}
 	
 	private static final String TXT_GOLEMS1	=
-		"Are you an adventurer? I love adventurers! You can always rely on them " +
-		"if something needs to be killed. Am I right? For a bounty, of course ;)\n" +
-		"In my case this is _golems_ who need to be killed. You see, I'm going to start a " +
-		"little business here, but these stupid golems are bad for business! " +
-		"It's very hard to negotiate with wandering lumps of granite, damn them! " +
-		"So please, kill... let's say _6 of them_ and a reward is yours.";
+		"你是冒险者吗？我喜欢冒险者！你总能指望他们" +
+		"去杀掉该杀的东西。对吧？当然是为了赏金;)\n" +
+		"我这边呢，需要杀掉的是 _石魔像_。你看，我打算在这儿" +
+		"做点小生意，但这些蠢石魔像对生意没好处！" +
+		"跟游荡的花岗岩块可没法谈判，该死的！" +
+		"所以拜托，杀掉……就 _6个_ 吧，赏金就是你的。";
 	
 	private static final String TXT_MONKS1	=
-		"Are you an adventurer? I love adventurers! You can always rely on them " +
-		"if something needs to be killed. Am I right? For a bounty, of course ;)\n" +
-		"In my case this is _monks_ who need to be killed. You see, I'm going to start a " +
-		"little business here, but these lunatics don't buy anything themselves and " +
-		"will scare away other customers. " +
-		"So please, kill... let's say _8 of them_ and a reward is yours.";
+		"你是冒险者吗？我喜欢冒险者！你总能指望他们" +
+		"去杀掉该杀的东西。对吧？当然是为了赏金;)\n" +
+		"我这边呢，需要杀掉的是 _武僧_。你看，我打算在这儿" +
+		"做点小生意，但这些疯子自己什么都不买，还" +
+		"会吓跑其他顾客。" +
+		"所以拜托，杀掉……就 _8个_ 吧，赏金就是你的。";
 	
 	private static final String TXT_GOLEMS2	=
-		"How is your golem safari going?";	
+		"你的石魔像狩猎进展如何？";	
 	
 	private static final String TXT_MONKS2	=
-		"Oh, you are still alive! I knew that your kung-fu is stronger ;) " +
-		"Just don't forget to grab these monks' tokens.";	
+		"哦，你还活着！我就知道你功夫更厉害;) " +
+		"别忘了拿这些武僧的信物。";	
 	
-	private static final String TXT_CYA	= "See you, %s!";
-	private static final String TXT_HEY	= "Psst, %s!";
+	private static final String TXT_CYA	= "再见，%s！";
+	private static final String TXT_HEY	= "嘘，%s！";
 	
 	private boolean seenBefore = false;
 	
@@ -97,7 +97,7 @@ public class Imp extends NPC {
 	
 	@Override
 	public String defenseVerb() {
-		return "evaded";
+		return "闪避";
 	}
 	
 	@Override
@@ -151,8 +151,8 @@ public class Imp extends NPC {
 	@Override
 	public String description() {
 		return 
-			"Imps are lesser demons. They are notable for neither their strength nor their magic talent, " +
-			"but they are quite smart and sociable. Many imps prefer to live among non-demons.";
+			"小恶魔是低等恶魔。它们既不以力量著称，也不以魔法天赋闻名，" +
+			"但相当聪明、善于交际。许多小恶魔喜欢生活在非恶魔之中。";
 	}
 	
 	public static class Quest {

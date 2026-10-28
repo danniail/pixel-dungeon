@@ -38,7 +38,7 @@ import com.watabou.utils.Bundle;
 
 public enum HeroClass {
 
-	WARRIOR( "warrior" ), MAGE( "mage" ), ROGUE( "rogue" ), HUNTRESS( "huntress" );
+	WARRIOR( "战士" ), MAGE( "法师" ), ROGUE( "盗贼" ), HUNTRESS( "女猎手" );
 	
 	private String title;
 	
@@ -47,36 +47,36 @@ public enum HeroClass {
 	}
 	
 	public static final String[] WAR_PERKS = {
-		"Warriors start with 11 points of Strength.",
-		"Warriors start with a unique short sword. This sword can be later \"reforged\" to upgrade another melee weapon.",
-		"Warriors are less proficient with missile weapons.",
-		"Any piece of food restores some health when eaten.",
-		"Potions of Strength are identified from the beginning.",
+		"战士初始拥有11点力量。",
+		"战士初始拥有一把独特的短剑，之后可以将其“重铸”来升级另一把近战武器。",
+		"战士对投掷武器的熟练度较低。",
+		"吃下任何食物都能恢复一些生命值。",
+		"力量药水从一开始就已被鉴定。",
 	};
-	
+
 	public static final String[] MAG_PERKS = {
-		"Mages start with a unique Wand of Magic Missile. This wand can be later \"disenchanted\" to upgrade another wand.",
-		"Mages recharge their wands faster.",
-		"When eaten, any piece of food restores 1 charge for all wands in the inventory.",
-		"Mages can use wands as a melee weapon.",
-		"Scrolls of Identify are identified from the beginning."
+		"法师初始拥有一把独特的魔法飞弹法杖，之后可以将其“分解”来升级另一根法杖。",
+		"法师为法杖充能的速度更快。",
+		"吃下任何食物，都能为背包中所有法杖恢复1点充能。",
+		"法师可以把法杖当作近战武器使用。",
+		"鉴定卷轴从一开始就已被鉴定。"
 	};
-	
+
 	public static final String[] ROG_PERKS = {
-		"Rogues start with a Ring of Shadows+1.",
-		"Rogues identify a type of a ring on equipping it.",
-		"Rogues are proficient with light armor, dodging better while wearing one.",
-		"Rogues are proficient in detecting hidden doors and traps.",
-		"Rogues can go without food longer.",
-		"Scrolls of Magic Mapping are identified from the beginning."
+		"盗贼初始拥有一枚+1的暗影之戒。",
+		"盗贼在装备戒指时即可鉴定其类型。",
+		"盗贼擅长轻甲，穿着轻甲时闪避更高。",
+		"盗贼擅长发现隐藏的门和陷阱。",
+		"盗贼可以更长时间不进食。",
+		"魔法地图卷轴从一开始就已被鉴定。"
 	};
-	
+
 	public static final String[] HUN_PERKS = {
-		"Huntresses start with 15 points of Health.",
-		"Huntresses start with a unique upgradeable boomerang.",
-		"Huntresses are proficient with missile weapons and get a damage bonus for excessive strength when using them.",
-		"Huntresses gain more health from dewdrops.",
-		"Huntresses sense neighbouring monsters even if they are hidden behind obstacles."
+		"女猎手初始拥有15点生命值。",
+		"女猎手初始拥有一把独特的、可升级的回旋镖。",
+		"女猎手擅长投掷武器，力量富余时使用投掷武器可获得伤害加成。",
+		"女猎手从露珠中获得更多生命值。",
+		"即使相邻怪物躲在障碍物后，女猎手也能感知到它们。"
 	};
 	
 	public void initHero( Hero hero ) {

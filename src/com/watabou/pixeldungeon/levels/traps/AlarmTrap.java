@@ -39,7 +39,7 @@ public class AlarmTrap {
 		}
 		
 		if (Dungeon.visible[pos]) {
-			GLog.w( "The trap emits a piercing sound that echoes throughout the dungeon!" );
+			GLog.w( "陷阱发出刺耳的声音，响彻整个地牢！" );
 			CellEmitter.center( pos ).start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );
 		}
 		

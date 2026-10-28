@@ -94,9 +94,9 @@ public class Plant implements Bundlable {
 	
 	public static class Seed extends Item {
 		
-		public static final String AC_PLANT	= "PLANT";
-		
-		private static final String TXT_INFO = "Throw this seed to the place where you want to grow %s.\n\n%s";
+		public static final String AC_PLANT	= "种植";
+
+		private static final String TXT_INFO = "把这颗种子扔到你想种出%s的地方。\n\n%s";
 		
 		private static final float TIME_TO_PLANT = 1f;
 		

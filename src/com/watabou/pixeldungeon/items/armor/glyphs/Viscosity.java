@@ -35,7 +35,7 @@ import com.watabou.utils.Random;
 
 public class Viscosity extends Glyph {
 
-	private static final String TXT_VISCOSITY	= "%s of viscosity";
+	private static final String TXT_VISCOSITY	= "黏滞%s";
 	
 	private static ItemSprite.Glowing PURPLE = new ItemSprite.Glowing( 0x8844CC );
 	
@@ -57,7 +57,7 @@ public class Viscosity extends Glyph {
 			}
 			debuff.prolong( damage );
 			
-			defender.sprite.showStatus( CharSprite.WARNING, "deferred %d", damage );
+			defender.sprite.showStatus( CharSprite.WARNING, "延迟%d", damage );
 			
 			return 0;
 			
@@ -116,7 +116,7 @@ public class Viscosity extends Glyph {
 		
 		@Override
 		public String toString() {
-			return Utils.format( "Defered damage (%d)", damage );
+			return Utils.format( "延迟伤害（%d）", damage );
 		}
 		
 		@Override
@@ -126,8 +126,8 @@ public class Viscosity extends Glyph {
 				target.damage( 1, this );
 				if (target == Dungeon.hero && !target.isAlive()) {
 					// FIXME
-					Dungeon.fail( Utils.format( ResultDescriptions.GLYPH, "enchantment of viscosity", Dungeon.depth ) );
-					GLog.n( "The enchantment of viscosity killed you..." );
+					Dungeon.fail( Utils.format( ResultDescriptions.GLYPH, "黏滞附魔", Dungeon.depth ) );
+					GLog.n( "黏滞附魔杀死了你……" );
 					
 					Badges.validateDeathFromGlyph();
 				}

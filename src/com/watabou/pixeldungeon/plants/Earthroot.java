@@ -31,12 +31,12 @@ import com.watabou.utils.Bundle;
 public class Earthroot extends Plant {
 
 	private static final String TXT_DESC = 
-		"When a creature touches an Earthroot, its roots " +
-		"create a kind of natural armor around it.";
+		"当生物触碰地根草时，它的根须" +
+		"会在生物周围形成一层天然护甲。";
 	
 	{
 		image = 5;
-		plantName = "Earthroot";
+		plantName = "地根草";
 	}
 	
 	@Override
@@ -60,9 +60,9 @@ public class Earthroot extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Earthroot";
+			plantName = "地根草";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_EARTHROOT;
 			
 			plantClass = Earthroot.class;
@@ -120,7 +120,7 @@ public class Earthroot extends Plant {
 		
 		@Override
 		public String toString() {
-			return "Herbal armor";
+			return "草药护甲";
 		}
 		
 		private static final String POS		= "pos";

@@ -31,10 +31,10 @@ import com.watabou.utils.Random;
 
 public class Brute extends Mob {
 
-	private static final String TXT_ENRAGED = "%s becomes enraged!";
+	private static final String TXT_ENRAGED = "%s 狂暴了！";
 	
 	{
-		name = "gnoll brute";
+		name = "豺狼蛮兵";
 		spriteClass = BruteSprite.class;
 		
 		HP = HT = 40;
@@ -88,9 +88,7 @@ public class Brute extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, " +
-			"they go berserk, inflicting even more damage to their enemies.";
+		return "蛮兵是豺狼中体型最大、最强壮、最坚韧的。受重伤时它们会陷入狂暴，对敌人造成更多伤害。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

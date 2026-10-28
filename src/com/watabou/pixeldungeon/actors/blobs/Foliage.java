@@ -81,6 +81,6 @@ public class Foliage extends Blob {
 	
 	@Override
 	public String tileDesc() {
-		return "Shafts of light pierce the gloom of the underground garden.";
+		return "道道光线穿透地下花园的幽暗。";
 	}
 }

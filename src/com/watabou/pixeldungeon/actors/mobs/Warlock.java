@@ -39,10 +39,10 @@ public class Warlock extends Mob implements Callback {
 	
 	private static final float TIME_TO_ZAP	= 1f;
 	
-	private static final String TXT_SHADOWBOLT_KILLED = "%s's shadow bolt killed you...";
+	private static final String TXT_SHADOWBOLT_KILLED = "%s 的暗影飞弹杀死了你……";
 	
 	{
-		name = "dwarf warlock";
+		name = "矮人术士";
 		spriteClass = WarlockSprite.class;
 		
 		HP = HT = 70;
@@ -127,10 +127,7 @@ public class Warlock extends Mob implements Callback {
 	
 	@Override
 	public String description() {
-		return
-			"When dwarves' interests have shifted from engineering to arcane arts, " +
-			"warlocks have come to power in the city. They started with elemental magic, " +
-			"but soon switched to demonology and necromancy.";
+		return "当矮人的兴趣从工程转向奥术，术士开始在城市掌权。他们从元素魔法起步，但很快转向恶魔学和死灵术。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

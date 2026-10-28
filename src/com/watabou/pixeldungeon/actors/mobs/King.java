@@ -52,7 +52,7 @@ public class King extends Mob {
 	private static final int MAX_ARMY_SIZE	= 5;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "King of Dwarves" : "undead King of Dwarves";
+		name = Dungeon.depth == Statistics.deepestFloor ? "矮人国王" : "亡灵矮人国王";
 		spriteClass = KingSprite.class;
 		
 		HP = HT = 300;
@@ -95,7 +95,7 @@ public class King extends Mob {
 	
 	@Override
 	public String defenseVerb() {
-		return "parried";
+		return "格挡";
 	}
 	
 	@Override
@@ -144,7 +144,7 @@ public class King extends Mob {
 		
 		Badges.validateBossSlain();
 		
-		yell( "You cannot kill me, " + Dungeon.hero.heroClass.title() + "... I am... immortal..." );
+		yell( "你杀不死我，" + Dungeon.hero.heroClass.title() + "……我是……不朽的……" );
 	}
 	
 	private int maxArmySize() {
@@ -192,22 +192,18 @@ public class King extends Mob {
 			} while (dist < undeadsToSummon);
 		}
 		
-		yell( "Arise, slaves!" );
+		yell( "起来吧，奴隶们！" );
 	}
 	
 	@Override
 	public void notice() {
 		super.notice();
-		yell( "How dare you!" );
+		yell( "你好大的胆子！" );
 	}
 	
 	@Override
 	public String description() {
-		return
-			"The last king of dwarves was known for his deep understanding of processes of life and death. " +
-			"He has persuaded members of his court to participate in a ritual, that should have granted them " +
-			"eternal youthfulness. In the end he was the only one, who got it - and an army of undead " +
-			"as a bonus.";
+		return "矮人的末代国王深谙生死之道。他说服宫廷成员参加一个本应赐予他们永恒青春的仪式。最终只有他得到了永生——还附赠了一支亡灵大军。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();
@@ -239,7 +235,7 @@ public class King extends Mob {
 		public static int count = 0;
 		
 		{
-			name = "undead dwarf";
+			name = "亡灵矮人";
 			spriteClass = UndeadSprite.class;
 			
 			HP = HT = 28;
@@ -311,8 +307,8 @@ public class King extends Mob {
 		@Override
 		public String description() {
 			return
-				"These undead dwarves, risen by the will of the King of Dwarves, were members of his court. " +
-				"They appear as skeletons with a stunning amount of facial hair.";
+				"这些亡灵矮人受矮人国王的意志复活，曾是他的宫廷成员。" +
+				"它们看起来是骷髅，却有着惊人的浓密胡须。";
 		}
 		
 		private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

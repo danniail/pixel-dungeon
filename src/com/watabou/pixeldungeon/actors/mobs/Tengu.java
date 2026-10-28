@@ -49,7 +49,7 @@ public class Tengu extends Mob {
 	private static final int JUMP_DELAY = 5;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "Tengu" : "memory of Tengu";
+		name = Dungeon.depth == Statistics.deepestFloor ? "天狗" : "天狗之影";
 		spriteClass = TenguSprite.class;
 		
 		HP = HT = 120;
@@ -102,7 +102,7 @@ public class Tengu extends Mob {
 		
 		Badges.validateBossSlain();
 		
-		yell( "Free at last..." );
+		yell( "终于自由了……" );
 	}
 	
 	@Override
@@ -170,14 +170,12 @@ public class Tengu extends Mob {
 	@Override
 	public void notice() {
 		super.notice();
-		yell( "Gotcha, " + Dungeon.hero.heroClass.title() + "!" );
+		yell( "抓到你了，" + Dungeon.hero.heroClass.title() + "!" );
 	}
 	
 	@Override
 	public String description() {
-		return
-			"Tengu are members of the ancient assassins clan, which is also called Tengu. " +
-			"These assassins are noted for extensive use of shuriken and traps.";
+		return "天狗是古老刺客一族的成员，该族也叫天狗。这些刺客以大量使用手里剑和陷阱著称。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

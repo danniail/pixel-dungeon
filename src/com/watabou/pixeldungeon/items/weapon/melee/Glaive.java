@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Glaive extends MeleeWeapon {
 
 	{
-		name = "glaive";
+		name = "关刀";
 		image = ItemSpriteSheet.GLAIVE;
 	}
 	
@@ -32,6 +32,6 @@ public class Glaive extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "A polearm consisting of a sword blade on the end of a pole.";
+		return "在长杆末端装上剑刃的长柄武器。";
 	}
 }

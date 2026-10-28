@@ -20,11 +20,11 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class Rotberry extends Plant {
 	
 	private static final String TXT_DESC = 
-		"Berries of this shrub taste like sweet, sweet death.";
+		"这种灌木的浆果尝起来像甜蜜的死亡。";
 	
 	{
 		image = 7;
-		plantName = "Rotberry";
+		plantName = "腐莓";
 	}
 	
 	@Override
@@ -47,9 +47,9 @@ public class Rotberry extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Rotberry";
+			plantName = "腐莓";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_ROTBERRY;
 			
 			plantClass = Rotberry.class;
@@ -65,7 +65,7 @@ public class Rotberry extends Plant {
 						mob.beckon( Dungeon.hero.pos );
 					}
 					
-					GLog.w( "The seed emits a roar that echoes throughout the dungeon!" );
+					GLog.w( "种子发出一声怒吼，响彻整个地牢！" );
 					CellEmitter.center( Dungeon.hero.pos ).start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );
 					Sample.INSTANCE.play( Assets.SND_CHALLENGE );
 				}

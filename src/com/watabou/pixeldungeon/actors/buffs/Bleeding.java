@@ -57,7 +57,7 @@ public class Bleeding extends Buff {
 	
 	@Override
 	public String toString() {
-		return "Bleeding";
+		return "流血";
 	}
 	
 	@Override
@@ -74,7 +74,7 @@ public class Bleeding extends Buff {
 				
 				if (target == Dungeon.hero && !target.isAlive()) {
 					Dungeon.fail( Utils.format( ResultDescriptions.BLEEDING, Dungeon.depth ) );
-					GLog.n( "You bled to death..." );
+					GLog.n( "你流血而死……" );
 				}
 				
 				spend( TICK );

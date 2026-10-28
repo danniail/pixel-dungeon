@@ -28,13 +28,13 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfTeleportation extends Scroll {
 
 	public static final String TXT_TELEPORTED = 
-		"In a blink of an eye you were teleported to another location of the level.";
+		"眨眼之间，你被传送到本层的另一处。";
 	
 	public static final String TXT_NO_TELEPORT = 
-		"Strong magic aura of this place prevents you from teleporting!";
+		"这里强大的魔法气场让你无法传送！";
 	
 	{
-		name = "Scroll of Teleportation";
+		name = "传送卷轴";
 	}
 	
 	@Override
@@ -77,11 +77,7 @@ public class ScrollOfTeleportation extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"The spell on this parchment instantly transports the reader " +
-			"to a random location on the dungeon level. It can be used " +
-			"to escape a dangerous situation, but the unlucky reader might " +
-			"find himself in an even more dangerous place.";
+		return "羊皮纸上的法术会立即把读者传送到本层的随机位置。可用来逃离险境，但倒霉的读者可能落到更危险的地方。";
 	}
 	
 	@Override

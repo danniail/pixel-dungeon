@@ -40,7 +40,7 @@ import com.watabou.utils.Random;
 public class WandOfFirebolt extends Wand {
 
 	{
-		name = "Wand of Firebolt";
+		name = "火焰法杖";
 	}
 	
 	@Override
@@ -67,7 +67,7 @@ public class WandOfFirebolt extends Wand {
 			
 			if (ch == curUser && !ch.isAlive()) {
 				Dungeon.fail( Utils.format( ResultDescriptions.WAND, name, Dungeon.depth ) );
-				GLog.n( "You killed yourself with your own Wand of Firebolt..." );
+				GLog.n( "你用自己的火焰法杖把自己烧死了……" );
 			}
 		}
 	}
@@ -79,8 +79,6 @@ public class WandOfFirebolt extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"This wand unleashes bursts of magical fire. It will ignite " +
-			"flammable terrain, and will damage and burn a creature it hits.";
+		return "法杖释放魔法火焰，会点燃可燃地面，伤害并点燃命中的生物。";
 	}
 }

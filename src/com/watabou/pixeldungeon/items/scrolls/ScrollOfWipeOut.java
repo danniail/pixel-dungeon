@@ -40,14 +40,14 @@ import com.watabou.utils.Random;
 
 public class ScrollOfWipeOut extends Item {
 
-	private static final String TXT_BLINDED	= "You can't read a scroll while blinded";
+	private static final String TXT_BLINDED	= "你不能在失明时阅读卷轴";
 	
-	public static final String AC_READ	= "READ";
+	public static final String AC_READ	= "阅读";
 	
 	protected static final float TIME_TO_READ	= 1f;
 	
 	{
-		name = "Scroll of Wipe Out";
+		name = "湮灭卷轴";
 		image = ItemSpriteSheet.SCROLL_WIPE_OUT;
 		
 		stackable = true;		
@@ -126,9 +126,7 @@ public class ScrollOfWipeOut extends Item {
 
 	@Override
 	public String desc() {
-		return
-			"Read this scroll to unleash the wrath of the dungeon spirits, killing everything on the current level. " +
-			"Well, almost everything. Some of the more powerful creatures may be not affected.";
+		return "阅读这张卷轴可释放地牢怨灵的怒火，杀死当前层的一切。嗯，几乎是一切，一些更强大的生物可能不受影响。";
 	}
 	
 	@Override

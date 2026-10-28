@@ -28,12 +28,12 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Torch extends Item {
 
-	public static final String AC_LIGHT	= "LIGHT";
+	public static final String AC_LIGHT	= "点燃";
 	
 	public static final float TIME_TO_LIGHT = 1;
 	
 	{
-		name = "torch";
+		name = "火把";
 		image = ItemSpriteSheet.TORCH;
 		
 		stackable = true;
@@ -89,6 +89,6 @@ public class Torch extends Item {
 	@Override
 	public String info() {
 		return
-			"It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting.";
+			"在以昏暗著称的恶魔大厅里，这是不可或缺的物品。";
 	}
 }

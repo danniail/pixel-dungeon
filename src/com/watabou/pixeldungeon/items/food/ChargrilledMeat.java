@@ -23,14 +23,14 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class ChargrilledMeat extends Food {
 
 	{
-		name = "chargrilled meat";
+		name = "烤肉";
 		image = ItemSpriteSheet.STEAK;
 		energy = Hunger.STARVING - Hunger.HUNGRY;
 	}
 	
 	@Override
 	public String info() {
-		return "It looks like a decent steak.";
+		return "看起来像一块不错的牛排。";
 	}
 	
 	@Override

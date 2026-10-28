@@ -43,7 +43,7 @@ public class Succubus extends Mob {
 	private int delay = 0;
 	
 	{
-		name = "succubus";
+		name = "魅魔";
 		spriteClass = SuccubusSprite.class;
 		
 		HP = HT = 80;
@@ -115,9 +115,7 @@ public class Succubus extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus " +
-			"can charm a hero, who will become unable to attack anything until the charm wears off.";
+		return "魅魔是外表（略带哥特风）妖艳的女恶魔。魅魔能用魔法魅惑英雄，让他在魅惑解除前无法攻击任何东西。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

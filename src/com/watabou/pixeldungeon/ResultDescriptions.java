@@ -20,25 +20,25 @@ package com.watabou.pixeldungeon;
 public class ResultDescriptions {
 
 	// Mobs 
-	public static final String MOB	= "Killed by %s on level %d";
-	public static final String BOSS	= "Killed by the %s on level %d";
+	public static final String MOB	= "在第%d层被%s击杀";
+	public static final String BOSS	= "在第%d层被%s击杀";
 	
 	// Items
-	public static final String WAND		= "Killed by your own %s on level %d";
-	public static final String GLYPH	= "Killed by the %s on level %d";
-	public static final String BOMB		= "Killed by an explosion of a bomb on level %d";
+	public static final String WAND		= "在第%d层被自己的%s击杀";
+	public static final String GLYPH	= "在第%d层被%s击杀";
+	public static final String BOMB		= "在第%d层被炸弹爆炸击杀";
 	
 	// Dungeon features
-	public static final String TRAP	= "Killed by discharge of %s on level %d";
+	public static final String TRAP	= "在第%d层被%s的放电击杀";
 	
 	// Debuffs & blobs
-	public static final String BURNING	= "Burned to death on level %d";
-	public static final String HUNGER	= "Starved to death on level %d";
-	public static final String POISON	= "Died from poison on level %d";
-	public static final String GAS		= "Died from toxic gas on level %d";
-	public static final String BLEEDING	= "Bled to death on level %d";
-	public static final String OOZE		= "Killed by a caustic ooze on level %d";
-	public static final String FALL		= "Fell to death on level %d";
+	public static final String BURNING	= "在第%d层被烧死";
+	public static final String HUNGER	= "在第%d层饿死";
+	public static final String POISON	= "在第%d层中毒而死";
+	public static final String GAS		= "在第%d层死于毒气";
+	public static final String BLEEDING	= "在第%d层流血而死";
+	public static final String OOZE		= "在第%d层被腐蚀性软泥击杀";
+	public static final String FALL		= "在第%d层坠落而死";
 	
-	public static final String WIN	= "Obtained the Amulet of Yendor";
+	public static final String WIN	= "获得延多护符";
 }

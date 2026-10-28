@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfMending extends Ring {
 	
 	{
-		name = "Ring of Mending";
+		name = "修复之戒";
 	}
 	
 	@Override
@@ -31,9 +31,8 @@ public class RingOfMending extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"This ring increases the body's regenerative properties, allowing " +
-			"one to recover lost health at an accelerated rate. Degraded rings will " +
-			"decrease or even halt one's natural regeneration." :
+			"这枚戒指增强身体的再生能力，让你以更快速度恢复失去的" +
+			"生命值。损坏的戒指会减缓甚至停止你的自然恢复。" :
 			super.desc();
 	}
 	

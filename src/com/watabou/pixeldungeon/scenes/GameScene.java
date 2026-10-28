@@ -77,14 +77,14 @@ import com.watabou.utils.Random;
 
 public class GameScene extends PixelScene {
 	
-	private static final String TXT_WELCOME			= "Welcome to the level %d of Pixel Dungeon!";
-	private static final String TXT_WELCOME_BACK	= "Welcome back to the level %d of Pixel Dungeon!";
-	private static final String TXT_NIGHT_MODE		= "Be cautious, since the dungeon is even more dangerous at night!";
+	private static final String TXT_WELCOME			= "欢迎来到像素地牢第%d层！";
+	private static final String TXT_WELCOME_BACK	= "欢迎回到像素地牢第%d层！";
+	private static final String TXT_NIGHT_MODE		= "小心，夜晚的地牢更加危险！";
 	
-	private static final String TXT_CHASM	= "Your steps echo across the dungeon.";
-	private static final String TXT_WATER	= "You hear the water splashing around you.";
-	private static final String TXT_GRASS	= "The smell of vegetation is thick in the air.";
-	private static final String TXT_SECRETS	= "The atmosphere hints that this floor hides many secrets.";
+	private static final String TXT_CHASM	= "你的脚步声在地牢中回荡。";
+	private static final String TXT_WATER	= "你听见周围水花飞溅。";
+	private static final String TXT_GRASS	= "空气中弥漫着浓重的草木气息。";
+	private static final String TXT_SECRETS	= "气氛暗示这一层藏着许多秘密。";
 	
 	static GameScene scene;
 	

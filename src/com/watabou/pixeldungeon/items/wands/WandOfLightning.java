@@ -38,7 +38,7 @@ import com.watabou.utils.Random;
 public class WandOfLightning extends Wand {
 
 	{
-		name = "Wand of Lightning";
+		name = "闪电法杖";
 	}
 	
 	private ArrayList<Char> affected = new ArrayList<Char>();
@@ -51,7 +51,7 @@ public class WandOfLightning extends Wand {
 		// Everything is processed in fx() method
 		if (!curUser.isAlive()) {
 			Dungeon.fail( Utils.format( ResultDescriptions.WAND, name, Dungeon.depth ) );
-			GLog.n( "You killed yourself with your own Wand of Lightning..." );
+			GLog.n( "你用自己的闪电法杖把自己电死了……" );
 		}
 	}
 	
@@ -110,8 +110,6 @@ public class WandOfLightning extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"This wand conjures forth deadly arcs of electricity, which deal damage " +
-			"to several creatures standing close to each other.";
+		return "法杖召唤致命的电弧，对站得很近的数个生物造成伤害。";
 	}
 }

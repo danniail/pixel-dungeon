@@ -28,11 +28,11 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class ScrollOfEnchantment extends InventoryScroll {
 
-	private static final String TXT_GLOWS	= "your %s glows in the dark";
+	private static final String TXT_GLOWS	= "你的%s在黑暗中发光";
 	
 	{
-		name = "Scroll of Enchantment";
-		inventoryTitle = "Select an enchantable item";
+		name = "附魔卷轴";
+		inventoryTitle = "选择可附魔的物品";
 		mode = WndBag.Mode.ENCHANTABLE;
 	}
 	
@@ -60,8 +60,6 @@ public class ScrollOfEnchantment extends InventoryScroll {
 	
 	@Override
 	public String desc() {
-		return
-			"This scroll is able to imbue a weapon or an armor " +
-			"with a random enchantment, granting it a special power.";
+		return "这张卷轴能为武器或护甲附上随机的附魔，赋予其特殊能力。";
 	}
 }

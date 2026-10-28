@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ShieldedSprite;
 public class Shielded extends Brute {
 
 	{
-		name = "shielded brute";
+		name = "持盾蛮兵";
 		spriteClass = ShieldedSprite.class;
 		
 		defenseSkill = 20;
@@ -36,7 +36,7 @@ public class Shielded extends Brute {
 	
 	@Override
 	public String defenseVerb() {
-		return "blocked";
+		return "抵挡";
 	}
 	
 	@Override

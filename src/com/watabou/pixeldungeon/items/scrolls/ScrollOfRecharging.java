@@ -28,7 +28,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfRecharging extends Scroll {
 
 	{
-		name = "Scroll of Recharging";
+		name = "充能卷轴";
 	}
 	
 	@Override
@@ -41,10 +41,10 @@ public class ScrollOfRecharging extends Scroll {
 		Invisibility.dispel();
 		
 		if (count > 0) {
-			GLog.i( "a surge of energy courses through your pack, recharging your wand" + (count > 1 ? "s" : "") );
+			GLog.i( "一股能量涌入你的背包，为法杖充能" + (count > 1 ? "s" : "") );
 			SpellSprite.show( curUser, SpellSprite.CHARGE );
 		} else {
-			GLog.i( "a surge of energy courses through your pack, but nothing happens" );
+			GLog.i( "一股能量涌入你的背包，但什么也没发生" );
 		}
 		setKnown();
 		
@@ -53,9 +53,7 @@ public class ScrollOfRecharging extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"The raw magical power bound up in this parchment will, when released, " +
-			"recharge all of the reader's wands to full power.";
+		return "这张羊皮纸中封存的原始魔力，释放时会将读者所有法杖充能至满。";
 	}
 	
 	public static void charge( Hero hero ) {

@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfShadows extends Ring {
 
 	{
-		name = "Ring of Shadows";
+		name = "暗影之戒";
 	}
 	
 	@Override
@@ -31,8 +31,8 @@ public class RingOfShadows extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"Enemies will be less likely to notice you if you wear this ring. Degraded rings " +
-			"of shadows will alert enemies who might otherwise not have noticed your presence." :
+			"佩戴这枚戒指，敌人更不容易发现你。损坏的暗影之戒会" +
+			"让原本可能没察觉你的敌人警觉。" :
 			super.desc();
 	}
 	

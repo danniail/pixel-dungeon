@@ -32,7 +32,7 @@ import com.watabou.utils.Random;
 
 public class LightningTrap {
 
-	private static final String name	= "lightning trap";
+	private static final String name	= "闪电陷阱";
 	
 	// 00x66CCEE
 	
@@ -46,7 +46,7 @@ public class LightningTrap {
 				
 				if (!ch.isAlive()) {
 					Dungeon.fail( Utils.format( ResultDescriptions.TRAP, name, Dungeon.depth ) );
-					GLog.n( "You were killed by a discharge of a lightning trap..." );
+					GLog.n( "你被闪电陷阱的放电杀死了……" );
 				} else {
 					((Hero)ch).belongings.charge( false );
 				}

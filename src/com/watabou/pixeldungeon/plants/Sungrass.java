@@ -30,11 +30,11 @@ import com.watabou.utils.Bundle;
 
 public class Sungrass extends Plant {
 
-	private static final String TXT_DESC = "Sungrass is renowned for its sap's healing properties.";
+	private static final String TXT_DESC = "阳草以其汁液的治愈功效闻名。";
 	
 	{
 		image = 4;
-		plantName = "Sungrass";
+		plantName = "阳草";
 	}
 	
 	@Override
@@ -57,9 +57,9 @@ public class Sungrass extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "Sungrass";
+			plantName = "阳草";
 			
-			name = "seed of " + plantName;
+			name = plantName + "种子";
 			image = ItemSpriteSheet.SEED_SUNGRASS;
 			
 			plantClass = Sungrass.class;
@@ -103,7 +103,7 @@ public class Sungrass extends Plant {
 		
 		@Override
 		public String toString() {
-			return "Herbal healing";
+			return "草药治愈";
 		}
 		
 		private static final String POS	= "pos";

@@ -31,7 +31,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfLullaby extends Scroll {
 
 	{
-		name = "Scroll of Lullaby";
+		name = "摇篮曲卷轴";
 	}
 	
 	@Override
@@ -55,13 +55,13 @@ public class ScrollOfLullaby extends Scroll {
 		
 		switch (count) {
 		case 0:
-			GLog.i( "The scroll utters a soothing melody." );
+			GLog.i( "卷轴奏出舒缓的旋律。" );
 			break;
 		case 1:
-			GLog.i( "The scroll utters a soothing melody and the " + affected.name + " falls asleep!" );
+			GLog.i( "卷轴奏出舒缓的旋律，" + affected.name + "睡着了！" );
 			break;
 		default:
-			GLog.i( "The scroll utters a soothing melody and the monsters fall asleep!" );
+			GLog.i( "卷轴奏出舒缓的旋律，怪物们睡着了！" );
 		}
 		setKnown();
 		
@@ -70,9 +70,7 @@ public class ScrollOfLullaby extends Scroll {
 	
 	@Override
 	public String desc() {
-		return
-			"A soothing melody will put all creatures in your field of view into a deep sleep, " +
-			"giving you a chance to flee or make a surprise attack on them.";
+		return "舒缓的旋律会让你视野内的所有生物陷入沉睡，让你有机会逃跑或发动突袭。";
 	}
 	
 	@Override

@@ -33,7 +33,7 @@ import com.watabou.utils.Callback;
 public class WandOfRegrowth extends Wand {
 
 	{
-		name = "Wand of Regrowth";
+		name = "再生法杖";
 	}
 	
 	@Override
@@ -66,7 +66,7 @@ public class WandOfRegrowth extends Wand {
 			
 		} else {
 			
-			GLog.i( "nothing happened" );
+			GLog.i( "什么也没发生" );
 			
 		}
 	}
@@ -79,6 +79,6 @@ public class WandOfRegrowth extends Wand {
 	@Override
 	public String desc() {
 		return
-			"\"When life ceases new life always begins to grow... The eternal cycle always remains!\"";
+			"“当生命终结，新的生命总会开始生长……永恒的循环永不停止！”";
 	}
 }

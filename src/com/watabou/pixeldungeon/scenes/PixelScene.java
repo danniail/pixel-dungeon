@@ -17,6 +17,8 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
+import java.io.InputStream;
+
 import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLES20;
@@ -25,6 +27,7 @@ import com.watabou.input.Touchscreen;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.BitmapText.Font;
 import com.watabou.noosa.BitmapTextMultiline;
+import com.watabou.noosa.CNFont;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.ColorBlock;
 import com.watabou.noosa.Game;
@@ -34,7 +37,6 @@ import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.PixelDungeon;
 import com.watabou.pixeldungeon.effects.BadgeBanner;
-import com.watabou.utils.BitmapCache;
 
 public class PixelScene extends Scene {
 	
@@ -101,36 +103,32 @@ public class PixelScene extends Scene {
 		Camera.add( uiCamera );
 		
 		if (font1x == null) {
-			
-			// 3x5 (6)
-			font1x = Font.colorMarked( 
-				BitmapCache.get( Assets.FONTS1X ), 0x00000000, BitmapText.Font.LATIN_FULL );
-			font1x.baseLine = 6;
-			font1x.tracking = -1;
-			
-			// 5x8 (10)
-			font15x = Font.colorMarked( 
-					BitmapCache.get( Assets.FONTS15X ), 12, 0x00000000, BitmapText.Font.LATIN_FULL );
-			font15x.baseLine = 9;
-			font15x.tracking = -1;
-			
-			// 6x10 (12)
-			font2x = Font.colorMarked( 
-				BitmapCache.get( Assets.FONTS2X ), 14, 0x00000000, BitmapText.Font.LATIN_FULL );
-			font2x.baseLine = 11;
-			font2x.tracking = -1;
-			
-			// 7x12 (15)
-			font25x = Font.colorMarked( 
-				BitmapCache.get( Assets.FONTS25X ), 17, 0x00000000, BitmapText.Font.LATIN_FULL );
-			font25x.baseLine = 13;
-			font25x.tracking = -1;
-			
-			// 9x15 (18)
-			font3x = Font.colorMarked( 
-				BitmapCache.get( Assets.FONTS3X ), 22, 0x00000000, BitmapText.Font.LATIN_FULL );
-			font3x.baseLine = 17;
-			font3x.tracking = -2;
+
+			String chars = loadCharset();
+
+			// Square-cell fonts covering Latin + Simplified Chinese.
+			font1x = CNFont.create( 8, chars, false );
+			font15x = CNFont.create( 10, chars, true );
+			font2x = CNFont.create( 12, chars, true );
+			font25x = CNFont.create( 15, chars, true );
+			font3x = CNFont.create( 18, chars, true );
+		}
+	}
+
+	private static String loadCharset() {
+		try {
+			InputStream is = Game.instance.getAssets().open( "cn/chars.txt" );
+			byte[] buffer = new byte[is.available()];
+			int read = 0;
+			while (read < buffer.length) {
+				int r = is.read( buffer, read, buffer.length - read );
+				if (r < 0) break;
+				read += r;
+			}
+			is.close();
+			return new String( buffer, 0, read, "UTF-8" );
+		} catch (Exception e) {
+			return BitmapText.Font.LATIN_FULL;
 		}
 	}
 	

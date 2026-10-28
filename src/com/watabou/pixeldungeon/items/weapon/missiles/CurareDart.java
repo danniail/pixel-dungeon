@@ -29,7 +29,7 @@ public class CurareDart extends MissileWeapon {
 	public static final float DURATION	= 3f;
 	
 	{
-		name = "curare dart";
+		name = "箭毒飞镖";
 		image = ItemSpriteSheet.CURARE_DART;
 		
 		STR = 14;
@@ -62,9 +62,7 @@ public class CurareDart extends MissileWeapon {
 	
 	@Override
 	public String desc() {
-		return 
-			"These little evil darts don't do much damage but they can paralyze " +
-			"the target leaving it helpless and motionless for some time.";
+		return "这些邪恶的小飞镖伤害不高，但能麻痹目标，让它在一段时间内无法动弹、任人宰割。";
 	}
 	
 	@Override

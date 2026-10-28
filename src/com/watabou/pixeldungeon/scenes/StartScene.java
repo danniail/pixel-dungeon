@@ -54,21 +54,21 @@ public class StartScene extends PixelScene {
 	private static final float BUTTON_HEIGHT	= 24;
 	private static final float GAP				= 2;
 	
-	private static final String TXT_LOAD	= "Load Game";
-	private static final String TXT_NEW		= "New Game";
-	
-	private static final String TXT_ERASE		= "Erase current game";
-	private static final String TXT_DPTH_LVL	= "Depth: %d, level: %d";
-	
-	private static final String TXT_REALLY	= "Do you really want to start new game?";
-	private static final String TXT_WARNING	= "Your current game progress will be erased.";
-	private static final String TXT_YES		= "Yes, start new game";
-	private static final String TXT_NO		= "No, return to main menu";
-	
-	private static final String TXT_UNLOCK	= "To unlock this character class, slay the 3rd boss with any other class";
-	
-	private static final String TXT_WIN_THE_GAME = 
-		"To unlock \"Challenges\", win the game with any character class.";
+	private static final String TXT_LOAD	= "继续游戏";
+	private static final String TXT_NEW		= "新游戏";
+
+	private static final String TXT_ERASE		= "清除当前存档";
+	private static final String TXT_DPTH_LVL	= "层数：%d，等级：%d";
+
+	private static final String TXT_REALLY	= "确定要开始新游戏吗？";
+	private static final String TXT_WARNING	= "当前的游戏进度将被清除。";
+	private static final String TXT_YES		= "是，开始新游戏";
+	private static final String TXT_NO		= "否，返回主菜单";
+
+	private static final String TXT_UNLOCK	= "用任意其他职业击败第三个Boss，即可解锁该职业";
+
+	private static final String TXT_WIN_THE_GAME =
+		"用任意职业通关游戏，即可解锁“挑战模式”。";
 	
 	private static final float WIDTH_P	= 116;
 	private static final float HEIGHT_P	= 220;
@@ -399,7 +399,7 @@ public class StartScene extends PixelScene {
 				highlighted = BASIC_HIGHLIGHTED;
 			}
 			
-			name.text( cl.name() );
+			name.text( cl.title() );
 			name.measure();
 			name.hardlight( normal );
 			

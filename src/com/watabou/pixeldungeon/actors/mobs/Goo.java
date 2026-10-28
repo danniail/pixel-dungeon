@@ -46,7 +46,7 @@ public class Goo extends Mob {
 	private static final float PUMP_UP_DELAY	= 2f;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "Goo" : "spawn of Goo";
+		name = Dungeon.depth == Statistics.deepestFloor ? "胶泥" : "胶泥之子";
 		
 		HP = HT = 80;
 		EXP = 10;
@@ -165,7 +165,7 @@ public class Goo extends Mob {
 			
 			if (Dungeon.visible[pos]) {
 				sprite.showStatus( CharSprite.NEGATIVE, "!!!" );
-				GLog.n( "Goo is pumping itself up!" );
+				GLog.n( "胶泥正在膨胀！" );
 			}
 				
 			return true;
@@ -203,20 +203,18 @@ public class Goo extends Mob {
 		
 		Badges.validateBossSlain();
 		
-		yell( "glurp... glurp..." );
+		yell( "咕噜……咕噜……" );
 	}
 	
 	@Override
 	public void notice() {
 		super.notice();
-		yell( "GLURP-GLURP!" );
+		yell( "咕噜——咕噜！" );
 	}
 	
 	@Override
 	public String description() {
-		return
-			"Little known about The Goo. It's quite possible that it is not even a creature, but rather a " +
-			"conglomerate of substances from the sewers that gained rudiments of free will.";
+		return "关于胶泥，人们所知甚少。它很可能根本不是生物，而是下水道中各种物质的聚合体，只是获得了初步的自由意志。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

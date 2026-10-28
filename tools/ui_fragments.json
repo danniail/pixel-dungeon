@@ -1,0 +1,3932 @@
+[
+{
+"s": "\\n\\n",
+"n": 11,
+"file": "src/com/watabou/pixeldungeon/windows/WndClass.java"
+},
+{
+"s": "seed of ",
+"n": 8,
+"file": "src/com/watabou/pixeldungeon/plants/Fadeleaf.java"
+},
+{
+"s": "nothing happened",
+"n": 5,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java"
+},
+{
+"s": "Hello adventurer... Once I was like you - strong and confident... ",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "will be useful to you in your journey...",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "You see your hands turn invisible!",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfInvisibility.java"
+},
+{
+"s": "Cold lava",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastLevel.java"
+},
+{
+"s": "It looks like lava, but it's cold and probably safe to touch.",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastLevel.java"
+},
+{
+"s": "The pillar is made of real humanoid skulls. Awesome.",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastLevel.java"
+},
+{
+"s": "Suspiciously colored water",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "High blooming flowers",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "A ramp leads up to the upper depth.",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "Several tiles are missing here.",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "Thick carpet covers the floor.",
+"n": 3,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "varying vec2 vUV;",
+"n": 2,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "void main() {",
+"n": 2,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "Killed by the %s on level %d",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Alchemy pot",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "%s killed you...",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "This %s is wandering",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "Please take one of these items, maybe they ",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "What do you mean, how am I gonna pay? You greedy...\\n",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Ok, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, ",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I'm the only blacksmith around.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "your %s certainly looks better now",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "ambitious imp",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java"
+},
+{
+"s": "Are you an adventurer? I love adventurers! You can always rely on them ",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "if something needs to be killed. Am I right? For a bounty, of course ;)\\n",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - ",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, ",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "\\u007F",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/windows/WndClass.java"
+},
+{
+"s": "Level %d %s",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Maximum Depth",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Gold Collected",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Never mind",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "%+dHP",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/items/Dewdrop.java"
+},
+{
+"s": "No, I changed my mind",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java"
+},
+{
+"s": "Newfound strength surges through your body.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java"
+},
+{
+"s": "Fluorescent moss",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "Fluorescent mushrooms",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "Freezing cold water.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "The ladder leads up to the upper depth.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "The ladder leads down to the lower depth.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "Huge mushrooms block the view.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "A vein of some ore is visible on the wall. Gold?",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "A ramp leads down to the lower depth.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CityLevel.java"
+},
+{
+"s": "The statue depicts some dwarf standing in a heroic stance.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CityLevel.java"
+},
+{
+"s": "The rows of books on different disciplines fill the bookshelf.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/CityLevel.java"
+},
+{
+"s": "Murky water",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/SewerBossLevel.java"
+},
+{
+"s": "Wet yellowish moss covers the floor.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/SewerBossLevel.java"
+},
+{
+"s": "Dark cold water.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/PrisonBossLevel.java"
+},
+{
+"s": "There are old blood stains on the floor.",
+"n": 2,
+"file": "src/com/watabou/pixeldungeon/levels/PrisonBossLevel.java"
+},
+{
+"s": "uniform mat4 uCamera;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "uniform mat4 uModel;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "attribute vec4 aXYZW;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "attribute vec2 aUV;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "  gl_Position = uCamera * uModel * aXYZW;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "  vUV = aUV;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "precision mediump float;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "uniform sampler2D uTex;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "uniform vec4 uColorM;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "uniform vec4 uColorA;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": "  gl_FragColor = texture2D( uTex, vUV ) * uColorM + uColorA;",
+"n": 1,
+"file": "src/com/watabou/noosa/NoosaScript.java"
+},
+{
+"s": " !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+"n": 1,
+"file": "src/com/watabou/noosa/BitmapText.java"
+},
+{
+"s": " !\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\\u007F",
+"n": 1,
+"file": "src/com/watabou/noosa/BitmapText.java"
+},
+{
+"s": "Killed by %s on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Killed by your own %s on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Killed by an explosion of a bomb on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Killed by discharge of %s on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Burned to death on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Starved to death on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Died from poison on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Died from toxic gas on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Bled to death on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Killed by a caustic ooze on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Fell to death on level %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "Obtained the Amulet of Yendor",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ResultDescriptions.java"
+},
+{
+"s": "10 enemies slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "50 enemies slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "150 enemies slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "250 enemies slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "100 gold collected",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "500 gold collected",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "2500 gold collected",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "7500 gold collected",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Level 6 reached",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Level 12 reached",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Level 18 reached",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Level 24 reached",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All potions identified",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All scrolls identified",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All rings identified",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All wands identified",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All potions, scrolls, rings & wands identified",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All bags bought",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from fire",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from poison",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from toxic gas",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from hunger",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from an enchantment",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from falling down",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Death from fire, poison, toxic gas & hunger",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "1st boss slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "2nd boss slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "3rd boss slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "4th boss slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "1st boss slain by Warrior, Mage, Rogue & Huntress",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Ring of Haggler obtained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Ring of Thorns obtained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "13 points of Strength attained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "15 points of Strength attained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "17 points of Strength attained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "19 points of Strength attained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "10 pieces of food eaten",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "20 pieces of food eaten",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "30 pieces of food eaten",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "40 pieces of food eaten",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Item of level 3 acquired",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Item of level 6 acquired",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Item of level 9 acquired",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Item of level 12 acquired",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "All rare monsters slain",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Amulet of Yendor obtained",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "7-hit combo",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "3 potions cooked",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "6 potions cooked",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "9 potions cooked",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "12 potions cooked",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Level completed without killing any monsters",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Monster killed by a Grim weapon",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "6 piranhas killed",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "15 monsters killed at nighttime",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "10 games played",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "100 games played",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "500 games played",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "2000 games played",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Happy end",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Challenge won",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Thanks for your support!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Badge endorsed: %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "New super badge: %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "New badge: %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Badges.java"
+},
+{
+"s": "Well of Health",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Well of Awareness",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Well of Transmutation",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Sacrificial chamber",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Animated statue",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Sad ghost",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Old wandmaker",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Troll blacksmith",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "Ambitious imp",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Journal.java"
+},
+{
+"s": "On diet",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "Faith is my armor",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "Barren land",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "Swarm intelligence",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "Into darkness",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "Forbidden runes",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/Challenges.java"
+},
+{
+"s": "com.watabou.pixeldungeon.items.scrolls.ScrollOfMirrorImage$MirrorImage",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/PixelDungeon.java"
+},
+{
+"s": "com.watabou.pixeldungeon.plants.Blindweed$Seed",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/PixelDungeon.java"
+},
+{
+"s": "com.watabou.pixeldungeon.actors.mobs.npcs.Ghost$FetidRat",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/PixelDungeon.java"
+},
+{
+"s": "com.watabou.pixeldungeon.actors.mobs.npcs.Wandmaker$Rotberry",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/PixelDungeon.java"
+},
+{
+"s": "com.watabou.pixeldungeon.actors.mobs.npcs.Wandmaker$Rotberry$Seed",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/PixelDungeon.java"
+},
+{
+"s": "virtual items",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ui/ItemSlot.java"
+},
+{
+"s": "You don't know what is there.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ui/Toolbar.java"
+},
+{
+"s": "Select a cell to examine",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ui/Toolbar.java"
+},
+{
+"s": "Select an item for the quickslot",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/ui/QuickSlot.java"
+},
+{
+"s": "Let's call it a day",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "I'm not done yet",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "You finally hold it in your hands, the Amulet of Yendor. Using its power ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "you can take over the world or bring peace and prosperity to people or whatever. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "Anyway, your life will change forever and this game will end here. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "Or you can stay a mere mortal a little longer.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AmuletScene.java"
+},
+{
+"s": "Game Over",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/SurfaceScene.java"
+},
+{
+"s": "Many heroes of all kinds ventured into the Dungeon before you. Some of them have returned with treasures and magical ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/IntroScene.java"
+},
+{
+"s": "artifacts, most have never been heard of since. But none have succeeded in retrieving the Amulet of Yendor, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/IntroScene.java"
+},
+{
+"s": "which is told to be hidden in the depths of the Dungeon.\\n\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/IntroScene.java"
+},
+{
+"s": "You consider yourself ready for the challenge, but most importantly, you feel that fortune smiles on you. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/IntroScene.java"
+},
+{
+"s": "It's time to start your own adventure!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/IntroScene.java"
+},
+{
+"s": "Code & graphics: Watabou\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AboutScene.java"
+},
+{
+"s": "Music: Cube_Code\\n\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AboutScene.java"
+},
+{
+"s": "This game is inspired by Brian Walker's Brogue. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AboutScene.java"
+},
+{
+"s": "Try it on Windows, Mac OS or Linux - it's awesome! ;)\\n\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AboutScene.java"
+},
+{
+"s": "Please visit official website for additional info:",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/AboutScene.java"
+},
+{
+"s": "Welcome to the level %d of Pixel Dungeon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "Welcome back to the level %d of Pixel Dungeon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "Be cautious, since the dungeon is even more dangerous at night!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "Your steps echo across the dungeon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "You hear the water splashing around you.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "The smell of vegetation is thick in the air.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "The atmosphere hints that this floor hides many secrets.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/GameScene.java"
+},
+{
+"s": "Your Badges",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/BadgesScene.java"
+},
+{
+"s": "File not found. For some reason.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/InterlevelScene.java"
+},
+{
+"s": "Something went wrong...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/InterlevelScene.java"
+},
+{
+"s": "Top Rankings",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/RankingsScene.java"
+},
+{
+"s": "Games played: ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/RankingsScene.java"
+},
+{
+"s": "No games have been played yet.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/RankingsScene.java"
+},
+{
+"s": "No additional information",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/scenes/RankingsScene.java"
+},
+{
+"s": "Touching a Fadeleaf will teleport any creature ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Fadeleaf.java"
+},
+{
+"s": "to a random place on the current level.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Fadeleaf.java"
+},
+{
+"s": "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Icecap.java"
+},
+{
+"s": "Upon touching a Dreamweed it secretes a glittering cloud of confusing gas.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Dreamweed.java"
+},
+{
+"s": "Sungrass is renowned for its sap's healing properties.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Sungrass.java"
+},
+{
+"s": "Herbal healing",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Sungrass.java"
+},
+{
+"s": "A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Sorrowmoss.java"
+},
+{
+"s": "Throw this seed to the place where you want to grow %s.\\n\\n%s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Plant.java"
+},
+{
+"s": "When something touches a Firebloom, it bursts into flames.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Firebloom.java"
+},
+{
+"s": "Berries of this shrub taste like sweet, sweet death.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Rotberry.java"
+},
+{
+"s": "The seed emits a roar that echoes throughout the dungeon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Rotberry.java"
+},
+{
+"s": "When a creature touches an Earthroot, its roots ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Earthroot.java"
+},
+{
+"s": "create a kind of natural armor around it.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Earthroot.java"
+},
+{
+"s": "Herbal armor",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/plants/Earthroot.java"
+},
+{
+"s": "%s hit %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "%s defeated %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "%s %s your attack",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "%s %s %s's attack",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "The pain snapped %s out of paralysis",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/Char.java"
+},
+{
+"s": "vampire bat",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Bat.java"
+},
+{
+"s": "These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Bat.java"
+},
+{
+"s": "replenishing their health with each successful attack.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Bat.java"
+},
+{
+"s": "swarm of flies",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Swarm.java"
+},
+{
+"s": "The deadly swarm of flies buzzes angrily. Every non-magical attack ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Swarm.java"
+},
+{
+"s": "will split it into two smaller but equally dangerous swarms.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Swarm.java"
+},
+{
+"s": "%s's lightning bolt killed you...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shaman.java"
+},
+{
+"s": "gnoll shaman",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shaman.java"
+},
+{
+"s": "The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shaman.java"
+},
+{
+"s": "battle spells to compensate for lack of might, not hesitating to use them ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shaman.java"
+},
+{
+"s": "on those who question their status in a tribe.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shaman.java"
+},
+{
+"s": "albino rat",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Albino.java"
+},
+{
+"s": "%s's deathgaze killed you...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Eye.java"
+},
+{
+"s": "evil eye",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Eye.java"
+},
+{
+"s": "One of this demon's other names is \\\"orb of hatred\\\", because when it sees an enemy, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Eye.java"
+},
+{
+"s": "it uses its deathgaze recklessly, often ignoring its allies and wounding them.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Eye.java"
+},
+{
+"s": "sewer crab",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Crab.java"
+},
+{
+"s": "These huge crabs are at the top of the food chain in the sewers. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Crab.java"
+},
+{
+"s": "They are extremely fast and their thick exoskeleton can withstand ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Crab.java"
+},
+{
+"s": "heavy blows.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Crab.java"
+},
+{
+"s": "echo of Yog-Dzewa",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "imprisoned it in the halls below their city, believing it to be too weak to rise ever again.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "Hope is an illusion...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "rotting fist",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "burning fist",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "god's larva",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Yog.java"
+},
+{
+"s": "marsupial rat",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Rat.java"
+},
+{
+"s": "Marsupial rats are aggressive, but rather weak denizens ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Rat.java"
+},
+{
+"s": "of the sewers. They can be dangerous only in big numbers.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Rat.java"
+},
+{
+"s": "curse personification",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java"
+},
+{
+"s": "This creature resembles the sad ghost, but it swirls with darkness. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java"
+},
+{
+"s": "Its face bears an expression of despair.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java"
+},
+{
+"s": "You were killed by the explosion of bones...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java"
+},
+{
+"s": "Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java"
+},
+{
+"s": "animated by emanations of evil magic from the depths below. After they have been ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java"
+},
+{
+"s": "damaged enough, they disintegrate in an explosion of bones.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java"
+},
+{
+"s": "%s has knocked the %s from your hands!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Monk.java"
+},
+{
+"s": "dwarf monk",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Monk.java"
+},
+{
+"s": "These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Monk.java"
+},
+{
+"s": "They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Monk.java"
+},
+{
+"s": "crazy bandit",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Bandit.java"
+},
+{
+"s": "DM-300 repairs itself!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "Mission failed. Shutting down.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "Unauthorised personnel detected.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "machines were typically used for construction and mining, and in some cases, for city defense.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/DM300.java"
+},
+{
+"s": "acidic scorpio",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Acidic.java"
+},
+{
+"s": "%s becomes enraged!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Brute.java"
+},
+{
+"s": "gnoll brute",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Brute.java"
+},
+{
+"s": "Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Brute.java"
+},
+{
+"s": "they go berserk, inflicting even more damage to their enemies.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Brute.java"
+},
+{
+"s": "gnoll scout",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Gnoll.java"
+},
+{
+"s": "Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Gnoll.java"
+},
+{
+"s": "Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Gnoll.java"
+},
+{
+"s": "fire elemental",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Elemental.java"
+},
+{
+"s": "Wandering fire elementals are a byproduct of summoning greater entities. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Elemental.java"
+},
+{
+"s": "They are too chaotic in their nature to be controlled by even the most powerful demonologist.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Elemental.java"
+},
+{
+"s": "You hear something died in the distance",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "echo of ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "%+dEXP",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "Real description is coming soon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "%s: \\\"%s\\\" ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "This %s is sleeping",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "This %s is hunting",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "This %s is fleeing",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "This %s is passive",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mob.java"
+},
+{
+"s": "A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Wraith.java"
+},
+{
+"s": "Being an ethereal entity, it is very hard to hit with a regular weapon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Wraith.java"
+},
+{
+"s": "King of Dwarves",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "undead King of Dwarves",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "You cannot kill me, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "... I am... immortal...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "Arise, slaves!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "How dare you!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "The last king of dwarves was known for his deep understanding of processes of life and death. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "He has persuaded members of his court to participate in a ritual, that should have granted them ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "eternal youthfulness. In the end he was the only one, who got it - and an army of undead ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "as a bonus.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "undead dwarf",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "These undead dwarves, risen by the will of the King of Dwarves, were members of his court. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "They appear as skeletons with a stunning amount of facial hair.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/King.java"
+},
+{
+"s": "giant piranha",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Piranha.java"
+},
+{
+"s": "These carnivorous fish are not natural inhabitants of underground pools. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Piranha.java"
+},
+{
+"s": "They were bred specifically to protect flooded treasure vaults.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Piranha.java"
+},
+{
+"s": "%s's shadow bolt killed you...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Warlock.java"
+},
+{
+"s": "dwarf warlock",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Warlock.java"
+},
+{
+"s": "When dwarves' interests have shifted from engineering to arcane arts, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Warlock.java"
+},
+{
+"s": "warlocks have come to power in the city. They started with elemental magic, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Warlock.java"
+},
+{
+"s": "but soon switched to demonology and necromancy.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Warlock.java"
+},
+{
+"s": "The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Golem.java"
+},
+{
+"s": "They used spirits of earth as the \\\"soul\\\" for the mechanical bodies of golems, which were believed to be ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Golem.java"
+},
+{
+"s": "most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Golem.java"
+},
+{
+"s": "Mimics are magical creatures which can take any shape they wish. In dungeons they almost always ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mimic.java"
+},
+{
+"s": "choose a shape of a treasure chest, because they know how to beckon an adventurer.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Mimic.java"
+},
+{
+"s": "memory of Tengu",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Tengu.java"
+},
+{
+"s": "Free at last...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Tengu.java"
+},
+{
+"s": "Gotcha, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Tengu.java"
+},
+{
+"s": "Tengu are members of the ancient assassins clan, which is also called Tengu. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Tengu.java"
+},
+{
+"s": "These assassins are noted for extensive use of shuriken and traps.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Tengu.java"
+},
+{
+"s": "shielded brute",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Shielded.java"
+},
+{
+"s": "cave spinner",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Spinner.java"
+},
+{
+"s": "These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Spinner.java"
+},
+{
+"s": "while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Spinner.java"
+},
+{
+"s": "The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Succubus.java"
+},
+{
+"s": "can charm a hero, who will become unable to attack anything until the charm wears off.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Succubus.java"
+},
+{
+"s": "These huge arachnid-like demonic creatures avoid close combat by all means, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Scorpio.java"
+},
+{
+"s": "firing crippling serrated spikes from long distances.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Scorpio.java"
+},
+{
+"s": "fetid rat",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/FetidRat.java"
+},
+{
+"s": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/FetidRat.java"
+},
+{
+"s": "senior monk",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Senior.java"
+},
+{
+"s": "spawn of Goo",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "Goo is pumping itself up!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "glurp... glurp...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "GLURP-GLURP!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "Little known about The Goo. It's quite possible that it is not even a creature, but rather a ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "conglomerate of substances from the sewers that gained rudiments of free will.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Goo.java"
+},
+{
+"s": "animated statue",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Statue.java"
+},
+{
+"s": "You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Statue.java"
+},
+{
+"s": "While the statue itself is made of stone, the _",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Statue.java"
+},
+{
+"s": "_, it's wielding, looks real.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Statue.java"
+},
+{
+"s": "%s stole %s from you!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "\\n\\n%s is carrying a _%s_. Stolen obviously.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "crazy thief",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "Deeper levels of the dungeon have always been a hiding place for all kinds of criminals. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "Not all of them could keep a clear mind during their extended periods so far from daylight. Long ago, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "these crazy thieves and bandits have forgotten who they are and why they steal.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/Thief.java"
+},
+{
+"s": "sad ghost",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "The ghost is barely visible. It looks like a shapeless ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "spot of faint light with a sorrowful face.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "It's very important to me... Some monster stole it from my body...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Please... Help me... _Find the rose_...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Yes! Yes!!! This is it! Please give it to me! ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "And you can take one of these items, maybe they ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "And now I'm dead... But I can't leave this place... Not until I have my revenge... ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Slay the _fetid rat_, that has taken my life...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Please... Help me... _Slay the abomination_...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Yes! The ugly creature is slain and I can finally rest... ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "And now I'm dead... But I can't leave this place, as I am bound by a horrid curse... ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Please... Help me... _Destroy the curse_...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Thank you, %s! The curse is broken and I can finally rest... ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Yes, I will do it for you",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "No, I can't help you",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java"
+},
+{
+"s": "Hey human! Wanna be useful, eh? Take dis pickaxe and mine me some _dark gold ore_, _15 pieces_ should be enough. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Hey human! Wanna be useful, eh? Take dis pickaxe and _kill a bat_ wit' it, I need its blood on the head. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Are you kiddin' me? Where is my pickaxe?!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Dark gold ore. 15 pieces. Seriously, is it dat hard?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I said I need bat blood on the pickaxe. Chop chop!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Oh, you have returned... Better late dan never.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I'm busy. Get lost!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "troll blacksmith",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Select 2 different items, not the same item twice!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Select 2 items of the same type!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I need to know what I'm working with, identify them first!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I don't work with cursed items!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "It's a junk, the quality is too poor!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "I can't reforge these items!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "This troll blacksmith looks like all trolls look: he is tall and lean, and his skin resembles stone ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "in both color and texture. The troll blacksmith is tinkering with unproportionally small tools.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java"
+},
+{
+"s": "Hello, friend!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java"
+},
+{
+"s": "Imps are lesser demons. They are notable for neither their strength nor their magic talent. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java"
+},
+{
+"s": "But they are quite smart and sociable, and many of imps prefer to live and do business among non-demons.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java"
+},
+{
+"s": "mirror image",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/MirrorImage.java"
+},
+{
+"s": "This illusion bears a close resemblance to you, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/MirrorImage.java"
+},
+{
+"s": "but it's paler and twitches a little.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/MirrorImage.java"
+},
+{
+"s": "This stout guy looks more appropriate for a trade district in some large city ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Shopkeeper.java"
+},
+{
+"s": "than for a dungeon. His prices explain why he prefers to do business here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Shopkeeper.java"
+},
+{
+"s": "Select an item to sell",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Shopkeeper.java"
+},
+{
+"s": "rat king",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java"
+},
+{
+"s": "I'm not sleeping!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java"
+},
+{
+"s": "What is it? I have no time for this nonsense. My kingdom won't rule itself!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java"
+},
+{
+"s": "This rat is a little bigger than a regular marsupial rat ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java"
+},
+{
+"s": "and it's wearing a tiny crown on its head.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java"
+},
+{
+"s": "In my case this is _golems_ who need to be killed. You see, I'm going to start a ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "little business here, but these stupid golems are bad for business! ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "It's very hard to negotiate with wandering lumps of granite, damn them! ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "So please, kill... let's say _6 of them_ and a reward is yours.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "In my case this is _monks_ who need to be killed. You see, I'm going to start a ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "little business here, but these lunatics don't buy anything themselves and ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "will scare away other customers. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "So please, kill... let's say _8 of them_ and a reward is yours.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "How is your golem safari going?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "Oh, you are still alive! I knew that your kung-fu is stronger ;) ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "Just don't forget to grab these monks' tokens.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "See you, %s!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "Psst, %s!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "Imps are lesser demons. They are notable for neither their strength nor their magic talent, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "but they are quite smart and sociable. Many imps prefer to live among non-demons.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java"
+},
+{
+"s": "golden bee",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Bee.java"
+},
+{
+"s": "Despite their small size, golden bees tend ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Bee.java"
+},
+{
+"s": "to protect their master fiercely. They don't live long though.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Bee.java"
+},
+{
+"s": "old wandmaker",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "This old but hale gentleman wears a slightly confused ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "expression. He is protected by a magic shield.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "a _Rotberry seed_. Being a magic user, I'm quite able to defend myself against local monsters, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "but I'm getting lost in no time, it's very embarrassing. Probably you could help me? I would be ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "happy to pay for your service with one of my best wands.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "Any luck with a _Rotberry seed_, %s? No? Don't worry, I'm not in a hurry.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "_corpse dust_. It can be gathered from skeletal remains and there is an ample number of them in the dungeon. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "Any luck with _corpse dust_, %s? Bone piles are the most obvious places to look.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient: ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "a _phantom fish_. You can catch it with your bare hands, but it's very hard to notice in the water. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "Any luck with a _phantom fish_, %s? You may want to try searching for it in one of the local pools.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java"
+},
+{
+"s": "A greenish cloud of toxic gas is swirling here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/ToxicGas.java"
+},
+{
+"s": "You died from a toxic gas..",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/ToxicGas.java"
+},
+{
+"s": "As you take a sip, you feel the knowledge pours into your mind. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java"
+},
+{
+"s": "Now you know everything about your equipped items. Also you sense ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java"
+},
+{
+"s": "all items on the level and know all its secrets.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java"
+},
+{
+"s": "Power of knowledge radiates from the water of this well. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java"
+},
+{
+"s": "Take a sip from it to reveal all secrets of equipped items.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java"
+},
+{
+"s": "A cloud of paralytic gas is swirling here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/ParalyticGas.java"
+},
+{
+"s": "Shafts of light pierce the gloom of the underground garden.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/Foliage.java"
+},
+{
+"s": "As you take a sip, you feel your wounds heal completely.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfHealth.java"
+},
+{
+"s": "Power of health radiates from the water of this well. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfHealth.java"
+},
+{
+"s": "Take a sip from it to heal your wounds and satisfy hunger.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfHealth.java"
+},
+{
+"s": "A cloud of confusion gas is swirling here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/ConfusionGas.java"
+},
+{
+"s": "Everything is covered with a thick web here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/Web.java"
+},
+{
+"s": "Power of change radiates from the water of this well. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfTransmutation.java"
+},
+{
+"s": "Throw an item into the well to turn it into something else.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/WaterOfTransmutation.java"
+},
+{
+"s": "A fire is raging here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/Fire.java"
+},
+{
+"s": "\\\"Your sacrifice is worthy...\\\" ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java"
+},
+{
+"s": "\\\"Your sacrifice is unworthy...\\\" ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java"
+},
+{
+"s": "\\\"Your sacrifice is worthy and so you are!\\\" ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java"
+},
+{
+"s": "Sacrificial fire burns here. Every creature touched by this fire is marked as an offering for the spirits of the dungeon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java"
+},
+{
+"s": "Marked for sacrifice",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java"
+},
+{
+"s": "You are hungry.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Hunger.java"
+},
+{
+"s": "You are starving!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Hunger.java"
+},
+{
+"s": "You starved to death...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Hunger.java"
+},
+{
+"s": "You died from poison...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Poison.java"
+},
+{
+"s": "Immune to gases",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/GasesImmunity.java"
+},
+{
+"s": "Mind vision",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/MindVision.java"
+},
+{
+"s": "Caustic ooze",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Ooze.java"
+},
+{
+"s": "%d hit combo!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Combo.java"
+},
+{
+"s": "You bled to death...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Bleeding.java"
+},
+{
+"s": "Zeroed in",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/SnipersMark.java"
+},
+{
+"s": "Blinded with rage",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Rage.java"
+},
+{
+"s": "%s burns up!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Burning.java"
+},
+{
+"s": "You burned to death...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/buffs/Burning.java"
+},
+{
+"s": "One does not simply leave Pixel Dungeon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "level up!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "Welcome to level %d! Now you are healthier and more focused. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "It's easier for you to hit enemies and dodge their attacks.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You now have %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "There is something else here",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "This chest is locked and you don't have matching key",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You don't have a matching key",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You noticed something",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You catch fire!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are paralysed!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are poisoned!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "Caustic ooze eats your flesh. Wash away it!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You can't move!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You feel weakened!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are blinded!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You become furious!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are charmed!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are crippled!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "You are bleeding!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "Everything is spinning around you!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/Hero.java"
+},
+{
+"s": "A successful attack with a melee weapon allows the _Gladiator_ to start a combo, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "in which every next successful hit inflicts more damage.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "When severely wounded, the _Berserker_ enters a state of wild fury ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "significantly increasing his damage output.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "After killing an enemy the _Warlock_ consumes its soul. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "It heals his wounds and satisfies his hunger.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "When fighting with a wand in his hands, the _Battlemage_ inflicts additional damage depending ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "on the current number of charges. Every successful hit restores 1 charge to this wand.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "When performing a surprise attack, the _Assassin_ inflicts additional damage to his target.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "The _Freerunner_ can move almost twice faster, than most of the monsters. When he ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "is running, the Freerunner is much harder to hit. For that he must be unencumbered and not starving.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "_Snipers_ are able to detect weak points in an enemy's armor, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "effectively ignoring it when using a missile weapon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "Having a strong connection with forces of nature gives _Wardens_ an ability to gather dewdrops and ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "seeds from plants. Also trampling a high grass grants them a temporary armor buff.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java"
+},
+{
+"s": "The Dungeon lies right beneath the City, its upper levels actually constitute the City's sewer system. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Being nominally a part of the City, these levels are not that dangerous. No one will call it a safe place, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "but at least you won't need to deal with evil magic here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Many years ago an underground prison was built here for the most dangerous criminals. At the time it seemed ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "like a very clever idea, because this place indeed was very hard to escape. But soon dark miasma started to permeate ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "from below, driving prisoners and guards insane. In the end the prison was abandoned, though some convicts ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "were left locked up here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "The caves, which stretch down under the abandoned prison, are sparcely populated. They lie too deep to be exploited ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "by the City and they are too poor in minerals to interest the dwarves. In the past there was a trade outpost ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "somewhere here on the route between these two states, but it has perished since the decline of Dwarven Metropolis. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Only omnipresent gnolls and subterranean animals dwell here now.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Dwarven Metropolis was once the greatest of dwarven city-states. In its heyday the mechanized army of dwarves ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "has successfully repelled the invasion of the old god and his demon army. But it is said, that the returning warriors ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "have brought seeds of corruption with them, and that victory was the beginning of the end for the underground kingdom.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "In the past these levels were the outskirts of Metropolis. After the costly victory in the war with the old god ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "dwarves were too weakened to clear them of remaining demons. Gradually demons have tightened their grip on this place ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "and now it's called Demon Halls.\\n\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Very few adventurers have ever descended this far...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndStory.java"
+},
+{
+"s": "Unable to load additional information",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Game Duration",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Mobs Killed",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Food Eaten",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Potions Cooked",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "Ankhs Used",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndRanking.java"
+},
+{
+"s": "You died, but you were given another chance to win this dungeon. Will you take it?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndResurrect.java"
+},
+{
+"s": "Yes, I will fight!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndResurrect.java"
+},
+{
+"s": "No, I give up",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndResurrect.java"
+},
+{
+"s": "Ok, a deal is a deal, dat's what I can do for you: I can reforge ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndBlacksmith.java"
+},
+{
+"s": "2 items and turn them into one of a better quality.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndBlacksmith.java"
+},
+{
+"s": "Select an item to reforge",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndBlacksmith.java"
+},
+{
+"s": "Reforge them",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndBlacksmith.java"
+},
+{
+"s": "FOR SALE: %s - %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "Buy for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "Sell for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "Sell 1 for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "Sell all for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "You've sold your %s for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "You've bought %s for %dg",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndTradeItem.java"
+},
+{
+"s": "Ghost's weapon",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSadGhost.java"
+},
+{
+"s": "Ghost's armor",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSadGhost.java"
+},
+{
+"s": "Farewell, adventurer!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSadGhost.java"
+},
+{
+"s": "Oh, I see you have succeeded! I do hope it hasn't troubled you too much. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndWandmaker.java"
+},
+{
+"s": "As I promised, you can choose one of my high quality wands.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndWandmaker.java"
+},
+{
+"s": "Battle wand",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndWandmaker.java"
+},
+{
+"s": "Non-battle wand",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndWandmaker.java"
+},
+{
+"s": "Good luck in your quest, %s!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndWandmaker.java"
+},
+{
+"s": "Start New Game",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndGame.java"
+},
+{
+"s": "Main Menu",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndGame.java"
+},
+{
+"s": "Exit Game",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndGame.java"
+},
+{
+"s": "Return to Game",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndGame.java"
+},
+{
+"s": "Which way will you follow?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndChooseWay.java"
+},
+{
+"s": "I'll decide later",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndChooseWay.java"
+},
+{
+"s": "Do you want to respec into %s?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndChooseWay.java"
+},
+{
+"s": "Yes, I want to respec",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndChooseWay.java"
+},
+{
+"s": "Maybe later",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndChooseWay.java"
+},
+{
+"s": "Default Zoom",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Scale up UI",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Immersive mode",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Sound FX",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Second quickslot",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Switch to portrait",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Switch to landscape",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndSettings.java"
+},
+{
+"s": "Oh yes! You are my hero!\\n",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndImp.java"
+},
+{
+"s": "Regarding your reward, I don't have cash with me right now, but I have something better for you. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndImp.java"
+},
+{
+"s": "This is my family heirloom ring: my granddad took it off a dead paladin's finger.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndImp.java"
+},
+{
+"s": "Take the ring",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndImp.java"
+},
+{
+"s": "There is nothing here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoCell.java"
+},
+{
+"s": "Locked chest",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "Crystal chest",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "Skeletal remains",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "You won't know what's inside until you open it!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": " But to open it you need a golden key.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "You can see %s inside, but to open the chest you need a golden key.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "This ancient tomb may contain something useful, ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "but its owner will most certainly object to checking.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "This is all that's left from one of your predecessors. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "Maybe it's worth checking for any valuables.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/windows/WndInfoItem.java"
+},
+{
+"s": "You killed yourself with a bomb...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Bomb.java"
+},
+{
+"s": "you wince as your grip involuntarily tightens around your %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/KindOfWeapon.java"
+},
+{
+"s": "You can't read while blinded",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/TomeOfMastery.java"
+},
+{
+"s": "Tome of Remastery",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/TomeOfMastery.java"
+},
+{
+"s": "Tome of Mastery",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/TomeOfMastery.java"
+},
+{
+"s": "You have chosen the way of the %s!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/TomeOfMastery.java"
+},
+{
+"s": "Select a weapon to balance",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "you balanced your %s to make it faster",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "you balanced your %s to make it more accurate",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "How would you like to balance your %s?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "For speed",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "For accuracy",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Weightstone.java"
+},
+{
+"s": "The dew vial was emptied to heal your wounds.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/DewVial.java"
+},
+{
+"s": "You collected a dewdrop into your dew vial.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/DewVial.java"
+},
+{
+"s": "Your dew vial is full!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/DewVial.java"
+},
+{
+"s": "Your dew vial is empty!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/DewVial.java"
+},
+{
+"s": "Select an armor to upgrade",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/ArmorKit.java"
+},
+{
+"s": "you applied the armor kit to upgrade your %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/ArmorKit.java"
+},
+{
+"s": "This is a mimic!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Heap.java"
+},
+{
+"s": "Strong magic aura of this place prevents you from using the lloyd's beacon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/LloydsBeacon.java"
+},
+{
+"s": "Psychic aura of neighbouring creatures doesn't allow you to use the lloyd's beacon at this moment.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/LloydsBeacon.java"
+},
+{
+"s": "The lloyd's beacon is successfully set at your current location, now you can return here anytime.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/LloydsBeacon.java"
+},
+{
+"s": "Lloyd's beacon is an intricate magic device, that allows you to return to a place you have already been.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/LloydsBeacon.java"
+},
+{
+"s": "\\n\\nThis beacon was set somewhere on the level %d of Pixel Dungeon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/LloydsBeacon.java"
+},
+{
+"s": "You can't remove cursed %s!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/EquipableItem.java"
+},
+{
+"s": "Collect gold coins to spend them later in a shop.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Gold.java"
+},
+{
+"s": "A pile of %d gold coins. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Gold.java"
+},
+{
+"s": "One gold coin. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Gold.java"
+},
+{
+"s": "Your pack is too full for the %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "Because of frequent use, your %s has broken.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "Because of frequent use, your %s is going to break soon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "%s x%d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "%s%+d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "%s%+d x%d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "Choose direction of throw",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Item.java"
+},
+{
+"s": "END THE GAME",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/Amulet.java"
+},
+{
+"s": "You are now familiar enough with your %s to identify it. It is %s.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/Weapon.java"
+},
+{
+"s": "Interaction of different types of magic has negated the enchantment on this weapon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/Weapon.java"
+},
+{
+"s": "%s :%d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/Weapon.java"
+},
+{
+"s": "broken %s :%d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/Weapon.java"
+},
+{
+"s": "venomous %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Poison.java"
+},
+{
+"s": "stunning %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Paralysis.java"
+},
+{
+"s": "unstable %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Instability.java"
+},
+{
+"s": "chilling %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Slow.java"
+},
+{
+"s": "vampiric %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Leech.java"
+},
+{
+"s": "grim %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Death.java"
+},
+{
+"s": "eldritch %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Horror.java"
+},
+{
+"s": "tempered %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Tempering.java"
+},
+{
+"s": "blazing %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Fire.java"
+},
+{
+"s": "shocking %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Shock.java"
+},
+{
+"s": "lucky %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/enchantments/Luck.java"
+},
+{
+"s": "Select a weapon to upgrade",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java"
+},
+{
+"s": "you reforged the short sword to upgrade your %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java"
+},
+{
+"s": "you can't upgrade a boomerang this way",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java"
+},
+{
+"s": "You are now aware of the level layout.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMagicMapping.java"
+},
+{
+"s": "In a blink of an eye you were teleported to another location of the level.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java"
+},
+{
+"s": "Strong magic aura of this place prevents you from teleporting!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java"
+},
+{
+"s": "The scroll emits a brilliant flash of red light",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java"
+},
+{
+"s": "The scroll emits a brilliant flash of red light and the ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java"
+},
+{
+"s": " flees!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java"
+},
+{
+"s": "The scroll emits a brilliant flash of red light and the monsters flee!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java"
+},
+{
+"s": "your %s glows in the dark",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java"
+},
+{
+"s": "Select an enchantable item",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java"
+},
+{
+"s": "You can't read a scroll while blinded",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfWipeOut.java"
+},
+{
+"s": "Select an item to identify",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java"
+},
+{
+"s": "It is ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java"
+},
+{
+"s": "The scroll utters a soothing melody.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java"
+},
+{
+"s": "The scroll utters a soothing melody and the ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java"
+},
+{
+"s": " falls asleep!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java"
+},
+{
+"s": "The scroll utters a soothing melody and the monsters fall asleep!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java"
+},
+{
+"s": "Your pack glows with a cleansing light, and a malevolent energy disperses.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java"
+},
+{
+"s": "Your pack glows with a cleansing light, but nothing happens.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java"
+},
+{
+"s": "The scroll emits a challenging roar that echoes throughout the dungeon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfChallenge.java"
+},
+{
+"s": "Select an item to upgrade",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfUpgrade.java"
+},
+{
+"s": "a surge of energy courses through your pack, recharging your wand",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java"
+},
+{
+"s": "a surge of energy courses through your pack, but nothing happens",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java"
+},
+{
+"s": "Select an item",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java"
+},
+{
+"s": "Do you really want to cancel this scroll usage? It will be consumed anyway.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java"
+},
+{
+"s": "Yes, I'm positive",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java"
+},
+{
+"s": " to somewhere",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java"
+},
+{
+"s": "You have magically transported %s into your backpack",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfReach.java"
+},
+{
+"s": "You killed yourself with your own Wand of Lightning...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfLightning.java"
+},
+{
+"s": "Select a wand to upgrade",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java"
+},
+{
+"s": "you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java"
+},
+{
+"s": "You killed yourself with your own Wand of Magic Missile...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java"
+},
+{
+"s": "Baa!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java"
+},
+{
+"s": "Baa?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java"
+},
+{
+"s": "This is a magic sheep. What's so magical about it? You can't kill it. ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java"
+},
+{
+"s": "It will stand there until it magcially fades away, all the while chewing cud with a blank stare.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java"
+},
+{
+"s": "You killed yourself with your own Wand of Firebolt...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfFirebolt.java"
+},
+{
+"s": "You killed yourself with your own Wand of Avalanche...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/wands/WandOfAvalanche.java"
+},
+{
+"s": "You float into the air!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfLevitation.java"
+},
+{
+"s": "+1 str",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java"
+},
+{
+"s": "You feel uncommon freshness in the air.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java"
+},
+{
+"s": "You've stopped sensing any smells!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java"
+},
+{
+"s": "You can somehow feel the presence of other creatures' minds!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java"
+},
+{
+"s": "You can somehow tell that you are alone on this level at the moment.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java"
+},
+{
+"s": "Your wounds heal completely.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfHealing.java"
+},
+{
+"s": "+1 str, +5 ht",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/potions/PotionOfMight.java"
+},
+{
+"s": "You can only jump to an empty location in your field of view",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/RogueArmor.java"
+},
+{
+"s": "Only rogues can use this armor!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/RogueArmor.java"
+},
+{
+"s": "SMOKE BOMB",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/RogueArmor.java"
+},
+{
+"s": "Choose a location to jump to",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/RogueArmor.java"
+},
+{
+"s": "No enemies in sight",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java"
+},
+{
+"s": "Only huntresses can use this armor!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java"
+},
+{
+"s": "SPECTRAL BLADES",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java"
+},
+{
+"s": "HEROIC LEAP",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java"
+},
+{
+"s": "Only warriors can use this armor!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java"
+},
+{
+"s": "Choose direction to leap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java"
+},
+{
+"s": "Your health is too low!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/ClassArmor.java"
+},
+{
+"s": "You need to be wearing this armor to use its special power!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/ClassArmor.java"
+},
+{
+"s": "%s ：%d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/Armor.java"
+},
+{
+"s": "MOLTEN EARTH",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/MageArmor.java"
+},
+{
+"s": "Only mages can use this armor!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/MageArmor.java"
+},
+{
+"s": "%s of bounce",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Bounce.java"
+},
+{
+"s": "%s of viscosity",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java"
+},
+{
+"s": "deferred %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java"
+},
+{
+"s": "Defered damage (%d)",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java"
+},
+{
+"s": "enchantment of viscosity",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java"
+},
+{
+"s": "The enchantment of viscosity killed you...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java"
+},
+{
+"s": "%s of multiplicity",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Multiplicity.java"
+},
+{
+"s": "%s of entanglement",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Entanglement.java"
+},
+{
+"s": "%s of affection",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Affection.java"
+},
+{
+"s": "%s of displacement",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Displacement.java"
+},
+{
+"s": "%s of potential",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Potential.java"
+},
+{
+"s": "%s of stench",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Stench.java"
+},
+{
+"s": "%s of metabolism",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/Metabolism.java"
+},
+{
+"s": "%s of anti-entropy",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/AntiEntropy.java"
+},
+{
+"s": "%s of auto-repair",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/armor/glyphs/AutoRepair.java"
+},
+{
+"s": "There is no dark gold vein near you to mine",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/quest/Pickaxe.java"
+},
+{
+"s": "That food tasted ok.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/OverpricedRation.java"
+},
+{
+"s": "You feel your skin hardens!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java"
+},
+{
+"s": "Refreshing!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java"
+},
+{
+"s": "You feel better!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java"
+},
+{
+"s": "That food tasted delicious!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/Food.java"
+},
+{
+"s": "That food tasted... strange.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java"
+},
+{
+"s": "Oh it's hot!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java"
+},
+{
+"s": "You can't feel your legs!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java"
+},
+{
+"s": "You are not feeling well.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java"
+},
+{
+"s": "You are stuffed.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/food/MysteryMeat.java"
+},
+{
+"s": "iron key from depth %d",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/items/keys/IronKey.java"
+},
+{
+"s": "Books in ancient languages smoulder in the bookshelf.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/HallsLevel.java"
+},
+{
+"s": "Who would need a bookshelf in a cave?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/CavesLevel.java"
+},
+{
+"s": "A ramp leads down to the Inferno.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/LastShopLevel.java"
+},
+{
+"s": "A hidden pressure plate clicks!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Closed door",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Open door",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Depth entrance",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Depth exit",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Locked door",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "High grass",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Locked depth exit",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Unlocked depth exit",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Empty well",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Toxic gas trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Fire trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Paralytic gas trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Poison dart trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Alarm trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Lightning trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Gripping trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Summoning trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Triggered trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "You can't see the bottom.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "In case of burning step into the water to extinguish the fire.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Stairs lead up to the upper depth.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Stairs lead down to the lower depth.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Embers cover the floor.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Dense vegetation blocks the view.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "This door is locked, you need a matching key to unlock it.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Heavy bars block the stairs leading down.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "The wooden barricade is firmly set but has dried over the years. Might it burn?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "You can't read the text from here.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Stepping onto a hidden pressure plate will activate the trap.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "The trap has been triggered before and it's not dangerous anymore.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Someone wanted to adorn this place, but failed, obviously.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "Drop some seeds here to cook a potion.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "The well has run dry.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/Level.java"
+},
+{
+"s": "The bookshelf is packed with cheap useless books. Might it burn?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/SewerLevel.java"
+},
+{
+"s": "This is probably a vestige of a prison library. Might it burn?",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/PrisonLevel.java"
+},
+{
+"s": "What are you doing here?!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Don't overestimate your strength, use weapons and armor you can handle.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Not all doors in the dungeon are visible at first sight. If you are stuck, search for hidden doors.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Remember, that raising your strength is not the only way to access better equipment. You can go ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "the other way, lowering its strength requirement with Scrolls of Upgrade.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "You can spend your gold in shops on deeper levels of the dungeon. The first one is on the 6th level.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Beware of Goo!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Pixel-Mart - all you need for successful adventure!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Identify your potions and scrolls as soon as possible. Don't put it off to the moment ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "when you actually need them.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Being hungry doesn't hurt, but starving does hurt.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Surprise attack has a better chance to hit. For example, you can ambush your enemy behind ",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "a closed door when you know it is approaching.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Don't let The Tengu out!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Pixel-Mart. Spend money. Live longer.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "When you're attacked by several monsters at the same time, try to retreat behind a door.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "If you are burning, you can't put out the fire in the water while levitating.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "There is no sense in possessing more than one Ankh at the same time, because you will lose them upon resurrecting.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "DANGER! Heavy machinery can cause injury, loss of limbs or death!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Pixel-Mart. A safer life in dungeon.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "When you upgrade an enchanted weapon, there is a chance to destroy that enchantment.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Weapons and armors deteriorate faster than wands and rings, but there are more ways to fix them.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "The only way to obtain a Scroll of Wipe Out is to receive it as a gift from the dungeon spirits.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "No weapons allowed in the presence of His Majesty!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Pixel-Mart. Special prices for demon hunters!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "As you try to read the sign it bursts into greenish flames.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Sign.java"
+},
+{
+"s": "Select a seed to throw",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/AlchemyPot.java"
+},
+{
+"s": "Yes, I know what I'm doing",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Chasm.java"
+},
+{
+"s": "Do you really want to jump into the chasm? You can probably die.",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Chasm.java"
+},
+{
+"s": "You fell to death...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/features/Chasm.java"
+},
+{
+"s": "lightning trap",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/traps/LightningTrap.java"
+},
+{
+"s": "You were killed by a discharge of a lightning trap...",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/traps/LightningTrap.java"
+},
+{
+"s": "The trap emits a piercing sound that echoes throughout the dungeon!",
+"n": 1,
+"file": "src/com/watabou/pixeldungeon/levels/traps/AlarmTrap.java"
+}
+]

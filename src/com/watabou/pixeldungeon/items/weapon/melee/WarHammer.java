@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class WarHammer extends MeleeWeapon {
 
 	{
-		name = "war hammer";
+		name = "战锤";
 		image = ItemSpriteSheet.WAR_HAMMER;
 	}
 	
@@ -32,8 +32,6 @@ public class WarHammer extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return 
-			"Few creatures can withstand the crushing blow of this towering mass of lead and steel, " +
-			"but only the strongest of adventurers can use it effectively.";
+		return "很少有生物能承受这铅钢巨物的粉碎一击，但只有最强壮的冒险者才能有效使用它。";
 	}
 }

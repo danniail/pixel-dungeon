@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.scenes.GameScene;
 public class PotionOfParalyticGas extends Potion {
 
 	{
-		name = "Potion of Paralytic Gas";
+		name = "麻痹气体药水";
 	}
 	
 	@Override
@@ -44,11 +44,7 @@ public class PotionOfParalyticGas extends Potion {
 	
 	@Override
 	public String desc() {
-		return
-			"Upon exposure to open air, the liquid in this flask will vaporize " +
-			"into a numbing yellow haze. Anyone who inhales the cloud will be paralyzed " +
-			"instantly, unable to move for some time after the cloud dissipates. This " +
-			"item can be thrown at distant enemies to catch them within the effect of the gas.";
+		return "接触空气后，瓶中液体会蒸发成令人麻木的黄色雾气。吸入云雾者会立即麻痹，云雾散去后仍有一段时间无法移动。可将它掷向远处敌人，使其被毒气笼罩。";
 	}
 	
 	@Override

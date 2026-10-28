@@ -57,7 +57,7 @@ import com.watabou.utils.Random;
 public class Yog extends Mob {
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "Yog-Dzewa" : "echo of Yog-Dzewa";
+		name = Dungeon.depth == Statistics.deepestFloor ? "Yog-Dzewa" : "Yog-Dzewa之回响";
 		spriteClass = YogSprite.class;
 		
 		HP = HT = 300;
@@ -68,9 +68,9 @@ public class Yog extends Mob {
 	}
 	
 	private static final String TXT_DESC =
-		"Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves " +
-		"barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then " +
-		"imprisoned it in the halls below their city, believing it to be too weak to rise ever again.";	
+		"Yog-Dzewa是一位古神，来自混沌领域的强大存在。一个世纪前，古老的矮人" +
+		"勉强战胜了它的恶魔大军，却无法杀死这位古神本身。于是他们" +
+		"把它囚禁在城市下方的大厅中，认为它已太过虚弱，再也无法崛起。";
 	
 	private static int fistsCount = 0;
 	
@@ -155,7 +155,7 @@ public class Yog extends Mob {
 	@Override
 	public void notice() {
 		super.notice();
-		yell( "Hope is an illusion..." );
+		yell( "希望只是幻象……" );
 	}
 	
 	@Override
@@ -187,7 +187,7 @@ public class Yog extends Mob {
 		private static final int REGENERATION	= 4;
 		
 		{
-			name = "rotting fist";
+			name = "腐烂之拳";
 			spriteClass = RottingFistSprite.class;
 			
 			HP = HT = 300;
@@ -281,7 +281,7 @@ public class Yog extends Mob {
 	public static class BurningFist extends Mob {
 		
 		{
-			name = "burning fist";
+			name = "燃烧之拳";
 			spriteClass = BurningFistSprite.class;
 			
 			HP = HT = 200;
@@ -397,7 +397,7 @@ public class Yog extends Mob {
 	public static class Larva extends Mob {
 		
 		{
-			name = "god's larva";
+			name = "神之幼虫";
 			spriteClass = LarvaSprite.class;
 			
 			HP = HT = 25;

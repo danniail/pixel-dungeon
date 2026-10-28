@@ -31,7 +31,7 @@ public class PotionOfFrost extends Potion {
 	private static final int DISTANCE	= 2;
 	
 	{
-		name = "Potion of Frost";
+		name = "冰霜药水";
 	}
 	
 	@Override
@@ -58,9 +58,7 @@ public class PotionOfFrost extends Potion {
 	
 	@Override
 	public String desc() {
-		return 
-			"Upon exposure to open air, this chemical will evaporate into a freezing cloud, causing " +
-			"any creature that contacts it to be frozen in place, unable to act and move.";
+		return "接触空气后，这种化学物质会蒸发成冰冻云雾，让接触到的生物原地冻结，无法行动。";
 	}
 	
 	@Override

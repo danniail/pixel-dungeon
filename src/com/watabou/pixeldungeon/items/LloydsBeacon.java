@@ -37,30 +37,30 @@ import com.watabou.utils.Bundle;
 public class LloydsBeacon extends Item {
 
 	private static final String TXT_PREVENTING = 
-		"Strong magic aura of this place prevents you from using the lloyd's beacon!";
+		"这里强大的魔法气场让你无法使用劳埃德信标！";
 	
 	private static final String TXT_CREATURES = 
-		"Psychic aura of neighbouring creatures doesn't allow you to use the lloyd's beacon at this moment.";
+		"附近生物的灵能气场让你此刻无法使用劳埃德信标。";
 	
 	private static final String TXT_RETURN = 
-		"The lloyd's beacon is successfully set at your current location, now you can return here anytime.";
+		"劳埃德信标已成功设置在你当前位置，现在你随时可以返回这里。";
 			
 	private static final String TXT_INFO =
-		"Lloyd's beacon is an intricate magic device, that allows you to return to a place you have already been.";
+		"劳埃德信标是精巧的魔法装置，能让你返回曾经到过的地方。";
 	
 	private static final String TXT_SET = 
-		"\n\nThis beacon was set somewhere on the level %d of Pixel Dungeon.";
+		"\n\n这个信标设置在像素地牢第%d层的某处。";
 	
 	public static final float TIME_TO_USE = 1;
 	
-	public static final String AC_SET		= "SET";
-	public static final String AC_RETURN	= "RETURN";
+	public static final String AC_SET		= "设置";
+	public static final String AC_RETURN	= "返回";
 	
 	private int returnDepth	= -1;
 	private int returnPos;
 	
 	{
-		name = "lloyd's beacon";
+		name = "劳埃德信标";
 		image = ItemSpriteSheet.BEACON;
 		
 		unique = true;

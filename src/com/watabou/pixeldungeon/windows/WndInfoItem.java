@@ -29,20 +29,20 @@ import com.watabou.pixeldungeon.utils.Utils;
 
 public class WndInfoItem extends Window {
 	
-	private static final String TXT_CHEST			= "Chest";
-	private static final String TXT_LOCKED_CHEST	= "Locked chest";
-	private static final String TXT_CRYSTAL_CHEST	= "Crystal chest";
-	private static final String TXT_TOMB			= "Tomb";
-	private static final String TXT_SKELETON		= "Skeletal remains";
-	private static final String TXT_WONT_KNOW		= "You won't know what's inside until you open it!";
-	private static final String TXT_NEED_KEY		= TXT_WONT_KNOW + " But to open it you need a golden key.";
-	private static final String TXT_INSIDE			= "You can see %s inside, but to open the chest you need a golden key.";
+	private static final String TXT_CHEST			= "宝箱";
+	private static final String TXT_LOCKED_CHEST	= "上锁的箱子";
+	private static final String TXT_CRYSTAL_CHEST	= "水晶箱";
+	private static final String TXT_TOMB			= "坟墓";
+	private static final String TXT_SKELETON		= "骸骨";
+	private static final String TXT_WONT_KNOW		= "打开之前，你不知道里面有什么！";
+	private static final String TXT_NEED_KEY		= TXT_WONT_KNOW + "但要打开它，你需要一把金钥匙。";
+	private static final String TXT_INSIDE			= "你能看见里面的%s，但要打开箱子需要一把金钥匙。";
 	private static final String TXT_OWNER	= 
-		"This ancient tomb may contain something useful, " +
-		"but its owner will most certainly object to checking.";
+		"这座古墓里也许有有用的东西，" +
+		"但它的主人肯定不会同意你翻找。";
 	private static final String TXT_REMAINS	= 
-		"This is all that's left from one of your predecessors. " +
-		"Maybe it's worth checking for any valuables.";
+		"这是你的某位前辈留下的全部东西。" +
+		"也许值得找找有没有值钱的东西。";
 	
 	private static final float GAP	= 2;
 	

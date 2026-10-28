@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class MirrorImage extends NPC {
 	
 	{
-		name = "mirror image";
+		name = "镜像";
 		spriteClass = MirrorSprite.class;
 		
 		state = HUNTING;
@@ -109,9 +109,7 @@ public class MirrorImage extends NPC {
 	
 	@Override
 	public String description() {
-		return
-			"This illusion bears a close resemblance to you, " +
-			"but it's paler and twitches a little.";
+		return "这个幻象与你极为相似，但更苍白，还会微微抽搐。";
 	}
 	
 	@Override

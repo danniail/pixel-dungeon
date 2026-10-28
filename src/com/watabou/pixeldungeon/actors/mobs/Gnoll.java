@@ -26,7 +26,7 @@ import com.watabou.utils.Random;
 public class Gnoll extends Mob {
 	
 	{
-		name = "gnoll scout";
+		name = "豺狼斥候";
 		spriteClass = GnollSprite.class;
 		
 		HP = HT = 12;
@@ -62,8 +62,6 @@ public class Gnoll extends Mob {
 	
 	@Override
 	public String description() {
-		return
-			"Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. " +
-			"Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans.";
+		return "豺狼是形似鬣狗的类人生物。它们栖息在下水道和地牢中，偶尔上到地面劫掠。豺狼斥候是狼群中的普通成员，不如蛮兵强壮，也不如萨满聪明。";
 	}
 }

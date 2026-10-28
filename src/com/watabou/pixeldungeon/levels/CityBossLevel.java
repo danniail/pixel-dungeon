@@ -224,9 +224,9 @@ public class CityBossLevel extends Level {
 	public String tileName( int tile ) {
 		switch (tile) {
 		case Terrain.WATER:
-			return "Suspiciously colored water";
+			return "颜色可疑的水";
 		case Terrain.HIGH_GRASS:
-			return "High blooming flowers";
+			return "盛开的高花";
 		default:
 			return super.tileName( tile );
 		}
@@ -236,19 +236,19 @@ public class CityBossLevel extends Level {
 	public String tileDesc(int tile) {
 		switch (tile) {
 		case Terrain.ENTRANCE:
-			return "A ramp leads up to the upper depth.";
+			return "坡道通向上一层。";
 		case Terrain.EXIT:
-			return "A ramp leads down to the lower depth.";
+			return "坡道通向下一层。";
 		case Terrain.WALL_DECO:
 		case Terrain.EMPTY_DECO:
-			return "Several tiles are missing here.";
+			return "这里缺了几块地砖。";
 		case Terrain.EMPTY_SP:
-			return "Thick carpet covers the floor.";
+			return "厚厚的地毯铺在地上。";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "The statue depicts some dwarf standing in a heroic stance.";
+			return "雕像刻画了一个摆出英勇姿态的矮人。";
 		case Terrain.BOOKSHELF:
-			return "The rows of books on different disciplines fill the bookshelf.";
+			return "书架上摆满了各门学科的书籍。";
 		default:
 			return super.tileDesc( tile );
 		}

@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfPoison extends Wand {
 
 	{
-		name = "Wand of Poison";
+		name = "剧毒法杖";
 	}
 	
 	@Override
@@ -42,7 +42,7 @@ public class WandOfPoison extends Wand {
 			
 		} else {
 			
-			GLog.i( "nothing happened" );
+			GLog.i( "什么也没发生" );
 			
 		}
 	}
@@ -54,10 +54,6 @@ public class WandOfPoison extends Wand {
 	
 	@Override
 	public String desc() {
-		return
-			"The vile blast of this twisted bit of wood will imbue its target " +
-			"with a deadly venom. A creature that is poisoned will suffer periodic " +
-			"damage until the effect ends. The duration of the effect increases " +
-			"with the level of the staff.";
+		return "这根扭曲木棍的邪恶冲击会让目标染上致命剧毒。中毒的生物会周期性受到伤害，直到效果结束。效果持续时间随法杖等级增加。";
 	}
 }

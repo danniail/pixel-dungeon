@@ -36,16 +36,16 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class Weightstone extends Item {
 	
-	private static final String TXT_SELECT_WEAPON	= "Select a weapon to balance";
-	private static final String TXT_FAST			= "you balanced your %s to make it faster";
-	private static final String TXT_ACCURATE		= "you balanced your %s to make it more accurate";
+	private static final String TXT_SELECT_WEAPON	= "选择要调整的武器";
+	private static final String TXT_FAST			= "你调整了%s，让它更快";
+	private static final String TXT_ACCURATE		= "你调整了%s，让它更精准";
 	
 	private static final float TIME_TO_APPLY = 2;
 	
-	private static final String AC_APPLY = "APPLY";
+	private static final String AC_APPLY = "使用";
 	
 	{
-		name = "weightstone";
+		name = "磨刀石";
 		image = ItemSpriteSheet.WEIGHT;
 		
 		stackable = true;
@@ -110,7 +110,7 @@ public class Weightstone extends Item {
 	@Override
 	public String info() {
 		return
-			"Using a weightstone, you can balance your melee weapon to increase its speed or accuracy.";
+			"使用磨刀石，你可以调整近战武器的平衡，提升它的速度或精准度。";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {
@@ -124,11 +124,11 @@ public class Weightstone extends Item {
 	
 	public class WndBalance extends Window {
 
-		private static final String TXT_CHOICE = "How would you like to balance your %s?";
+		private static final String TXT_CHOICE = "你想怎样调整你的%s？";
 		
-		private static final String TXT_SPEED		= "For speed";
-		private static final String TXT_ACCURACY	= "For accuracy";
-		private static final String TXT_CANCEL		= "Never mind";
+		private static final String TXT_SPEED		= "提升速度";
+		private static final String TXT_ACCURACY	= "提升精准度";
+		private static final String TXT_CANCEL		= "算了";
 		
 		private static final int WIDTH			= 120;
 		private static final int MARGIN 		= 2;

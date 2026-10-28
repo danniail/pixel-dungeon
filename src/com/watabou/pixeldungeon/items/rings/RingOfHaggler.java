@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.items.Item;
 public class RingOfHaggler extends Ring {
 
 	{
-		name = "Ring of Haggler";
+		name = "议价之戒";
 	}
 	
 	@Override
@@ -59,11 +59,9 @@ public class RingOfHaggler extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"In fact this ring doesn't provide any magic effect, but it demonstrates " +
-			"to shopkeepers and vendors, that the owner of the ring is a member of " +
-			"The Thieves' Guild. Usually they are glad to give a discount in exchange " +
-			"for temporary immunity guarantee. Upgrading this ring won't give any additional " +
-			"bonuses." :
+			"实际上这枚戒指不提供任何魔法效果，但它向店主和商贩表明，" +
+			"戒主是盗贼公会的成员。他们通常乐意给个折扣，以换取" +
+			"暂时的安全保证。升级这枚戒指不会带来额外好处。" :
 			super.desc();
 	}
 	

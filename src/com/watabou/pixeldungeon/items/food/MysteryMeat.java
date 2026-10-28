@@ -32,10 +32,10 @@ import com.watabou.utils.Random;
 public class MysteryMeat extends Food {
 
 	{
-		name = "mystery meat";
+		name = "神秘肉";
 		image = ItemSpriteSheet.MEAT;
 		energy = Hunger.STARVING - Hunger.HUNGRY;
-		message = "That food tasted... strange.";
+		message = "这食物味道……很奇怪。";
 	}
 	
 	@Override
@@ -47,19 +47,19 @@ public class MysteryMeat extends Food {
 			
 			switch (Random.Int( 5 )) {
 			case 0:
-				GLog.w( "Oh it's hot!" );
+				GLog.w( "哦，好烫！" );
 				Buff.affect( hero, Burning.class ).reignite( hero );
 				break;
 			case 1:
-				GLog.w( "You can't feel your legs!" );
+				GLog.w( "你感觉不到自己的腿了！" );
 				Buff.prolong( hero, Roots.class, Paralysis.duration( hero ) );
 				break;
 			case 2:
-				GLog.w( "You are not feeling well." );
+				GLog.w( "你感觉不太舒服。" );
 				Buff.affect( hero, Poison.class ).set( Poison.durationFactor( hero ) * hero.HT / 5 );
 				break;
 			case 3:
-				GLog.w( "You are stuffed." );
+				GLog.w( "你吃饱了。" );
 				Buff.prolong( hero, Slow.class, Slow.duration( hero ) );
 				break;
 			}
@@ -68,7 +68,7 @@ public class MysteryMeat extends Food {
 	
 	@Override
 	public String info() {
-		return "Eat at your own risk!";
+		return "风险自负！";
 	}
 	
 	public int price() {

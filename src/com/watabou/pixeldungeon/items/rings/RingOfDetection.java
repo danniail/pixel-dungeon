@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.actors.hero.Hero;
 public class RingOfDetection extends Ring {
 
 	{
-		name = "Ring of Detection";
+		name = "侦测之戒";
 	}
 	
 	@Override
@@ -44,9 +44,8 @@ public class RingOfDetection extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"Wearing this ring will allow the wearer to notice hidden secrets - " +
-			"traps and secret doors - without taking time to search. Degraded rings of detection " +
-			"will dull your senses, making it harder to notice secrets even when actively searching for them." :
+			"佩戴它能让你无需花时间搜索，就注意到隐藏的秘密——陷阱和暗门。" +
+			"损坏的侦测之戒会让你的感官迟钝，即使主动搜索也更难发现秘密。" :
 			super.desc();
 	}
 	

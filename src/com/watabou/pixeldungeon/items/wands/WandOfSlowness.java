@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfSlowness extends Wand {
 
 	{
-		name = "Wand of Slowness";
+		name = "减速法杖";
 	}
 
 	@Override
@@ -42,7 +42,7 @@ public class WandOfSlowness extends Wand {
 
 		} else {
 			
-			GLog.i( "nothing happened" );
+			GLog.i( "什么也没发生" );
 			
 		}
 	}
@@ -54,8 +54,6 @@ public class WandOfSlowness extends Wand {
 	
 	@Override
 	public String desc() {
-		return 
-			"This wand will cause a creature to move and attack " +
-			"at half its ordinary speed until the effect ends";
+		return "法杖会让生物在效果结束前，以平常一半的速度移动和攻击。";
 	}
 }

@@ -82,90 +82,90 @@ public class MeleeWeapon extends Weapon {
 	
 	@Override
 	public String info() {
-		
+
 		final String p = "\n\n";
-		
+
 		StringBuilder info = new StringBuilder( desc() );
-		
+
 		int lvl = visiblyUpgraded();
-		String quality = lvl != 0 ? 
-			(lvl > 0 ? 
-				(isBroken() ? "broken" : "upgraded") : 
-				"degraded") : 
+		String quality = lvl != 0 ?
+			(lvl > 0 ?
+				(isBroken() ? "损坏" : "强化") :
+				"退化") :
 			"";
 		info.append( p );
-		info.append( "This " + name + " is " + Utils.indefinite( quality ) );
-		info.append( " tier-" + tier + " melee weapon. " );
-		
+		info.append( "这把" + name + "是" + (quality.length() > 0 ? "一件" + quality + "的" : "一件") );
+		info.append( tier + "阶近战武器。" );
+
 		if (levelKnown) {
 			int min = min();
 			int max = max();
-			info.append( "Its average damage is " + (min + (max - min) / 2) + " points per hit. " );
+			info.append( "它每次命中的平均伤害为" + (min + (max - min) / 2) + "点。" );
 		} else {
 			int min = min0();
 			int max = max0();
-			info.append( 
-				"Its typical average damage is " + (min + (max - min) / 2) + " points per hit " +
-				"and usually it requires " + typicalSTR() + " points of strength. " );
+			info.append(
+				"它通常每次命中的平均伤害为" + (min + (max - min) / 2) + "点，" +
+				"一般需要" + typicalSTR() + "点力量。" );
 			if (typicalSTR() > Dungeon.hero.STR()) {
-				info.append( "Probably this weapon is too heavy for you. " );
+				info.append( "这把武器对你来说可能太重了。" );
 			}
 		}
-		
+
 		if (DLY != 1f) {
-			info.append( "This is a rather " + (DLY < 1f ? "fast" : "slow") );
+			info.append( "这是一把相当" + (DLY < 1f ? "快速" : "缓慢") );
 			if (ACU != 1f) {
 				if ((ACU > 1f) == (DLY < 1f)) {
-					info.append( " and ");
+					info.append( "且");
 				} else {
-					info.append( " but ");
+					info.append( "但");
 				}
-				info.append( ACU > 1f ? "accurate" : "inaccurate" );
+				info.append( ACU > 1f ? "精准" : "失准" );
 			}
-			info.append( " weapon. ");
+			info.append( "的武器。");
 		} else if (ACU != 1f) {
-			info.append( "This is a rather " + (ACU > 1f ? "accurate" : "inaccurate") + " weapon. " );
+			info.append( "这是一把相当" + (ACU > 1f ? "精准" : "失准") + "的武器。" );
 		}
 		switch (imbue) {
 		case SPEED:
-			info.append( "It was balanced to make it faster. " );
+			info.append( "它经过调整以提升速度。" );
 			break;
 		case ACCURACY:
-			info.append( "It was balanced to make it more accurate. " );
+			info.append( "它经过调整以提升精准度。" );
 			break;
 		case NONE:
 		}
-		
+
 		if (enchantment != null) {
-			info.append( "It is enchanted." );
+			info.append( "它带有附魔。" );
 		}
-		
+
 		if (levelKnown && Dungeon.hero.belongings.backpack.items.contains( this )) {
 			if (STR > Dungeon.hero.STR()) {
 				info.append( p );
-				info.append( 
-					"Because of your inadequate strength the accuracy and speed " +
-					"of your attack with this " + name + " is decreased." );
+				info.append(
+					"由于你的力量不足，使用这把" + name +
+					"攻击的精准度和速度都下降了。" );
 			}
 			if (STR < Dungeon.hero.STR()) {
 				info.append( p );
-				info.append( 
-					"Because of your excess strength the damage " +
-					"of your attack with this " + name + " is increased." );
+				info.append(
+					"由于你的力量富余，使用这把" + name +
+					"攻击的伤害提升了。" );
 			}
 		}
-		
+
 		if (isEquipped( Dungeon.hero )) {
 			info.append( p );
-			info.append( "You hold the " + name + " at the ready" + 
-				(cursed ? ", and because it is cursed, you are powerless to let go." : ".") ); 
+			info.append( "你手持" + name + "，随时准备出击" +
+				(cursed ? "，但由于它被诅咒，你无法将它放下。" : "。") );
 		} else {
 			if (cursedKnown && cursed) {
 				info.append( p );
-				info.append( "You can feel a malevolent magic lurking within " + name +"." );
+				info.append( "你能感觉到" + name + "中潜藏着邪恶的魔力。" );
 			}
 		}
-		
+
 		return info.toString();
 	}
 	

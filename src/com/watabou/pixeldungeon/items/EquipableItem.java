@@ -26,10 +26,10 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public abstract class EquipableItem extends Item {
 
-	private static final String TXT_UNEQUIP_CURSED	= "You can't remove cursed %s!";
+	private static final String TXT_UNEQUIP_CURSED	= "你无法脱下被诅咒的%s！";
 	
-	public static final String AC_EQUIP		= "EQUIP";
-	public static final String AC_UNEQUIP	= "UNEQUIP";
+	public static final String AC_EQUIP		= "装备";
+	public static final String AC_UNEQUIP	= "卸下";
 	
 	@Override
 	public void execute( Hero hero, String action ) {

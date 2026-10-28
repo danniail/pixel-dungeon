@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.scenes.GameScene;
 public class PotionOfLiquidFlame extends Potion {
 
 	{
-		name = "Potion of Liquid Flame";
+		name = "液态火焰药水";
 	}
 	
 	@Override
@@ -45,9 +45,7 @@ public class PotionOfLiquidFlame extends Potion {
 	
 	@Override
 	public String desc() {
-		return
-			"This flask contains an unstable compound which will burst " +
-			"violently into flame upon exposure to open air.";
+		return "瓶中装着不稳定的化合物，接触空气会剧烈燃烧。";
 	}
 	
 	@Override
