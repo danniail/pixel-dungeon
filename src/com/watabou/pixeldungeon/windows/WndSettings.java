@@ -46,10 +46,16 @@ public class WndSettings extends Window {
 	
 	private static final String TXT_SWITCH_PORT	= "切换到竖屏";
 	private static final String TXT_SWITCH_LAND	= "切换到横屏";
-	
+
+	private static final String TXT_UI_TOP		= "上方位置";
+	private static final String TXT_UI_BOTTOM	= "下方位置";
+
 	private static final int WIDTH		= 112;
 	private static final int BTN_HEIGHT	= 20;
 	private static final int GAP 		= 2;
+
+	// Pixel change per +/- tap for the UI offsets.
+	private static final int OFFSET_STEP	= 2;
 	
 	private RedButton btnZoomOut;
 	private RedButton btnZoomIn;
@@ -160,9 +166,14 @@ public class WndSettings extends Window {
 			btnQuickslot.setRect( 0, btnBrightness.bottom() + GAP, WIDTH, BTN_HEIGHT );
 			btnQuickslot.checked( Toolbar.secondQuickslot() );
 			add( btnQuickslot );
-			
-			resize( WIDTH, (int)btnQuickslot.bottom() );
-			
+
+			// User-adjustable safe-area offsets, with live preview.
+			float stepperY = btnQuickslot.bottom() + GAP;
+			addStepper( stepperY, true );
+			addStepper( stepperY + BTN_HEIGHT + GAP, false );
+
+			resize( WIDTH, (int)(stepperY + 2 * BTN_HEIGHT + GAP) );
+
 		} else {
 			
 			RedButton btnOrientation = new RedButton( orientationText() ) {
@@ -195,5 +206,49 @@ public class WndSettings extends Window {
 	
 	private String orientationText() {
 		return PixelDungeon.landscape() ? TXT_SWITCH_PORT : TXT_SWITCH_LAND;
+	}
+
+	/**
+	 * Adds one row: [ - ]  label + value  [ + ] for adjusting the safe-area
+	 * offset. The change is saved and applied immediately (live preview).
+	 */
+	private void addStepper( float y, final boolean top ) {
+		int w = BTN_HEIGHT;
+
+		final RedButton center = new RedButton( offsetLabel( top ) );
+
+		RedButton btnMinus = new RedButton( TXT_ZOOM_OUT ) {
+			@Override
+			protected void onClick() {
+				if (top) {
+					PixelDungeon.uiTop( PixelDungeon.uiTop() - OFFSET_STEP );
+				} else {
+					PixelDungeon.uiBottom( PixelDungeon.uiBottom() - OFFSET_STEP );
+				}
+				center.text( offsetLabel( top ) );
+			}
+		};
+		add( btnMinus.setRect( 0, y, w, BTN_HEIGHT ) );
+
+		RedButton btnPlus = new RedButton( TXT_ZOOM_IN ) {
+			@Override
+			protected void onClick() {
+				if (top) {
+					PixelDungeon.uiTop( PixelDungeon.uiTop() + OFFSET_STEP );
+				} else {
+					PixelDungeon.uiBottom( PixelDungeon.uiBottom() + OFFSET_STEP );
+				}
+				center.text( offsetLabel( top ) );
+			}
+		};
+		add( btnPlus.setRect( WIDTH - w, y, w, BTN_HEIGHT ) );
+
+		add( center.setRect( btnMinus.right(), y,
+			WIDTH - btnMinus.width() - btnPlus.width(), BTN_HEIGHT ) );
+	}
+
+	private String offsetLabel( boolean top ) {
+		int value = top ? PixelDungeon.uiTop() : PixelDungeon.uiBottom();
+		return (top ? TXT_UI_TOP : TXT_UI_BOTTOM) + " " + value;
 	}
 }

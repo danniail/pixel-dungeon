@@ -125,7 +125,15 @@ public class PixelDungeon extends Game {
 	@Override
 	protected void onCreate( Bundle savedInstanceState ) {
 		super.onCreate( savedInstanceState );
-		
+
+		// Load saved offsets after the base activity (and Game.instance) exists,
+		// then re-apply the safe area so the first frame uses the saved values.
+		Game.extraTop = Preferences.INSTANCE.getInt(
+			Preferences.KEY_UI_TOP, Preferences.DEFAULT_UI_TOP );
+		Game.extraBottom = Preferences.INSTANCE.getInt(
+			Preferences.KEY_UI_BOTTOM, Preferences.DEFAULT_UI_BOTTOM );
+		Game.refreshSafeArea();
+
 		updateImmersiveMode();
 		
 		DisplayMetrics metrics = new DisplayMetrics();
@@ -317,6 +325,32 @@ public class PixelDungeon extends Game {
 	
 	public static boolean brightness() {
 		return Preferences.INSTANCE.getBoolean( Preferences.KEY_BRIGHTNESS, false );
+	}
+
+	// User-adjustable safe-area offsets.
+
+	public static int uiTop() {
+		return Preferences.INSTANCE.getInt(
+			Preferences.KEY_UI_TOP, Preferences.DEFAULT_UI_TOP );
+	}
+
+	public static int uiBottom() {
+		return Preferences.INSTANCE.getInt(
+			Preferences.KEY_UI_BOTTOM, Preferences.DEFAULT_UI_BOTTOM );
+	}
+
+	public static void uiTop( int value ) {
+		value = Math.max( 0, value );
+		Preferences.INSTANCE.put( Preferences.KEY_UI_TOP, value );
+		Game.extraTop = value;
+		Game.refreshSafeArea();
+	}
+
+	public static void uiBottom( int value ) {
+		value = Math.max( 0, value );
+		Preferences.INSTANCE.put( Preferences.KEY_UI_BOTTOM, value );
+		Game.extraBottom = value;
+		Game.refreshSafeArea();
 	}
 	
 	public static void donated( String value ) {

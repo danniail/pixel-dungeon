@@ -37,6 +37,12 @@ enum Preferences {
 	public static final String KEY_DONATED		= "donated";
 	public static final String KEY_INTRO		= "intro";
 	public static final String KEY_BRIGHTNESS	= "brightness";
+	public static final String KEY_UI_TOP		= "ui_top";
+	public static final String KEY_UI_BOTTOM	= "ui_bottom";
+
+	// Default extra safe-area offsets (physical pixels).
+	public static final int DEFAULT_UI_TOP		= 50;
+	public static final int DEFAULT_UI_BOTTOM	= 14;
 	
 	private SharedPreferences prefs;
 	

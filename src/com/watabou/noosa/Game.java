@@ -113,6 +113,73 @@ public class Game extends Activity implements GLSurfaceView.Renderer, View.OnTou
 		view.setRenderer( this );
 		view.setOnTouchListener( this );
 		setContentView( view );
+
+		applySafeArea();
+	}
+
+	/**
+	 * On targetSdk 35 the app is forced into edge-to-edge, so the GL surface
+	 * would otherwise be drawn behind the status bar and navigation bar.
+	 * Here we shrink the surface (via layout margins) into the safe area.
+	 */
+	// User-adjustable extra safe-area offsets (physical pixels), on top of
+	// the system-bar insets. The concrete game wires these to preferences.
+	public static int extraTop = 0;
+	public static int extraBottom = 0;
+
+	@SuppressLint("NewApi")
+	private void applySafeArea() {
+		view.setOnApplyWindowInsetsListener( new View.OnApplyWindowInsetsListener() {
+			@Override
+			public android.view.WindowInsets onApplyWindowInsets( View v, android.view.WindowInsets insets ) {
+
+				int top = insets.getSystemWindowInsetTop();
+				int bottom = insets.getSystemWindowInsetBottom();
+				int left = insets.getSystemWindowInsetLeft();
+				int right = insets.getSystemWindowInsetRight();
+
+				if (android.os.Build.VERSION.SDK_INT >= 28) {
+					android.view.DisplayCutout cutout = insets.getDisplayCutout();
+					if (cutout != null) {
+						top = Math.max( top, cutout.getSafeInsetTop() );
+						bottom = Math.max( bottom, cutout.getSafeInsetBottom() );
+						left = Math.max( left, cutout.getSafeInsetLeft() );
+						right = Math.max( right, cutout.getSafeInsetRight() );
+					}
+				}
+
+				// User-adjustable extra padding for punch-hole cameras etc.
+				top += extraTop;
+				bottom += extraBottom;
+
+				android.widget.FrameLayout.LayoutParams lp =
+					(android.widget.FrameLayout.LayoutParams) v.getLayoutParams();
+				if (lp.topMargin != top || lp.bottomMargin != bottom ||
+					lp.leftMargin != left || lp.rightMargin != right) {
+					lp.topMargin = top;
+					lp.bottomMargin = bottom;
+					lp.leftMargin = left;
+					lp.rightMargin = right;
+					v.setLayoutParams( lp );
+				}
+
+				return insets;
+			}
+		} );
+	}
+
+	/** Re-apply the safe area after the user changes extraTop/extraBottom.
+	 *  Must run on the main thread; button clicks are delivered on the GL thread. */
+	public static void refreshSafeArea() {
+		if (instance != null && instance.view != null) {
+			final GLSurfaceView v = instance.view;
+			v.post( new Runnable() {
+				@Override
+				public void run() {
+					v.requestApplyInsets();
+				}
+			} );
+		}
 	}
 	
 	@Override

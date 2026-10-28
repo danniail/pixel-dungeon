@@ -168,7 +168,7 @@ public class Hero extends Char {
 	
 	public Hero() {
 		super();
-		name = "you";
+		name = "你";
 		
 		HP = HT = 20;
 		STR = STARTING_STR;

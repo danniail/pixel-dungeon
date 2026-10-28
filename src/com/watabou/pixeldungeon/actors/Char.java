@@ -225,7 +225,7 @@ public abstract class Char extends Actor {
 	}
 	
 	public String defenseVerb() {
-		return "dodged";
+		return "躲开";
 	}
 	
 	public int dr() {
