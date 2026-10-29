@@ -107,8 +107,8 @@ public class CharSprite extends MovieClip implements Tweener.Listener, MovieClip
 		final int csize = DungeonTilemap.SIZE;
 		
 		return new PointF(
-			((cell % Level.WIDTH) + 0.5f) * csize - width * 0.5f,
-			((cell / Level.WIDTH) + 1.0f) * csize - height
+			((cell % Level.WIDTH) + 0.5f) * csize - width() * 0.5f,
+			((cell / Level.WIDTH) + 1.0f) * csize - height()
 		);
 	}
 	
@@ -122,9 +122,9 @@ public class CharSprite extends MovieClip implements Tweener.Listener, MovieClip
 				text = Utils.format( text, args );
 			}
 			if (ch != null) {
-				FloatingText.show( x + width * 0.5f, y, ch.pos, text, color );
+				FloatingText.show( x + width() * 0.5f, y, ch.pos, text, color );
 			} else {
-				FloatingText.show( x + width * 0.5f, y, text, color );
+				FloatingText.show( x + width() * 0.5f, y, text, color );
 			}
 		}
 	}

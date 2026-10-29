@@ -78,7 +78,7 @@ public class InterlevelScene extends PixelScene {
 		String text = "";
 		switch (mode) {
 		case DESCEND:
-			text = TXT_DESCENDING;
+			text = "正在深入" + WndStory.regionName( Dungeon.depth + 1 ) + "……";
 			break;
 		case ASCEND:
 			text = TXT_ASCENDING;

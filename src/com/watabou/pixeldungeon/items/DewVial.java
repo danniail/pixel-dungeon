@@ -39,7 +39,7 @@ public class DewVial extends Item {
 	
 	private static final float TIME_TO_DRINK = 1f;
 	
-	private static final String TXT_VALUE	= "%+d生命";
+	private static final String TXT_VALUE	= "%+d气血";
 	private static final String TXT_STATUS	= "%d/%d";
 	
 	private static final String TXT_AUTO_DRINK	= "晨露瓶被倒空，用来治愈你的伤口。";

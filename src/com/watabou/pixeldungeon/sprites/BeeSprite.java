@@ -27,7 +27,7 @@ public class BeeSprite extends MobSprite {
 		
 		texture( Assets.BEE );
 		
-		TextureFilm frames = new TextureFilm( texture, 16, 16 );
+		TextureFilm frames = new TextureFilm( texture, 32, 32 );
 		
 		idle = new Animation( 12, true );
 		idle.frames( frames, 0, 1, 1, 0, 2, 2 );

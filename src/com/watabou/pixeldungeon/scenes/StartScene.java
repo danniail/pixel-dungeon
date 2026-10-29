@@ -59,7 +59,7 @@ public class StartScene extends PixelScene {
 	private static final String TXT_NEW		= "新游戏";
 
 	private static final String TXT_ERASE		= "清除当前存档";
-	private static final String TXT_DPTH_LVL	= "层数：%d，等级：%d";
+	private static final String TXT_DPTH_LVL	= "秘境层数：%d，修为等级：%d";
 
 	private static final String TXT_REALLY	= "确定要开始新游戏吗？";
 	private static final String TXT_WARNING	= "当前的游戏进度将被清除。";

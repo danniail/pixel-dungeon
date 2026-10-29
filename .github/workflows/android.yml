@@ -1,0 +1,26 @@
+name: Android build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Validate Chinese text and game resources
+        run: python3 tools/validate_project.py
+      - name: Build debug APK
+        run: ./gradlew --no-daemon assembleDebug
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: xianxia-pixel-dungeon-debug
+          path: build/outputs/apk/debug/PixelDungeon-debug.apk

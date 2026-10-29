@@ -143,11 +143,11 @@ public class WndRanking extends WndTabbed {
 		
 		private static final int GAP	= 4;
 		
-		private static final String TXT_TITLE	= "等级 %d %s";
+		private static final String TXT_TITLE	= "修为 %d 级·%s";
 		
 		private static final String TXT_CHALLENGES	= "挑战";
 		
-		private static final String TXT_HEALTH	= "生命";
+		private static final String TXT_HEALTH	= "气血";
 		private static final String TXT_STR		= "力道";
 		
 		private static final String TXT_DURATION	= "游戏时长";

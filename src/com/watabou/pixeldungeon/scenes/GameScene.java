@@ -77,8 +77,8 @@ import com.watabou.utils.Random;
 
 public class GameScene extends PixelScene {
 	
-	private static final String TXT_WELCOME			= "欢迎来到秘境第%d层！";
-	private static final String TXT_WELCOME_BACK	= "欢迎回到秘境第%d层！";
+	private static final String TXT_WELCOME			= "欢迎来到%s，第%d层！";
+	private static final String TXT_WELCOME_BACK	= "欢迎回到%s，第%d层！";
 	private static final String TXT_NIGHT_MODE		= "小心，夜晚的秘境更加危险！";
 	
 	private static final String TXT_CHASM	= "你的脚步声在秘境中回荡。";
@@ -264,6 +264,7 @@ public class GameScene extends PixelScene {
 				WndStory.showChapter( WndStory.ID_HALLS );
 				break;
 			}
+			WndStory.showBoss( Dungeon.depth );
 			if (Dungeon.hero.isAlive() && Dungeon.depth != 22) {
 				Badges.validateNoKilling();
 			}
@@ -290,9 +291,9 @@ public class GameScene extends PixelScene {
 
 		if (InterlevelScene.mode != InterlevelScene.Mode.NONE) {
 			if (Dungeon.depth < Statistics.deepestFloor) {
-				GLog.h( TXT_WELCOME_BACK, Dungeon.depth );
+				GLog.h( TXT_WELCOME_BACK, WndStory.regionName( Dungeon.depth ), Dungeon.depth );
 			} else {
-				GLog.h( TXT_WELCOME, Dungeon.depth );
+				GLog.h( TXT_WELCOME, WndStory.regionName( Dungeon.depth ), Dungeon.depth );
 				Sample.INSTANCE.play( Assets.SND_DESCEND );
 			}
 			switch (Dungeon.level.feeling) {

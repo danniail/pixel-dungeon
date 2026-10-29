@@ -27,7 +27,7 @@ public class SpinnerSprite extends MobSprite {
 		
 		texture( Assets.SPINNER );
 		
-		TextureFilm frames = new TextureFilm( texture, 16, 16 );
+		TextureFilm frames = new TextureFilm( texture, 32, 32 );
 		
 		idle = new Animation( 10, true );
 		idle.frames( frames, 0, 0, 0, 0, 0, 1, 0, 1 );

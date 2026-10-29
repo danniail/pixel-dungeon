@@ -113,10 +113,10 @@ public class Hero extends Char {
 	
 	private static final String TXT_LEAVE = "一个修士可不能轻易离开这秘境。";
 	
-	private static final String TXT_LEVEL_UP = "升级了！";
+	private static final String TXT_LEVEL_UP = "修为精进了！";
 	private static final String TXT_NEW_LEVEL = 
-		"欢迎来到第%d级！现在你更健康、更专注。" +
-		"你更容易命中敌人，也更容易闪避他们的攻击。";
+		"你的修为提升至 %d 级！气血更为充沛，心神更为凝定，" +
+		"命中与闪避能力均有提升。";
 	
 	public static final String TXT_YOU_NOW_HAVE	= "你现在拥有 %s";
 	

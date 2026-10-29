@@ -36,13 +36,16 @@ import com.watabou.pixeldungeon.ui.Window;
 public class AboutScene extends PixelScene {
 
 	private static final String TXT = 
-		"代码与美术：Watabou\n" +
-		"音乐：Cube_Code\n\n" + 
-		"本游戏灵感来自 Brian Walker 的《Brogue》。" +
-		"可以在 Windows、Mac OS 或 Linux 上试试，非常棒！;)\n\n" +
-		"请访问官方网站了解更多信息：";
+		"修仙秘境\n" +
+		"基于 Pixel Dungeon 1.9.1\n\n" +
+		"原作代码与美术：Watabou\n" +
+		"原作音乐：Cube_Code\n" +
+		"修仙版本：danniail\n\n" +
+		"原作灵感来自 Brian Walker 的《Brogue》。\n" +
+		"感谢原项目以 GPL v3 开源。\n\n" +
+		"修仙版项目仓库：";
 	
-	private static final String LNK = "pixeldungeon.watabou.ru";
+	private static final String LNK = "github.com/danniail/pixel-dungeon";
 	
 	@Override
 	public void create() {
@@ -68,7 +71,7 @@ public class AboutScene extends PixelScene {
 		TouchArea hotArea = new TouchArea( link ) {
 			@Override
 			protected void onClick( Touch touch ) {
-				Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse( "http://" + LNK ) );
+				Intent intent = new Intent( Intent.ACTION_VIEW, Uri.parse( "https://" + LNK ) );
 				Game.instance.startActivity( intent );
 			}
 		};

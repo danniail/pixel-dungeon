@@ -43,7 +43,7 @@ public class WndHero extends WndTabbed {
 	
 	private static final String TXT_EXP		= "修为";
 	private static final String TXT_STR		= "力道";
-	private static final String TXT_HEALTH	= "生命";
+	private static final String TXT_HEALTH	= "气血";
 	private static final String TXT_GOLD	= "收集灵石";
 	private static final String TXT_DEPTH	= "最深层数";
 	
@@ -92,7 +92,7 @@ public class WndHero extends WndTabbed {
 	
 	private class StatsTab extends Group {
 		
-		private static final String TXT_TITLE		= "等级 %d %s";
+		private static final String TXT_TITLE		= "修为 %d 级·%s";
 		private static final String TXT_CATALOGUS	= "图鉴";
 		private static final String TXT_JOURNAL		= "日志";
 		

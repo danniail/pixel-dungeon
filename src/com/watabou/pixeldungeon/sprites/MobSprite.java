@@ -28,6 +28,12 @@ public class MobSprite extends CharSprite {
 
 	private static final float FADE_TIME	= 3f;
 	private static final float FALL_TIME	= 1f;
+
+	public MobSprite() {
+		super();
+		// 高清帧（2x）在逻辑世界里仍按原尺寸摆放，细节由 NEAREST 直接映射到屏幕
+		scale.set( 0.5f, 0.5f );
+	}
 	
 	@Override
 	public void update() {

@@ -32,8 +32,10 @@ import com.watabou.utils.Callback;
 
 public class HeroSprite extends CharSprite {
 	
-	private static final int FRAME_WIDTH	= 12;
-	private static final int FRAME_HEIGHT	= 15;
+	private static final int FRAME_WIDTH	= 24;
+	private static final int FRAME_HEIGHT	= 30;
+	// 高清帧（24x30）在逻辑世界里仍按 12x15 摆放，细节由 NEAREST 直接映射到屏幕
+	private static final float LOGIC_SCALE	= 0.5f;
 	
 	private static final int RUN_FRAMERATE	= 20;
 	
@@ -48,6 +50,7 @@ public class HeroSprite extends CharSprite {
 		link( Dungeon.hero );
 		
 		texture( Dungeon.hero.heroClass.spritesheet() );
+		scale.set( LOGIC_SCALE, LOGIC_SCALE );
 		updateArmor();
 		
 		idle();
@@ -141,6 +144,8 @@ public class HeroSprite extends CharSprite {
 		RectF frame = avatar.texture.uvRect( 1, 0, FRAME_WIDTH, FRAME_HEIGHT );
 		frame.offset( patch.left, patch.top );
 		avatar.frame( frame );
+		// 头像在 UI 相机里保持原来的 12x15 逻辑尺寸
+		avatar.scale.set( LOGIC_SCALE, LOGIC_SCALE );
 		
 		return avatar;
 	}

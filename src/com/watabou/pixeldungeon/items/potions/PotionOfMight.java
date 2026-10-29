@@ -35,7 +35,7 @@ public class PotionOfMight extends PotionOfStrength {
 		hero.STR++;
 		hero.HT += 5;
 		hero.HP += 5;
-		hero.sprite.showStatus( CharSprite.POSITIVE, "+1力道，+5生命" );
+		hero.sprite.showStatus( CharSprite.POSITIVE, "+1力道，+5气血" );
 		GLog.p( "新生的力量涌遍全身。" );
 		
 		Badges.validateStrengthAttained();

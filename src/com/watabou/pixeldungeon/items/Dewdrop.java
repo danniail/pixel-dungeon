@@ -28,7 +28,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Dewdrop extends Item {
 
-	private static final String TXT_VALUE	= "%+d生命";
+	private static final String TXT_VALUE	= "%+d气血";
 	
 	{
 		name = "晨露";
