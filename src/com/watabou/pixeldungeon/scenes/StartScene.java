@@ -35,6 +35,7 @@ import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.GamesInProgress;
 import com.watabou.pixeldungeon.PixelDungeon;
 import com.watabou.pixeldungeon.actors.hero.HeroClass;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
 import com.watabou.pixeldungeon.effects.BannerSprites;
 import com.watabou.pixeldungeon.effects.Speck;
 import com.watabou.pixeldungeon.effects.BannerSprites.Type;
@@ -59,7 +60,7 @@ public class StartScene extends PixelScene {
 	private static final String TXT_NEW		= "新游戏";
 
 	private static final String TXT_ERASE		= "清除当前存档";
-	private static final String TXT_DPTH_LVL	= "秘境层数：%d，修为等级：%d";
+	private static final String TXT_DPTH_LVL	= "秘境层数：%d，境界：%s";
 
 	private static final String TXT_REALLY	= "确定要开始新游戏吗？";
 	private static final String TXT_WARNING	= "当前的游戏进度将被清除。";
@@ -271,7 +272,7 @@ public class StartScene extends PixelScene {
 			if (info != null) {
 				
 				btnLoad.visible = true;
-				btnLoad.secondary( Utils.format( TXT_DPTH_LVL, info.depth, info.level ), info.challenges );
+				btnLoad.secondary( Utils.format( TXT_DPTH_LVL, info.depth, Cultivation.realmTitle( info.level ) ), info.challenges );
 				
 				btnNewGame.visible = true;
 				btnNewGame.secondary( TXT_ERASE, false );

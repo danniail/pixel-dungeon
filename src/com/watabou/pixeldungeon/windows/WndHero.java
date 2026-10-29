@@ -30,6 +30,7 @@ import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.Statistics;
 import com.watabou.pixeldungeon.actors.buffs.Buff;
 import com.watabou.pixeldungeon.actors.hero.Hero;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.pixeldungeon.ui.BuffIndicator;
@@ -92,9 +93,10 @@ public class WndHero extends WndTabbed {
 	
 	private class StatsTab extends Group {
 		
-		private static final String TXT_TITLE		= "修为 %d 级·%s";
+		private static final String TXT_TITLE		= "%s·%s";
 		private static final String TXT_CATALOGUS	= "图鉴";
 		private static final String TXT_JOURNAL		= "日志";
+		private static final String TXT_ESSENCE		= "真元";
 		
 		private static final int GAP = 5;
 		
@@ -105,7 +107,7 @@ public class WndHero extends WndTabbed {
 			Hero hero = Dungeon.hero; 
 
 			BitmapText title = PixelScene.createText( 
-				Utils.format( TXT_TITLE, hero.lvl, hero.className() ).toUpperCase( Locale.ENGLISH ), 9 );
+				Utils.format( TXT_TITLE, Cultivation.realmTitle( hero.lvl ), hero.className() ).toUpperCase( Locale.ENGLISH ), 9 );
 			title.hardlight( TITLE_COLOR );
 			title.measure();
 			add( title );
@@ -137,6 +139,7 @@ public class WndHero extends WndTabbed {
 			statSlot( TXT_STR, hero.STR() );
 			statSlot( TXT_HEALTH, hero.HP + "/" + hero.HT );
 			statSlot( TXT_EXP, hero.exp + "/" + hero.maxExp() );
+			statSlot( TXT_ESSENCE, Cultivation.trueEssenceText() );
 
 			pos += GAP;
 			

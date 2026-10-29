@@ -37,6 +37,7 @@ import com.watabou.pixeldungeon.actors.mobs.npcs.Blacksmith;
 import com.watabou.pixeldungeon.actors.mobs.npcs.Imp;
 import com.watabou.pixeldungeon.actors.mobs.npcs.Ghost;
 import com.watabou.pixeldungeon.actors.mobs.npcs.Wandmaker;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
 import com.watabou.pixeldungeon.items.Ankh;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.items.potions.Potion;
@@ -111,6 +112,7 @@ public class Dungeon {
 		
 		Statistics.reset();
 		Journal.reset();
+		Cultivation.reset();
 		
 		depth = 0;
 		gold = 0;
@@ -367,6 +369,7 @@ public class Dungeon {
 			bundle.put( VERSION, Game.version );
 			bundle.put( CHALLENGES, challenges );
 			bundle.put( HERO, hero );
+			Cultivation.storeInBundle( bundle );
 			bundle.put( GOLD, gold );
 			bundle.put( DEPTH, depth );
 			
@@ -515,6 +518,7 @@ public class Dungeon {
 		
 		hero = null;
 		hero = (Hero)bundle.get( HERO );
+		Cultivation.restoreFromBundle( bundle );
 		
 		QuickSlot.compress();
 		

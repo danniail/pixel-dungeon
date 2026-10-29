@@ -27,6 +27,9 @@ import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.DungeonTilemap;
 import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
+import com.watabou.pixeldungeon.cultivation.QingyunSword;
+import com.watabou.pixeldungeon.cultivation.WndTechnique;
 import com.watabou.pixeldungeon.items.Heap;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.levels.Level;
@@ -48,6 +51,7 @@ public class Toolbar extends Component {
 
 	private Tool btnWait;
 	private Tool btnSearch;
+	private Tool btnTechnique;
 	private Tool btnInfo;
 	private Tool btnInventory;
 	private Tool btnQuick1;
@@ -88,7 +92,32 @@ public class Toolbar extends Component {
 			}
 		} );
 		
-		add( btnInfo = new Tool( 40, 7, 21, 25 ) {
+		add( btnTechnique = new Tool( 40, 7, 21, 25 ) {
+			private Image icon;
+			@Override
+			protected void createChildren() {
+				super.createChildren();
+				icon = Icons.get( Icons.TARGET );
+				icon.hardlight( 0x8FD8D0 );
+				add( icon );
+			}
+			@Override
+			protected void layout() {
+				super.layout();
+				icon.x = x + (width - icon.width()) / 2;
+				icon.y = y + (height - icon.height()) / 2;
+			}
+			@Override
+			protected void onClick() {
+				if (Cultivation.isQingyunKnown()) {
+					GameScene.selectCell( new QingyunSword() );
+				} else {
+					GameScene.show( new WndTechnique() );
+				}
+			}
+		} );
+
+		add( btnInfo = new Tool( 61, 7, 21, 25 ) {
 			@Override
 			protected void onClick() {
 				GameScene.selectCell( informer );
@@ -129,7 +158,8 @@ public class Toolbar extends Component {
 	protected void layout() {
 		btnWait.setPos( x, y );
 		btnSearch.setPos( btnWait.right(), y );
-		btnInfo.setPos( btnSearch.right(), y );
+		btnTechnique.setPos( btnSearch.right(), y );
+		btnInfo.setPos( btnTechnique.right(), y );
 		btnQuick1.setPos( width - btnQuick1.width(), y );
 		if (btnQuick2.visible) {
 			btnQuick2.setPos(btnQuick1.left() - btnQuick2.width(), y );

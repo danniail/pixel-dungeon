@@ -38,6 +38,7 @@ import com.watabou.pixeldungeon.Statistics;
 import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.blobs.Blob;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
 import com.watabou.pixeldungeon.effects.BannerSprites;
 import com.watabou.pixeldungeon.effects.BlobEmitter;
 import com.watabou.pixeldungeon.effects.EmoIcon;
@@ -320,6 +321,7 @@ public class GameScene extends PixelScene {
 
 			fadeIn();
 		}
+		Cultivation.showPendingBreakthrough();
 	}
 	
 	public void destroy() {

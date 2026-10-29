@@ -92,6 +92,7 @@ import com.watabou.pixeldungeon.items.weapon.missiles.MissileWeapon;
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.pixeldungeon.levels.Terrain;
 import com.watabou.pixeldungeon.levels.features.AlchemyPot;
+import com.watabou.pixeldungeon.cultivation.Cultivation;
 import com.watabou.pixeldungeon.levels.features.Chasm;
 import com.watabou.pixeldungeon.levels.features.Sign;
 import com.watabou.pixeldungeon.plants.Earthroot;
@@ -371,6 +372,7 @@ public class Hero extends Char {
 	public boolean act() {
 		
 		super.act();
+		Cultivation.onTurn();
 		
 		if (paralysed) {
 			
@@ -1044,6 +1046,7 @@ public class Hero extends Char {
 			Sample.INSTANCE.play( Assets.SND_LEVELUP );
 			
 			Badges.validateLevelReached();
+			Cultivation.onLevelUp( this );
 		}
 		
 		if (subClass == HeroSubClass.WARLOCK) {
