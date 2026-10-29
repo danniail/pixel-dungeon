@@ -43,7 +43,7 @@ public class Succubus extends Mob {
 	private int delay = 0;
 	
 	{
-		name = "魅魔";
+		name = "魔女";
 		spriteClass = SuccubusSprite.class;
 		
 		HP = HT = 80;
@@ -115,7 +115,7 @@ public class Succubus extends Mob {
 	
 	@Override
 	public String description() {
-		return "魅魔是外表（略带哥特风）妖艳的女恶魔。魅魔能用魔法魅惑英雄，让他在魅惑解除前无法攻击任何东西。";
+		return "魔女是妖艳的域外魔物，能以媚术迷惑修士，使其在媚术解除前无法出手攻敌。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

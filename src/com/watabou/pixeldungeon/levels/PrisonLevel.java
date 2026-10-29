@@ -142,7 +142,7 @@ public class PrisonLevel extends RegularLevel {
 		case Terrain.EMPTY_DECO:
 			return "地上有陈旧的血迹。";
 		case Terrain.BOOKSHELF:
-			return "这也许是监狱图书馆的遗迹。它会燃烧吗？";
+			return "这或许是洞府中藏书阁的遗迹。它会燃烧吗？";
 		default:
 			return super.tileDesc( tile );
 		}

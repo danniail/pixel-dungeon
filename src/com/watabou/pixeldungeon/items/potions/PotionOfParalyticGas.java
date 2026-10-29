@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.scenes.GameScene;
 public class PotionOfParalyticGas extends Potion {
 
 	{
-		name = "麻痹气体药水";
+		name = "麻沸散";
 	}
 	
 	@Override

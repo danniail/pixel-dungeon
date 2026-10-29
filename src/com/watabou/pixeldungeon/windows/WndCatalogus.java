@@ -44,8 +44,8 @@ public class WndCatalogus extends WndTabbed {
 	
 	private static final int TAB_WIDTH		= 50;
 	
-	private static final String TXT_POTIONS	= "药水";
-	private static final String TXT_SCROLLS	= "卷轴";
+	private static final String TXT_POTIONS	= "丹药";
+	private static final String TXT_SCROLLS	= "符箓";
 	private static final String TXT_TITLE	= "图鉴";
 	
 	private BitmapText txtTitle;

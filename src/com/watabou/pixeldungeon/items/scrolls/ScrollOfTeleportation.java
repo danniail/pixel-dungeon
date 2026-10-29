@@ -31,10 +31,10 @@ public class ScrollOfTeleportation extends Scroll {
 		"眨眼之间，你被传送到本层的另一处。";
 	
 	public static final String TXT_NO_TELEPORT = 
-		"这里强大的魔法气场让你无法传送！";
+		"此处强大的禁制之力让你无法挪移！";
 	
 	{
-		name = "传送卷轴";
+		name = "挪移符";
 	}
 	
 	@Override
@@ -77,7 +77,7 @@ public class ScrollOfTeleportation extends Scroll {
 	
 	@Override
 	public String desc() {
-		return "羊皮纸上的法术会立即把读者传送到本层的随机位置。可用来逃离险境，但倒霉的读者可能落到更危险的地方。";
+		return "符箓上的法术会立即将修士挪移到本层随机位置。可用来逃离险境，但倒霉的读者可能落到更危险的地方。";
 	}
 	
 	@Override

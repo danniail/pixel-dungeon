@@ -25,18 +25,18 @@ import com.watabou.utils.Bundle;
 public class Journal {
 
 	public static enum Feature {
-		WELL_OF_HEALTH			( "生命之井" ),
-		WELL_OF_AWARENESS		( "感知之井" ),
-		WELL_OF_TRANSMUTATION	( "嬗变之井" ),
-		SACRIFICIAL_FIRE		( "献祭室" ),
-		ALCHEMY					( "炼金釜" ),
-		GARDEN					( "花园" ),
-		STATUE					( "活化雕像" ),
+		WELL_OF_HEALTH			( "回春灵泉" ),
+		WELL_OF_AWARENESS		( "感知灵泉" ),
+		WELL_OF_TRANSMUTATION	( "炼化灵泉" ),
+		SACRIFICIAL_FIRE		( "献祭火坛" ),
+		ALCHEMY					( "炼丹炉" ),
+		GARDEN					( "灵草园" ),
+		STATUE					( "雕像傀儡" ),
 		
-		GHOST					( "悲伤幽魂" ),
-		WANDMAKER				( "老法杖匠" ),
-		TROLL					( "巨魔铁匠" ),
-		IMP						( "野心小恶魔" );
+		GHOST					( "悲伤怨灵" ),
+		WANDMAKER				( "老法器匠" ),
+		TROLL					( "炼器师" ),
+		IMP						( "域外小魔修" );
 		
 		public String desc;
 		

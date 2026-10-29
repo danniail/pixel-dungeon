@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class FrozenCarpaccio extends Food {
 
 	{
-		name = "冻生肉片";
+		name = "冻妖兽肉片";
 		image = ItemSpriteSheet.CARPACCIO;
 		energy = Hunger.STARVING - Hunger.HUNGRY;
 	}
@@ -75,7 +75,7 @@ public class FrozenCarpaccio extends Food {
 	
 	@Override
 	public String info() {
-		return "一块冷冻的生肉。唯一的吃法是切成薄片，而且这样吃意外地不错。";
+		return "一块冷冻的妖兽生肉。切成薄片生食，味道竟还不错。";
 	}
 	
 	public int price() {

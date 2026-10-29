@@ -107,6 +107,6 @@ public class Boomerang extends MissileWeapon {
 	@Override
 	public String desc() {
 		return 
-			"把这个扁平弯曲的木制投掷武器掷向敌人，它会飞回投掷者手中。";
+			"把这个扁平弯曲的木制投掷兵器掷向敌人，它会飞回投掷者手中。";
 	}
 }

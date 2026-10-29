@@ -28,7 +28,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfRecharging extends Scroll {
 
 	{
-		name = "充能卷轴";
+		name = "聚灵符";
 	}
 	
 	@Override
@@ -41,10 +41,10 @@ public class ScrollOfRecharging extends Scroll {
 		Invisibility.dispel();
 		
 		if (count > 0) {
-			GLog.i( "一股能量涌入你的背包，为法杖充能" + (count > 1 ? "s" : "") );
+			GLog.i( "一股灵气涌入你的储物袋，为法器充能" + (count > 1 ? "s" : "") );
 			SpellSprite.show( curUser, SpellSprite.CHARGE );
 		} else {
-			GLog.i( "一股能量涌入你的背包，但什么也没发生" );
+			GLog.i( "一股灵气涌入你的储物袋，但什么也没发生" );
 		}
 		setKnown();
 		
@@ -53,7 +53,7 @@ public class ScrollOfRecharging extends Scroll {
 	
 	@Override
 	public String desc() {
-		return "这张羊皮纸中封存的原始魔力，释放时会将读者所有法杖充能至满。";
+		return "这张符箓中封存着精纯灵气，参悟时会将修士所有法器的灵力充满。";
 	}
 	
 	public static void charge( Hero hero ) {

@@ -31,7 +31,7 @@ public class PotionOfInvisibility extends Potion {
 	private static final float ALPHA	= 0.4f;
 	
 	{
-		name = "隐形药水";
+		name = "隐身丹";
 	}
 	
 	@Override
@@ -44,7 +44,7 @@ public class PotionOfInvisibility extends Potion {
 	
 	@Override
 	public String desc() {
-		return "喝下药水会让你暂时隐形。隐形时敌人无法看见你。攻击敌人，或在敌人眼前使用法杖或卷轴，都会解除效果。";
+		return "服食丹药会让你暂时隐形。隐形时敌人无法看见你。攻击敌人，或在敌人眼前使用法器或符箓，都会解除效果。";
 	}
 	
 	@Override

@@ -31,8 +31,8 @@ import com.watabou.utils.Random;
 
 public class AmuletScene extends PixelScene {
 
-	private static final String TXT_EXIT	= "今天就到此为止";
-	private static final String TXT_STAY	= "我还没结束";
+	private static final String TXT_EXIT	= "就此飞升，结束修行";
+	private static final String TXT_STAY	= "我还要继续修行";
 	
 	private static final int WIDTH			= 120;
 	private static final int BTN_HEIGHT		= 18;
@@ -40,10 +40,10 @@ public class AmuletScene extends PixelScene {
 	private static final float LARGE_GAP	= 8;
 	
 	private static final String TXT = 
-		"你终于把延多护符握在手中。借助它的力量，" +
-		"你可以统治世界，或为人们带来和平与繁荣，等等。" +
-		"无论如何，你的人生将永远改变，游戏也将在此结束。" +
-		"或者，你可以再多做一会儿凡人。";
+		"你终于将飞升仙宝握在手中。借助其中伟力，" +
+		"你便可举霞飞升、得窥长生，从此跳出凡尘。" +
+		"无论作何选择，你的修行之路都将在此改写。" +
+		"或者，你也可以再做一会儿这红尘中的凡人。";
 	
 	public static boolean noText = false;
 	

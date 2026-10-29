@@ -24,12 +24,12 @@ import com.watabou.pixeldungeon.utils.Utils;
 
 public class IronKey extends Key {
 
-	private static final String TXT_FROM_DEPTH = "第%d层的铁钥匙";
+	private static final String TXT_FROM_DEPTH = "第%d层的铁玉牌";
 
 	public static int curDepthQuantity = 0;
 	
 	{
-		name = "铁钥匙";
+		name = "铁玉牌";
 		image = ItemSpriteSheet.IRON_KEY;
 	}
 	
@@ -56,6 +56,6 @@ public class IronKey extends Key {
 	
 	@Override
 	public String info() {
-		return "这把古老铁钥匙上的齿纹已被磨损，皮质挂绳也被岁月磨旧。它会打开哪扇门？";
+		return "这枚古老铁玉牌上的纹路已被磨损，皮质挂绳也被岁月磨旧。它会开启哪扇禁制之门？";
 	}
 }

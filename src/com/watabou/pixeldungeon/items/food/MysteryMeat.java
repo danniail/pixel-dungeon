@@ -32,10 +32,10 @@ import com.watabou.utils.Random;
 public class MysteryMeat extends Food {
 
 	{
-		name = "神秘肉";
+		name = "妖兽肉";
 		image = ItemSpriteSheet.MEAT;
 		energy = Hunger.STARVING - Hunger.HUNGRY;
-		message = "这食物味道……很奇怪。";
+		message = "这妖兽肉味道……很古怪。";
 	}
 	
 	@Override

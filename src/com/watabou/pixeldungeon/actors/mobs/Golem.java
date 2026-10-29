@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 public class Golem extends Mob {
 	
 	{
-		name = "石魔像";
+		name = "禁制傀儡";
 		spriteClass = GolemSprite.class;
 		
 		HP = HT = 85;
@@ -75,7 +75,7 @@ public class Golem extends Mob {
 	
 	@Override
 	public String description() {
-		return "矮人试图将机械知识与新掌握的元素束缚之力结合。他们用大地之灵作为石魔像机械躯体的“灵魂”，认为这是最可控的。尽管如此，仪式中最微小的失误也可能引发失控。";
+		return "上古炼器师试图将机关之术与新得的御灵之法结合，以大地之灵作为傀儡躯体的“魂核”，自以为最为稳妥。尽管如此，祭炼时哪怕一丝差错，也会令傀儡失控。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

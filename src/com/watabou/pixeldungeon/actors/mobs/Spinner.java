@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class Spinner extends Mob {
 	
 	{
-		name = "洞穴织网蛛";
+		name = "蛛网妖";
 		spriteClass = SpinnerSprite.class;
 		
 		HP = HT = 50;
@@ -96,7 +96,7 @@ public class Spinner extends Mob {
 	
 	@Override
 	public String description() {		
-		return "这些毛茸茸的绿色洞穴蜘蛛尽量避免正面战斗，更愿意在远处等待，被它吐出的蛛网缠住的猎物会慢慢死于它的毒咬。";
+		return "这些毛茸茸的绿色蛛妖尽量避免正面相搏，更愿在远处蛰伏，被蛛网缠住的猎物会慢慢在毒咬中毙命。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

@@ -102,7 +102,7 @@ public class WaterOfAwareness extends WellWater {
 	@Override
 	public String tileDesc() {
 		return 
-			"这口井的水散发着知识的力量。" +
-			"啜饮一口，揭示已装备物品的全部秘密。";
+			"这眼灵泉散发着玄妙的感知之力。" +
+			"啜饮一口，可揭示已装备物品的全部秘密。";
 	}
 }

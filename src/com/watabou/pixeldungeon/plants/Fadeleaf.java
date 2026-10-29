@@ -35,7 +35,7 @@ public class Fadeleaf extends Plant {
 	
 	{
 		image = 6;
-		plantName = "隐叶";
+		plantName = "隐影叶";
 	}
 	
 	@Override
@@ -80,9 +80,9 @@ public class Fadeleaf extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "隐叶";
+			plantName = "隐影叶";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_FADELEAF;
 			
 			plantClass = Fadeleaf.class;

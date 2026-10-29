@@ -32,6 +32,6 @@ public class WarHammer extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "很少有生物能承受这铅钢巨物的粉碎一击，但只有最强壮的冒险者才能有效使用它。";
+		return "很少有生物能承受这铅钢巨物的粉碎一击，但只有最强壮的修士才能使得动它。";
 	}
 }

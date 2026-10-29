@@ -62,7 +62,7 @@ public class CurareDart extends MissileWeapon {
 	
 	@Override
 	public String desc() {
-		return "这些邪恶的小飞镖伤害不高，但能麻痹目标，让它在一段时间内无法动弹、任人宰割。";
+		return "这些阴损的小飞镖伤害不高，但能麻痹目标，让它在一段时间内无法动弹、任人宰割。";
 	}
 	
 	@Override

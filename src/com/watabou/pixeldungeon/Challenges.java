@@ -28,13 +28,13 @@ public class Challenges {
 	public static final int NO_SCROLLS			= 64;
 	
 	public static final String[] NAMES = {
-		"节食",
-		"信念即护甲",
-		"药水恐惧",
-		"贫瘠之地",
-		"群体智慧",
-		"深入黑暗",
-		"禁忌符文"
+		"辟谷",
+		"道心护体",
+		"丹药恐惧",
+		"灵脉枯竭",
+		"群妖通灵",
+		"暗夜无光",
+		"符箓禁制"
 	};
 	
 	public static final int[] MASKS = {

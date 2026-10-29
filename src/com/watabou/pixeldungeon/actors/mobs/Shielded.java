@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ShieldedSprite;
 public class Shielded extends Brute {
 
 	{
-		name = "持盾蛮兵";
+		name = "持盾傀儡";
 		spriteClass = ShieldedSprite.class;
 		
 		defenseSkill = 20;

@@ -53,7 +53,7 @@ import com.watabou.utils.PointF;
 
 public class Item implements Bundlable {
 
-	private static final String TXT_PACK_FULL	= "你的背包太满，装不下%s";
+	private static final String TXT_PACK_FULL	= "你的储物袋太满，装不下%s";
 	
 	private static final String TXT_BROKEN		= "由于频繁使用，你的%s已经损坏。";
 	private static final String TXT_GONNA_BREAK	= "由于频繁使用，你的%s很快就要损坏。";

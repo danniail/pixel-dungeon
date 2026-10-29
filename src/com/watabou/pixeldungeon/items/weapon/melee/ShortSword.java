@@ -35,7 +35,7 @@ public class ShortSword extends MeleeWeapon {
 	
 	public static final String AC_REFORGE	= "重铸";
 	
-	private static final String TXT_SELECT_WEAPON	= "选择要升级的武器";
+	private static final String TXT_SELECT_WEAPON	= "选择要升级的兵器";
 	
 	private static final String TXT_REFORGED = 
 		"你重铸短剑，升级了你的%s";

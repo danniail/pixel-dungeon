@@ -42,13 +42,13 @@ public class DewVial extends Item {
 	private static final String TXT_VALUE	= "%+d生命";
 	private static final String TXT_STATUS	= "%d/%d";
 	
-	private static final String TXT_AUTO_DRINK	= "露珠瓶被倒空，用来治愈你的伤口。";
-	private static final String TXT_COLLECTED	= "你把一滴露珠收集进露珠瓶。";
-	private static final String TXT_FULL		= "你的露珠瓶满了！";
-	private static final String TXT_EMPTY		= "你的露珠瓶空了！";
+	private static final String TXT_AUTO_DRINK	= "晨露瓶被倒空，用来治愈你的伤口。";
+	private static final String TXT_COLLECTED	= "你把一滴晨露收集进晨露瓶。";
+	private static final String TXT_FULL		= "你的晨露瓶满了！";
+	private static final String TXT_EMPTY		= "你的晨露瓶空了！";
 	
 	{
-		name = "露珠瓶";
+		name = "晨露瓶";
 		image = ItemSpriteSheet.VIAL;
 		
 		defaultAction = AC_DRINK;
@@ -174,7 +174,7 @@ public class DewVial extends Item {
 	
 	@Override
 	public String info() {
-		return "你可以把多余的露珠储存在这个小瓶中，留待日后饮用。当瓶子装满、而你身处致命险境时，露珠会被自动消耗。";
+		return "你可以把多余的晨露储存在这个小玉瓶中，留待日后饮用。当玉瓶装满、而你身处致命险境时，晨露会被自动消耗。";
 	}
 	
 	@Override

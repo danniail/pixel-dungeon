@@ -24,7 +24,7 @@ import com.watabou.utils.Random;
 public class Shuriken extends MissileWeapon {
 
 	{
-		name = "手里剑";
+		name = "飞刃";
 		image = ItemSpriteSheet.SHURIKEN;
 		
 		STR = 13;

@@ -27,7 +27,7 @@ import com.watabou.utils.Random;
 public class Senior extends Monk {
 
 	{
-		name = "资深武僧";
+		name = "资深武僧傀儡";
 		spriteClass = SeniorSprite.class;
 	}
 	

@@ -36,14 +36,14 @@ public class Food extends Item {
 
 	private static final float TIME_TO_EAT	= 3f;
 	
-	public static final String AC_EAT	= "食用";
+	public static final String AC_EAT	= "服食";
 	
 	public float energy = Hunger.HUNGRY;
-	public String message = "这食物味道好极了！";
+	public String message = "这灵食下肚，腹中暖意流转。";
 	
 	{
 		stackable = true;
-		name = "口粮";
+		name = "辟谷干粮";
 		image = ItemSpriteSheet.RATION;
 	}
 	
@@ -98,7 +98,7 @@ public class Food extends Item {
 	
 	@Override
 	public String info() {
-		return "没什么花哨的：肉干、几块饼干之类的东西。";
+		return "寻常的辟谷干粮：肉干、灵谷饼之类，足以果腹。";
 	}
 	
 	@Override

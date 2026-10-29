@@ -34,7 +34,7 @@ public class Sungrass extends Plant {
 	
 	{
 		image = 4;
-		plantName = "阳草";
+		plantName = "回阳草";
 	}
 	
 	@Override
@@ -57,9 +57,9 @@ public class Sungrass extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "阳草";
+			plantName = "回阳草";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_SUNGRASS;
 			
 			plantClass = Sungrass.class;

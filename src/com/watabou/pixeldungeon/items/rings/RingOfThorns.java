@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.items.Item;
 public class RingOfThorns extends Ring {
 
 	{
-		name = "荆棘之戒";
+		name = "荆棘戒";
 	}
 	
 	@Override
@@ -59,8 +59,8 @@ public class RingOfThorns extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"虽然戒指上没有真正的荆棘，但攻击你的敌人会因它造成" +
-			"的部分伤害而受伤。升级这枚戒指不会带来额外好处。" :
+			"虽然法宝上没有真正的荆棘，但攻击你的敌人会因它造成" +
+			"的部分伤害而受伤。升级这枚法宝不会带来额外好处。" :
 			super.desc();
 	}
 	

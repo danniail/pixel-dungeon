@@ -38,7 +38,7 @@ import com.watabou.utils.Random;
 public class Swarm extends Mob {
 
 	{
-		name = "苍蝇群";
+		name = "毒虫群";
 		spriteClass = SwarmSprite.class;
 		
 		HP = HT = 80;
@@ -138,6 +138,6 @@ public class Swarm extends Mob {
 	
 	@Override
 	public String description() {
-		return "致命的苍蝇群愤怒地嗡嗡作响。每次非魔法攻击都会把它分裂成两个更小却同样危险的蝇群。";
+		return "致命的毒虫群愤怒地嗡嗡作响。每一次寻常攻击都会将其打散成两群更小、却同样危险的毒虫。";
 	}
 }

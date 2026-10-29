@@ -39,16 +39,16 @@ import com.watabou.utils.Bundle;
 
 public class Potion extends Item {
 	
-	public static final String AC_DRINK	= "饮用";
+	public static final String AC_DRINK	= "服食";
 
-	private static final String TXT_HARMFUL		= "有害药水！";
-	private static final String TXT_BENEFICIAL	= "有益药水";
+	private static final String TXT_HARMFUL		= "有害丹药！";
+	private static final String TXT_BENEFICIAL	= "有益丹药";
 	private static final String TXT_YES			= "是，我知道自己在做什么";
 	private static final String TXT_NO			= "否，我改主意了";
 	private static final String TXT_R_U_SURE_DRINK =
-		"你确定要喝下它吗？大多数情况下，你应该把这种药水扔向敌人。";
+		"你确定要服食它吗？大多数情况下，你应该把这枚丹药扔向敌人。";
 	private static final String TXT_R_U_SURE_THROW =
-		"你确定要扔出它吗？大多数情况下，喝下它才是明智的。";
+		"你确定要扔出它吗？大多数情况下，服食它才是明智的。";
 	
 	private static final float TIME_TO_DRINK = 1f;
 	
@@ -214,7 +214,7 @@ public class Potion extends Item {
 	
 	public void shatter( int cell ) {
 		if (Dungeon.visible[cell]) {
-			GLog.i( "瓶子碎裂，" + color() + "的液体无害地溅开" );
+			GLog.i( "丹瓶碎裂，" + color() + "的药液无害地溅开" );
 			Sample.INSTANCE.play( Assets.SND_SHATTER );
 			splash( cell );
 		}
@@ -244,15 +244,15 @@ public class Potion extends Item {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : color + "药水";
+		return isKnown() ? name : color + "丹药";
 	}
 	
 	@Override
 	public String info() {
 		return isKnown() ?
 			desc() :
-			"这个瓶子里装着旋转的" + color + "液体。" +
-			"喝下或扔出它会发生什么，谁知道呢？";
+			"这个丹瓶里装着旋转的" + color + "药液。" +
+			"服食或扔出它会发生什么，谁知道呢？";
 	}
 	
 	@Override

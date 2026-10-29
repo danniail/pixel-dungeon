@@ -108,7 +108,7 @@ public class CursePersonification extends Mob {
 	
 	@Override
 	public String description() {
-		return "这个生物形似悲伤幽魂，却被黑暗缠绕。它的脸上带着绝望的神情。";
+		return "此物形似悲伤怨灵，却被浓重黑气缠绕，脸上带着绝望的神情。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

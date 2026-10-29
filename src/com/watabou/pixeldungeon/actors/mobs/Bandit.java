@@ -31,7 +31,7 @@ public class Bandit extends Thief {
 	public Item item;
 	
 	{
-		name = "疯狂强盗";
+		name = "疯狂劫匪";
 		spriteClass = BanditSprite.class;
 	}
 	

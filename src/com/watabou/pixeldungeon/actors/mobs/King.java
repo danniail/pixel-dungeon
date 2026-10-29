@@ -52,7 +52,7 @@ public class King extends Mob {
 	private static final int MAX_ARMY_SIZE	= 5;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "矮人国王" : "亡灵矮人国王";
+		name = Dungeon.depth == Statistics.deepestFloor ? "傀儡之主" : "傀儡之主之影";
 		spriteClass = KingSprite.class;
 		
 		HP = HT = 300;
@@ -192,7 +192,7 @@ public class King extends Mob {
 			} while (dist < undeadsToSummon);
 		}
 		
-		yell( "起来吧，奴隶们！" );
+		yell( "醒来吧，亡灵傀儡！" );
 	}
 	
 	@Override
@@ -203,7 +203,7 @@ public class King extends Mob {
 	
 	@Override
 	public String description() {
-		return "矮人的末代国王深谙生死之道。他说服宫廷成员参加一个本应赐予他们永恒青春的仪式。最终只有他得到了永生——还附赠了一支亡灵大军。";
+		return "末代炼器宗师深谙生死之道。他说服宫中众人参与一场本应赐予他们长生的仪式，最终只有他自己得了永生——还附带了一支亡灵大军。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();
@@ -235,7 +235,7 @@ public class King extends Mob {
 		public static int count = 0;
 		
 		{
-			name = "亡灵矮人";
+			name = "亡灵傀儡";
 			spriteClass = UndeadSprite.class;
 			
 			HP = HT = 28;
@@ -307,7 +307,7 @@ public class King extends Mob {
 		@Override
 		public String description() {
 			return
-				"这些亡灵矮人受矮人国王的意志复活，曾是他的宫廷成员。" +
+				"这些亡灵傀儡受傀儡之主的意志复活，曾是他的宫中成员。" +
 				"它们看起来是骷髅，却有着惊人的浓密胡须。";
 		}
 		

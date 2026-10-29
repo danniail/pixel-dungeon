@@ -30,7 +30,7 @@ import com.watabou.utils.Random;
 
 public class Metabolism extends Glyph {
 
-	private static final String TXT_METABOLISM	= "代谢%s";
+	private static final String TXT_METABOLISM	= "纳灵%s";
 	
 	private static ItemSprite.Glowing RED = new ItemSprite.Glowing( 0xCC0000 );
 	

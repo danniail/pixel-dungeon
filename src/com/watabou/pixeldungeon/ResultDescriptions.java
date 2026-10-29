@@ -26,7 +26,7 @@ public class ResultDescriptions {
 	// Items
 	public static final String WAND		= "在第%d层被自己的%s击杀";
 	public static final String GLYPH	= "在第%d层被%s击杀";
-	public static final String BOMB		= "在第%d层被炸弹爆炸击杀";
+	public static final String BOMB		= "在第%d层被雷火珠引爆击杀";
 	
 	// Dungeon features
 	public static final String TRAP	= "在第%d层被%s的放电击杀";
@@ -40,5 +40,5 @@ public class ResultDescriptions {
 	public static final String OOZE		= "在第%d层被腐蚀性软泥击杀";
 	public static final String FALL		= "在第%d层坠落而死";
 	
-	public static final String WIN	= "获得延多护符";
+	public static final String WIN	= "取得仙宝";
 }

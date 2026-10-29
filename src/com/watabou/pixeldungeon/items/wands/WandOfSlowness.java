@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfSlowness extends Wand {
 
 	{
-		name = "减速法杖";
+		name = "法器·迟缓";
 	}
 
 	@Override
@@ -54,6 +54,6 @@ public class WandOfSlowness extends Wand {
 	
 	@Override
 	public String desc() {
-		return "法杖会让生物在效果结束前，以平常一半的速度移动和攻击。";
+		return "法器会让生物在效果结束前，以平常一半的速度移动和攻击。";
 	}
 }

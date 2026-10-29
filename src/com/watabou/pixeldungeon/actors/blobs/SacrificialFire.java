@@ -128,7 +128,7 @@ public class SacrificialFire extends Blob {
 	
 	@Override
 	public String tileDesc() {
-		return "献祭之火在这里燃烧。被这火触碰的生物，会被标记为献给地牢怨灵的祭品。";
+		return "献祭之火在这里燃烧。被这火触碰的生物，会被标记为献给秘境怨灵的祭品。";
 	}
 	
 	public static class Marked extends FlavourBuff {

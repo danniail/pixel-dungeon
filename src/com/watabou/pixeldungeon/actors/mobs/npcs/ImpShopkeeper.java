@@ -30,7 +30,7 @@ public class ImpShopkeeper extends Shopkeeper {
 	private static final String TXT_GREETINGS = "你好，朋友！";
 	
 	{
-		name = "野心小恶魔";
+		name = "域外小魔修";
 		spriteClass = ImpSprite.class;
 	}
 	
@@ -64,6 +64,6 @@ public class ImpShopkeeper extends Shopkeeper {
 	
 	@Override
 	public String description() {
-		return "小恶魔是低级恶魔。它们既不以力量著称，也不以魔法天赋闻名，但相当聪明、善于交际，许多小恶魔更喜欢在非恶魔之中生活和做生意。";
+		return "小魔修是低等魔物，既不以力量著称，也不以法术天赋闻名，却相当聪明、善于交际，许多小魔修更喜欢在非魔物之中生活、做买卖。";
 	}
 }

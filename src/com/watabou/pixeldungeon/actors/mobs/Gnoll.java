@@ -62,6 +62,6 @@ public class Gnoll extends Mob {
 	
 	@Override
 	public String description() {
-		return "豺狼是形似鬣狗的类人生物。它们栖息在下水道和地牢中，偶尔上到地面劫掠。豺狼斥候是狼群中的普通成员，不如蛮兵强壮，也不如萨满聪明。";
+		return "豺狼人是形似鬣狗的妖兽，成群栖息于秘境之中，偶尔也到外围劫掠。斥候是族群中的寻常成员，不如蛮兵强壮，也不如祭司狡诈。";
 	}
 }

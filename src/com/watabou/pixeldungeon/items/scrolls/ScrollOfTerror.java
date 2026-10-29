@@ -31,7 +31,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfTerror extends Scroll {
 
 	{
-		name = "恐惧卷轴";
+		name = "慑魂符";
 	}
 	
 	@Override
@@ -54,13 +54,13 @@ public class ScrollOfTerror extends Scroll {
 		
 		switch (count) {
 		case 0:
-			GLog.i( "卷轴发出一道耀眼的红光" );
+			GLog.i( "符箓发出一道耀眼的红光" );
 			break;
 		case 1:
-			GLog.i( "卷轴发出一道耀眼的红光，" + affected.name + "逃跑了！" );
+			GLog.i( "符箓发出一道耀眼的红光，" + affected.name + "逃跑了！" );
 			break;
 		default:
-			GLog.i( "卷轴发出一道耀眼的红光，怪物们逃跑了！" );
+			GLog.i( "符箓发出一道耀眼的红光，妖兽们逃跑了！" );
 		}
 		setKnown();
 		

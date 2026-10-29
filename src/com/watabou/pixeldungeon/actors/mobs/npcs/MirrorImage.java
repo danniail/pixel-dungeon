@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class MirrorImage extends NPC {
 	
 	{
-		name = "镜像";
+		name = "分身";
 		spriteClass = MirrorSprite.class;
 		
 		state = HUNTING;
@@ -109,7 +109,7 @@ public class MirrorImage extends NPC {
 	
 	@Override
 	public String description() {
-		return "这个幻象与你极为相似，但更苍白，还会微微抽搐。";
+		return "这道分身与你极为相似，只是更苍白些，还会微微抽搐。";
 	}
 	
 	@Override

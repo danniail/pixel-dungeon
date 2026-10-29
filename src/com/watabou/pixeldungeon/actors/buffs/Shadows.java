@@ -90,7 +90,7 @@ public class Shadows extends Invisibility {
 	
 	@Override
 	public String toString() {
-		return "暗影潜行";
+		return "隐影";
 	}
 	
 }

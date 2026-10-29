@@ -95,7 +95,7 @@ public class MeleeWeapon extends Weapon {
 			"";
 		info.append( p );
 		info.append( "这把" + name + "是" + (quality.length() > 0 ? "一件" + quality + "的" : "一件") );
-		info.append( tier + "阶近战武器。" );
+		info.append( tier + "阶近战兵器。" );
 
 		if (levelKnown) {
 			int min = min();
@@ -106,9 +106,9 @@ public class MeleeWeapon extends Weapon {
 			int max = max0();
 			info.append(
 				"它通常每次命中的平均伤害为" + (min + (max - min) / 2) + "点，" +
-				"一般需要" + typicalSTR() + "点力量。" );
+				"一般需要" + typicalSTR() + "点力道。" );
 			if (typicalSTR() > Dungeon.hero.STR()) {
-				info.append( "这把武器对你来说可能太重了。" );
+				info.append( "这把兵器对你来说可能太重了。" );
 			}
 		}
 
@@ -122,9 +122,9 @@ public class MeleeWeapon extends Weapon {
 				}
 				info.append( ACU > 1f ? "精准" : "失准" );
 			}
-			info.append( "的武器。");
+			info.append( "的兵器。");
 		} else if (ACU != 1f) {
-			info.append( "这是一把相当" + (ACU > 1f ? "精准" : "失准") + "的武器。" );
+			info.append( "这是一把相当" + (ACU > 1f ? "精准" : "失准") + "的兵器。" );
 		}
 		switch (imbue) {
 		case SPEED:
@@ -137,20 +137,20 @@ public class MeleeWeapon extends Weapon {
 		}
 
 		if (enchantment != null) {
-			info.append( "它带有附魔。" );
+			info.append( "它带有祭炼。" );
 		}
 
 		if (levelKnown && Dungeon.hero.belongings.backpack.items.contains( this )) {
 			if (STR > Dungeon.hero.STR()) {
 				info.append( p );
 				info.append(
-					"由于你的力量不足，使用这把" + name +
+					"由于你的力道不足，使用这把" + name +
 					"攻击的精准度和速度都下降了。" );
 			}
 			if (STR < Dungeon.hero.STR()) {
 				info.append( p );
 				info.append(
-					"由于你的力量富余，使用这把" + name +
+					"由于你的力道富余，使用这把" + name +
 					"攻击的伤害提升了。" );
 			}
 		}
@@ -158,11 +158,11 @@ public class MeleeWeapon extends Weapon {
 		if (isEquipped( Dungeon.hero )) {
 			info.append( p );
 			info.append( "你手持" + name + "，随时准备出击" +
-				(cursed ? "，但由于它被诅咒，你无法将它放下。" : "。") );
+				(cursed ? "，但由于它被煞气禁制，你无法将它放下。" : "。") );
 		} else {
 			if (cursedKnown && cursed) {
 				info.append( p );
-				info.append( "你能感觉到" + name + "中潜藏着邪恶的魔力。" );
+				info.append( "你能感觉到" + name + "中潜藏着邪异的灵力。" );
 			}
 		}
 

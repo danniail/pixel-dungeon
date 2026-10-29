@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public abstract class EquipableItem extends Item {
 
-	private static final String TXT_UNEQUIP_CURSED	= "你无法脱下被诅咒的%s！";
+	private static final String TXT_UNEQUIP_CURSED	= "你无法取下被煞气禁制的%s！";
 	
 	public static final String AC_EQUIP		= "装备";
 	public static final String AC_UNEQUIP	= "卸下";

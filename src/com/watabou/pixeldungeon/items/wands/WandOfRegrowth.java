@@ -33,7 +33,7 @@ import com.watabou.utils.Callback;
 public class WandOfRegrowth extends Wand {
 
 	{
-		name = "再生法杖";
+		name = "法器·回春";
 	}
 	
 	@Override

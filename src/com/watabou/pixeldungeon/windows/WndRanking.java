@@ -148,17 +148,17 @@ public class WndRanking extends WndTabbed {
 		private static final String TXT_CHALLENGES	= "挑战";
 		
 		private static final String TXT_HEALTH	= "生命";
-		private static final String TXT_STR		= "力量";
+		private static final String TXT_STR		= "力道";
 		
 		private static final String TXT_DURATION	= "游戏时长";
 		
 		private static final String TXT_DEPTH	= "最深层数";
-		private static final String TXT_ENEMIES	= "击杀怪物";
-		private static final String TXT_GOLD	= "收集金币";
+		private static final String TXT_ENEMIES	= "击杀妖兽";
+		private static final String TXT_GOLD	= "收集灵石";
 		
 		private static final String TXT_FOOD	= "进食次数";
-		private static final String TXT_ALCHEMY	= "酿造药水";
-		private static final String TXT_ANKHS	= "使用安卡";
+		private static final String TXT_ALCHEMY	= "炼制丹药";
+		private static final String TXT_ANKHS	= "使用转生玉";
 		
 		public StatsTab() {
 			super();

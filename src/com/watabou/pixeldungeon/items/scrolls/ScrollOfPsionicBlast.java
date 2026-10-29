@@ -31,7 +31,7 @@ import com.watabou.utils.Random;
 public class ScrollOfPsionicBlast extends Scroll {
 
 	{
-		name = "灵能冲击卷轴";
+		name = "灭灵符";
 	}
 	
 	@Override
@@ -59,7 +59,7 @@ public class ScrollOfPsionicBlast extends Scroll {
 	
 	@Override
 	public String desc() {
-		return "这张卷轴蕴含毁灭性能量，可通过灵能引导，对视野内所有生物造成巨大伤害。伴随的闪光会短暂致盲效果范围内的所有人，包括读者。";
+		return "这张符箓蕴含毁灭性能量，可通过灵能引导，对视野内所有生物造成巨大伤害。伴随的闪光会短暂致盲效果范围内的所有人，包括读者。";
 	}
 	
 	@Override

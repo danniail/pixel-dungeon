@@ -31,7 +31,7 @@ import com.watabou.utils.Callback;
 public class WandOfBlink extends Wand {
 
 	{
-		name = "闪烁法杖";
+		name = "法器·瞬移";
 	}
 	
 	@Override
@@ -75,6 +75,6 @@ public class WandOfBlink extends Wand {
 	
 	@Override
 	public String desc() {
-		return "这根法杖能让你沿选定方向传送。生物和无生命的障碍物会阻挡传送。";
+		return "这根法器能让你沿选定方向传送。生物和无生命的障碍物会阻挡传送。";
 	}
 }

@@ -123,7 +123,7 @@ public class Piranha extends Mob {
 
 	@Override
 	public String description() {
-		return "这些食肉鱼并非地下水池的天然居民，而是专门为守护被水淹没的宝藏库而培育的。";
+		return "这些食肉凶鱼并非地下灵泉的原生物，而是被人特意培育，用来守护被水淹没的藏宝之地。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

@@ -33,7 +33,7 @@ public class Amulet extends Item {
 	private static final String AC_END = "结束游戏";
 	
 	{
-		name = "延多护符";
+		name = "飞升仙宝";
 		image = ItemSpriteSheet.AMULET;
 		
 		unique = true;
@@ -97,6 +97,6 @@ public class Amulet extends Item {
 	
 	@Override
 	public String info() {
-		return "延多护符是已知最强大、来历不明的神器。传说只要主人的意志力足够强大，能够“说服”它，护符就能实现任何愿望。";
+		return "飞升仙宝是上古仙人遗留的至宝，来历成谜。传说只要修士道心足够坚定，便能引动其中伟力，得窥长生、举霞飞升。";
 	}
 }

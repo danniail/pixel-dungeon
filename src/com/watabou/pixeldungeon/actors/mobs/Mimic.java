@@ -44,7 +44,7 @@ public class Mimic extends Mob {
 	private int level;
 	
 	{
-		name = "拟形怪";
+		name = "宝箱妖";
 		spriteClass = MimicSprite.class;
 	}
 	
@@ -120,7 +120,7 @@ public class Mimic extends Mob {
 
 	@Override
 	public String description() {
-		return "拟形怪是能随心所欲变化形态的魔法生物。在地牢中它们几乎总是选择宝箱的形状，因为它们知道如何引诱冒险者。";
+		return "宝箱妖是能随意变化形态的妖物。在秘境中它们几乎总是化作宝箱模样，因为它们深知如何引诱修士自投罗网。";
 	}
 	
 	public static Mimic spawnAt( int pos, List<Item> items ) {

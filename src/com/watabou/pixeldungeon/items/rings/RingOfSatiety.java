@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfSatiety extends Ring {
 
 	{
-		name = "饱食之戒";
+		name = "辟谷戒";
 	}
 	
 	@Override

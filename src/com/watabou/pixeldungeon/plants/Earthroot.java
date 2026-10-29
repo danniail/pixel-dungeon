@@ -36,7 +36,7 @@ public class Earthroot extends Plant {
 	
 	{
 		image = 5;
-		plantName = "地根草";
+		plantName = "岩甲草";
 	}
 	
 	@Override
@@ -60,9 +60,9 @@ public class Earthroot extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "地根草";
+			plantName = "岩甲草";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_EARTHROOT;
 			
 			plantClass = Earthroot.class;

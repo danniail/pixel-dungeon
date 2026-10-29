@@ -32,7 +32,7 @@ import com.watabou.utils.Random;
 public class FetidRat extends Mob {
 
 	{
-		name = "恶臭巨鼠";
+		name = "恶臭噬灵鼠";
 		spriteClass = FetidRatSprite.class;
 		
 		HP = HT = 15;
@@ -81,7 +81,7 @@ public class FetidRat extends Mob {
 	
 	@Override
 	public String description() {
-		return "这只有袋巨鼠比普通巨鼠大得多，周身笼罩着恶臭的云雾。";
+		return "这只噬灵鼠比寻常同类大上一圈，周身萦绕着令人作呕的恶臭瘴气。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

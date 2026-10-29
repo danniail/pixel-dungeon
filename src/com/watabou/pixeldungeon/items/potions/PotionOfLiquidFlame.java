@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.scenes.GameScene;
 public class PotionOfLiquidFlame extends Potion {
 
 	{
-		name = "液态火焰药水";
+		name = "烈火丹";
 	}
 	
 	@Override

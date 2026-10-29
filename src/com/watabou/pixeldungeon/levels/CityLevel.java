@@ -117,7 +117,7 @@ public class CityLevel extends RegularLevel {
 			return "厚厚的地毯铺在地上。";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
-			return "雕像刻画了一个摆出英勇姿态的矮人。";
+			return "雕像刻画了一位摆出施法姿态的修士。";
 		case Terrain.BOOKSHELF:
 			return "书架上摆满了各门学科的书籍。";
 		default:

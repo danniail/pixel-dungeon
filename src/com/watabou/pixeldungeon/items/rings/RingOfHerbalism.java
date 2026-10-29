@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfHerbalism extends Ring {
 
 	{
-		name = "草药之戒";
+		name = "百草戒";
 	}
 	
 	@Override
@@ -31,7 +31,7 @@ public class RingOfHerbalism extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"这枚戒指提升你从踩倒的草丛中采集露珠和种子的几率。" :
+			"这枚法宝提升你从踩倒的草丛中采集晨露和灵种的几率。" :
 			super.desc();
 	}
 	

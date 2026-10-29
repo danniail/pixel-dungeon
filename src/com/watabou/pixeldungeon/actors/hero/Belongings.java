@@ -50,7 +50,7 @@ public class Belongings implements Iterable<Item> {
 		this.owner = owner;
 		
 		backpack = new Bag() {{
-			name = "背包";
+			name = "储物袋";
 			size = BACKPACK_SIZE;
 		}};
 		backpack.owner = owner;

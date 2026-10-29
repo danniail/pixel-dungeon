@@ -37,13 +37,13 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class RogueArmor extends ClassArmor {
 	
-	private static final String TXT_FOV 		= "你只能跳到视野内的空位置";
-	private static final String TXT_NOT_ROGUE	= "只有盗贼能使用这件护甲！";
+	private static final String TXT_FOV 		= "你只能闪身到视野内的空位";
+	private static final String TXT_NOT_ROGUE	= "只有刺客能使用这件劲装！";
 	
-	private static final String AC_SPECIAL = "烟雾弹"; 
+	private static final String AC_SPECIAL = "烟雾遁"; 
 	
 	{
-		name = "盗贼装束";
+		name = "刺客劲装";
 		image = ItemSpriteSheet.ARMOR_ROGUE;
 	}
 	
@@ -69,7 +69,7 @@ public class RogueArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return "穿着这件深色装束，盗贼能施展一个叫“烟雾弹”的把戏（虽然没有真正的爆炸物）：他会致盲能看见他的敌人，然后闪身跳开。";
+		return "身着这件深色劲装，刺客可施展“烟雾遁”之术：洒出一团烟雾，迷住能看见他的敌人，再闪身遁走。";
 	}
 	
 	protected static CellSelector.Listener teleporter = new  CellSelector.Listener() {
@@ -108,7 +108,7 @@ public class RogueArmor extends ClassArmor {
 		
 		@Override
 		public String prompt() {
-			return "选择要跳到的位置";
+			return "选择要闪身的位置";
 		}
 	};
 }

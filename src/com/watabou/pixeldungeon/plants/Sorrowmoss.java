@@ -33,7 +33,7 @@ public class Sorrowmoss extends Plant {
 	
 	{
 		image = 2;
-		plantName = "悲苔";
+		plantName = "断肠苔";
 	}
 	
 	@Override
@@ -56,9 +56,9 @@ public class Sorrowmoss extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "悲苔";
+			plantName = "断肠苔";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_SORROWMOSS;
 			
 			plantClass = Sorrowmoss.class;

@@ -40,17 +40,17 @@ public class WandOfMagicMissile extends Wand {
 
 	public static final String AC_DISENCHANT	= "分解";
 	
-	private static final String TXT_SELECT_WAND	= "选择要升级的法杖";
+	private static final String TXT_SELECT_WAND	= "选择要升级的法器";
 	
 	private static final String TXT_DISENCHANTED = 
-		"你分解魔法飞弹法杖，用它的精华升级了%s";
+		"你分解灵弹法器，用它的精华升级了%s";
 	
 	private static final float TIME_TO_DISENCHANT	= 2f;
 	
 	private boolean disenchantEquipped;
 	
 	{
-		name = "魔法飞弹法杖";
+		name = "法器·灵弹";
 		image = ItemSpriteSheet.WAND_MAGIC_MISSILE;
 	}
 	
@@ -76,7 +76,7 @@ public class WandOfMagicMissile extends Wand {
 			
 			if (ch == curUser && !ch.isAlive()) {
 				Dungeon.fail( Utils.format( ResultDescriptions.WAND, name, Dungeon.depth ) );
-				GLog.n( "你用自己的魔法飞弹法杖把自己打死了……" );
+				GLog.n( "你用自己的灵弹法器把自己打死了……" );
 			}
 		}
 	}
@@ -120,7 +120,7 @@ public class WandOfMagicMissile extends Wand {
 	@Override
 	public String desc() {
 		return
-			"法杖发射纯粹的魔法能量飞弹，对目标生物造成中等伤害。";
+			"法器发射纯粹的灵力飞弹，对目标生物造成中等伤害。";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

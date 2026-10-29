@@ -31,8 +31,8 @@ public class ScrollOfEnchantment extends InventoryScroll {
 	private static final String TXT_GLOWS	= "你的%s在黑暗中发光";
 	
 	{
-		name = "附魔卷轴";
-		inventoryTitle = "选择可附魔的物品";
+		name = "祭炼符";
+		inventoryTitle = "选择可祭炼的物品";
 		mode = WndBag.Mode.ENCHANTABLE;
 	}
 	
@@ -60,6 +60,6 @@ public class ScrollOfEnchantment extends InventoryScroll {
 	
 	@Override
 	public String desc() {
-		return "这张卷轴能为武器或护甲附上随机的附魔，赋予其特殊能力。";
+		return "这张符箓能为兵器或护甲随机祭炼一道灵光，赋予其特殊妙用。";
 	}
 }

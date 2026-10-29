@@ -88,7 +88,7 @@ public class Brute extends Mob {
 	
 	@Override
 	public String description() {
-		return "蛮兵是豺狼中体型最大、最强壮、最坚韧的。受重伤时它们会陷入狂暴，对敌人造成更多伤害。";
+		return "蛮兵是豺狼一族中体型最大、最强壮、最凶悍的。身负重伤时会陷入狂暴，出手更重。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

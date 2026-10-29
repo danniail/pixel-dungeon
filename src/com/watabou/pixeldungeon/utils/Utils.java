@@ -34,6 +34,9 @@ public class Utils {
 	public static String indefinite( String noun ) {
 		if (noun.length() == 0) {
 			return "a";
+		} else if (noun.charAt( 0 ) > 0x2000) {
+			// CJK and other non-Latin scripts take no article.
+			return noun;
 		} else {
 			return (VOWELS.indexOf( Character.toLowerCase( noun.charAt( 0 ) ) ) != -1 ? "an " : "a ") + noun;
 		}

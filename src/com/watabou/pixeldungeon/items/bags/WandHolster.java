@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class WandHolster extends Bag {
 
 	{
-		name = "法杖套";
+		name = "法器袋";
 		image = ItemSpriteSheet.HOLSTER;
 		
 		size = 12;
@@ -65,6 +65,6 @@ public class WandHolster extends Bag {
 	public String info() {
 		return
 			"这个细长的套子由某种珍奇动物的皮革制成，" +
-			"能紧凑地携带最多" + size + "根法杖。";
+			"能紧凑地携带最多" + size + "件法器。";
 	}
 }

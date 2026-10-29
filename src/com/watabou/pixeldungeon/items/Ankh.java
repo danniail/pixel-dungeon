@@ -23,7 +23,7 @@ public class Ankh extends Item {
 
 	{
 		stackable = true;
-		name = "安卡";
+		name = "转生玉";
 		image = ItemSpriteSheet.ANKH;
 	}
 	
@@ -39,7 +39,7 @@ public class Ankh extends Item {
 	
 	@Override
 	public String info() {
-		return "这个古老的不朽象征，赋予你死后复活的能力。复活时，所有未装备的物品都会丢失。";
+		return "这枚古玉蕴含转生之力，能让你在死后复生。复生之时，所有未装备的物品都会遗失。";
 	}
 	
 	@Override

@@ -32,6 +32,6 @@ public class Glaive extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "在长杆末端装上剑刃的长柄武器。";
+		return "在长杆末端装上剑刃的长柄兵器。";
 	}
 }

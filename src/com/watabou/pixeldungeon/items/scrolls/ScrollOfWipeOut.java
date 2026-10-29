@@ -40,14 +40,14 @@ import com.watabou.utils.Random;
 
 public class ScrollOfWipeOut extends Item {
 
-	private static final String TXT_BLINDED	= "你不能在失明时阅读卷轴";
+	private static final String TXT_BLINDED	= "你不能在失明时参悟符箓";
 	
-	public static final String AC_READ	= "阅读";
+	public static final String AC_READ	= "参悟";
 	
 	protected static final float TIME_TO_READ	= 1f;
 	
 	{
-		name = "湮灭卷轴";
+		name = "湮灭符箓";
 		image = ItemSpriteSheet.SCROLL_WIPE_OUT;
 		
 		stackable = true;		
@@ -126,7 +126,7 @@ public class ScrollOfWipeOut extends Item {
 
 	@Override
 	public String desc() {
-		return "阅读这张卷轴可释放地牢怨灵的怒火，杀死当前层的一切。嗯，几乎是一切，一些更强大的生物可能不受影响。";
+		return "参悟这张符箓可释放秘境怨灵的怒火，杀死当前层的一切。嗯，几乎是一切，一些更强大的生物可能不受影响。";
 	}
 	
 	@Override

@@ -39,7 +39,7 @@ public class Thief extends Mob {
 	public Item item;
 	
 	{
-		name = "疯狂盗贼";
+		name = "疯狂散修";
 		spriteClass = ThiefSprite.class;
 		
 		HP = HT = 20;
@@ -134,7 +134,7 @@ public class Thief extends Mob {
 	
 	@Override
 	public String description() {
-		return "地牢更深处一直是各种罪犯的藏身之处。在远离阳光的漫长岁月里，并非所有人都能保持清醒。很久以前，这些疯狂的盗贼和强盗就忘记了自己是谁、为何而偷。";
+		return "秘境深处历来是各路亡命之徒的藏身之地。在远离天日的漫长岁月里，并非人人都能保持清醒。很久以前，这些疯狂的散修和劫匪便忘了自己是谁、为何而偷。";
 	}
 	
 	private class Fleeing extends Mob.Fleeing {

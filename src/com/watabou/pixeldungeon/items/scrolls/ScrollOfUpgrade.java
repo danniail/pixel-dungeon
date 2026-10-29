@@ -30,7 +30,7 @@ public class ScrollOfUpgrade extends InventoryScroll {
 	private static final String TXT_LOOKS_BETTER	= "你的%s看起来确实好多了";
 	
 	{
-		name = "升级卷轴";
+		name = "强化符";
 		inventoryTitle = "选择要升级的物品";
 		mode = WndBag.Mode.UPGRADEABLE;
 	}
@@ -57,6 +57,6 @@ public class ScrollOfUpgrade extends InventoryScroll {
 	
 	@Override
 	public String desc() {
-		return "这张卷轴会升级一件物品，提升其品质。法杖会增强威力和充能数；武器会造成更多伤害或更易命中；护甲会挡下更多攻击；戒指对佩戴者的效果会增强。武器和护甲所需的力量也会降低，物品上的任何诅咒都会被解除。";
+		return "这张符箓会强化一件物品，提升其品质。法器会增强威力与灵力上限；兵器会造成更多伤害或更易命中；护甲会挡下更多攻击；法宝对佩戴者的效果会增强。兵器和护甲所需的力道也会降低，物品上的任何诅咒都会被解除。";
 	}
 }

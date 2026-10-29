@@ -29,7 +29,7 @@ import com.watabou.utils.Random;
 public class Bat extends Mob {
 
 	{
-		name = "吸血蝙蝠";
+		name = "吸血蝠";
 		spriteClass = BatSprite.class;
 		
 		HP = HT = 30;
@@ -80,7 +80,7 @@ public class Bat extends Mob {
 	
 	@Override
 	public String description() {
-		return "这些轻快而顽强的洞穴穹顶居民，能靠每次成功攻击恢复生命，击败比自己大得多的对手。";
+		return "这些轻灵而难缠的妖兽栖息于秘境穹顶，每一次扑击都能吸食气血，常能击败比自己庞大得多的对手。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

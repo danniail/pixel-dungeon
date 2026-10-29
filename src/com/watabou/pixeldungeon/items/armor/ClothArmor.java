@@ -22,17 +22,17 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class ClothArmor extends Armor {
 
-	{	
-		name = "布甲";
+	{
+		name = "布袍";
 		image = ItemSpriteSheet.ARMOR_CLOTH;
 	}
-	
+
 	public ClothArmor() {
 		super( 1 );
 	}
-	
+
 	@Override
 	public String desc() {
-		return "这种轻便护甲提供基础防护。";
+		return "一件粗布长袍，轻便透气，仅能提供最基础的防护。";
 	}
 }

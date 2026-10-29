@@ -34,7 +34,7 @@ import com.watabou.utils.Random;
 public class Elemental extends Mob {
 
 	{
-		name = "火焰元素";
+		name = "火灵";
 		spriteClass = ElementalSprite.class;
 		
 		HP = HT = 65;
@@ -90,7 +90,7 @@ public class Elemental extends Mob {
 	
 	@Override
 	public String description() {
-		return "游荡的火焰元素是召唤强大存在时的副产品。它们天性混乱，即使是最强大的恶魔学家也无法控制。";
+		return "游荡的火灵是上古修士召唤强大存在时的副产品。它们天性混乱，即便是最厉害的御魔修士也难以驾驭。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

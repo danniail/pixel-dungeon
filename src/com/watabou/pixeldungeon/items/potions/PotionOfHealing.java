@@ -30,7 +30,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfHealing extends Potion {
 
 	{
-		name = "治疗药水";
+		name = "疗伤丹";
 	}
 	
 	@Override

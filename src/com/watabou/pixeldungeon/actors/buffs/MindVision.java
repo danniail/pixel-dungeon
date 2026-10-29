@@ -33,7 +33,7 @@ public class MindVision extends FlavourBuff {
 	
 	@Override
 	public String toString() {
-		return "心灵视界";
+		return "天眼通";
 	}
 
 	@Override

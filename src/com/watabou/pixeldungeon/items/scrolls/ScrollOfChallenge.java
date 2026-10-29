@@ -33,7 +33,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfChallenge extends Scroll {
 
 	{
-		name = "挑战卷轴";
+		name = "挑战书";
 	}
 	
 	@Override
@@ -56,7 +56,7 @@ public class ScrollOfChallenge extends Scroll {
 			}
 		}
 		
-		GLog.w( "卷轴发出挑衅的怒吼，响彻整个地牢！" );
+		GLog.w( "符箓发出挑衅的怒吼，响彻整个秘境！" );
 		setKnown();
 		
 		curUser.sprite.centerEmitter().start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );		
@@ -68,6 +68,6 @@ public class ScrollOfChallenge extends Scroll {
 	
 	@Override
 	public String desc() {
-		return "大声朗读时，卷轴会发出充满挑衅的怒吼，惊醒所有怪物，并让它们察觉读者的位置。";
+		return "大声朗读时，符箓会发出充满挑衅的怒吼，惊醒所有妖兽，并让它们察觉读者的位置。";
 	}
 }

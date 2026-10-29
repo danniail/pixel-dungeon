@@ -50,7 +50,7 @@ public abstract class Mob extends Char {
 	
 	protected static final String TXT_NOTICE1	= "?!";
 	protected static final String TXT_RAGE		= "#$%^";
-	protected static final String TXT_EXP		= "%+d经验";
+	protected static final String TXT_EXP		= "%+d修为";
 	
 	public AiState SLEEPEING	= new Sleeping();
 	public AiState HUNTING		= new Hunting();

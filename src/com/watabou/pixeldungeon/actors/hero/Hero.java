@@ -111,7 +111,7 @@ import com.watabou.utils.Random;
 
 public class Hero extends Char {
 	
-	private static final String TXT_LEAVE = "一个人可不能轻易离开像素地牢。";
+	private static final String TXT_LEAVE = "一个修士可不能轻易离开这秘境。";
 	
 	private static final String TXT_LEVEL_UP = "升级了！";
 	private static final String TXT_NEW_LEVEL = 
@@ -121,8 +121,8 @@ public class Hero extends Char {
 	public static final String TXT_YOU_NOW_HAVE	= "你现在拥有 %s";
 	
 	private static final String TXT_SOMETHING_ELSE	= "这里还有别的东西";
-	private static final String TXT_LOCKED_CHEST	= "这只箱子锁着，你没有匹配的钥匙";
-	private static final String TXT_LOCKED_DOOR		= "你没有匹配的钥匙";
+	private static final String TXT_LOCKED_CHEST	= "这只箱子锁着，你没有匹配的玉牌";
+	private static final String TXT_LOCKED_DOOR		= "你没有匹配的玉牌";
 	private static final String TXT_NOTICED_SMTH	= "你注意到了什么";
 	
 	private static final String TXT_WAIT	= "...";

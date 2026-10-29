@@ -48,11 +48,11 @@ public class WndBlacksmith extends Window {
 	
 	private static final String TXT_PROMPT =
 		"好，一言为定，我能为你做的是：把" +
-		"2件物品重铸，合二为一，品质更好。";
+		"2件物品重炼，合二为一，品质更好。";
 	private static final String TXT_SELECT =
-		"选择要重铸的物品";
+		"选择要重炼的物品";
 	private static final String TXT_REFORGE =
-		"重铸它们";
+		"重炼它们";
 	
 	public WndBlacksmith( Blacksmith troll, Hero hero ) {
 		

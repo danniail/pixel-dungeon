@@ -45,21 +45,21 @@ import com.watabou.utils.Random;
 public class Blacksmith extends NPC {
 
 	private static final String TXT_GOLD_1 =
-		"嘿，人类！想帮个忙吗？拿上这把镐，给我挖点 _暗金矿石_，_15块_ 就够了。" +
+		"嘿，修士！想帮个忙吗？拿上这把镐，给我挖点 _玄金矿石_，_15块_ 就够了。" +
 		"你什么意思，我怎么付钱？你这贪心的……\n" +
-		"好吧，好吧，我没钱付你，但我可以给你打铁。算你走运，" +
-		"我是这附近唯一的铁匠。";
+		"好吧，好吧，我没灵石付你，但我可以替你炼器。算你走运，" +
+		"我是这附近唯一的炼器师。";
 	private static final String TXT_BLOOD_1 =
-		"嘿，人类！想帮个忙吗？拿上这把镐，用它 _杀一只蝙蝠_，我需要镐头沾它的血。" +
+		"嘿，修士！想帮个忙吗？拿上这把镐，用它 _杀一只吸血蝠_，我需要镐头沾它的血。" +
 		"你什么意思，我怎么付钱？你这贪心的……\n" +
-		"好吧，好吧，我没钱付你，但我可以给你打铁。算你走运，" +
-		"我是这附近唯一的铁匠。";
+		"好吧，好吧，我没灵石付你，但我可以替你炼器。算你走运，" +
+		"我是这附近唯一的炼器师。";
 	private static final String TXT2 =
 		"你在开玩笑吗？我的镐呢？！";
 	private static final String TXT3 =
-		"暗金矿石，15块。说真的，有那么难吗？";
+		"玄金矿石，15块。说真的，有那么难吗？";
 	private static final String TXT4 =
-		"我说了镐上要沾蝙蝠血。快点！";
+		"我说了镐上要沾吸血蝠的血。快点！";
 	private static final String TXT_COMPLETED =
 		"哦，你回来了……晚到总比不到好。";
 	private static final String TXT_GET_LOST =
@@ -68,7 +68,7 @@ public class Blacksmith extends NPC {
 	private static final String TXT_LOOKS_BETTER	= "你的 %s 看起来确实好多了";
 	
 	{
-		name = "巨魔铁匠";
+		name = "炼器师";
 		spriteClass = BlacksmithSprite.class;
 	}
 	
@@ -164,7 +164,7 @@ public class Blacksmith extends NPC {
 	public static String verify( Item item1, Item item2 ) {
 		
 		if (item1 == item2) {
-			return "这个巨魔铁匠和所有巨魔一样：又高又瘦，皮肤的颜色和质地都像石头。巨魔铁匠正摆弄着小得不成比例的工具。";
+			return "这位炼器师又高又瘦，肤色与质地都像石头一般。他正摆弄着小得不成比例的工具，专注地炼器。";
 		}
 		
 		if (item1.getClass() != item2.getClass()) {
@@ -184,7 +184,7 @@ public class Blacksmith extends NPC {
 		}
 		
 		if (!item1.isUpgradable() || !item2.isUpgradable()) {
-			return "我无法重铸这些物品！";
+			return "我无法重炼这些物品！";
 		}
 		
 		return null;
@@ -244,8 +244,8 @@ public class Blacksmith extends NPC {
 	@Override
 	public String description() {
 		return 
-			"这个巨魔铁匠和所有巨魔一样：又高又瘦，皮肤的颜色和质地都像石头。" +
-			"他正摆弄着小得不成比例的工具。";
+			"这位炼器师生得又高又瘦，肤色与质地都像岩石，" +
+			"正摆弄着小得不成比例的炼器工具。";
 	}
 
 	public static class Quest {

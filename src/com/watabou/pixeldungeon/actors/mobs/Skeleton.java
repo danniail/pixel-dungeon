@@ -38,7 +38,7 @@ public class Skeleton extends Mob {
 	private static final String TXT_HERO_KILLED = "你被骨爆杀死了……";
 	
 	{
-		name = "骷髅";
+		name = "骷髅傀儡";
 		spriteClass = SkeletonSprite.class;
 		
 		HP = HT = 25;
@@ -111,7 +111,7 @@ public class Skeleton extends Mob {
 	
 	@Override
 	public String description() {
-		return "骷髅由不幸的冒险者和地牢居民的尸骨构成，被深处散发的邪恶魔力驱动。受到足够伤害后，它们会在一阵骨爆中碎裂。";
+		return "骷髅傀儡由不幸修士与妖兽的尸骨拼凑而成，被秘境深处的阴邪之力驱动。受到足够重创后，它们会在一阵骨爆中碎裂。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

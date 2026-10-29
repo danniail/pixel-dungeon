@@ -36,7 +36,7 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class Weightstone extends Item {
 	
-	private static final String TXT_SELECT_WEAPON	= "选择要调整的武器";
+	private static final String TXT_SELECT_WEAPON	= "选择要调整的兵器";
 	private static final String TXT_FAST			= "你调整了%s，让它更快";
 	private static final String TXT_ACCURATE		= "你调整了%s，让它更精准";
 	
@@ -110,7 +110,7 @@ public class Weightstone extends Item {
 	@Override
 	public String info() {
 		return
-			"使用磨刀石，你可以调整近战武器的平衡，提升它的速度或精准度。";
+			"使用磨刀石，你可以调整近战兵器的平衡，提升它的速度或精准度。";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

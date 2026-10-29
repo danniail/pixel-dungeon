@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfPoison extends Wand {
 
 	{
-		name = "剧毒法杖";
+		name = "法器·毒瘴";
 	}
 	
 	@Override
@@ -54,6 +54,6 @@ public class WandOfPoison extends Wand {
 	
 	@Override
 	public String desc() {
-		return "这根扭曲木棍的邪恶冲击会让目标染上致命剧毒。中毒的生物会周期性受到伤害，直到效果结束。效果持续时间随法杖等级增加。";
+		return "这根扭曲木棍的阴毒冲击会让目标染上致命剧毒。中毒的生物会周期性受到伤害，直到效果结束。效果持续时间随法器等级增加。";
 	}
 }

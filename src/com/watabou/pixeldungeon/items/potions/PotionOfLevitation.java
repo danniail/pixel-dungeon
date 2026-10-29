@@ -25,7 +25,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfLevitation extends Potion {
 
 	{
-		name = "漂浮药水";
+		name = "御风丹";
 	}
 	
 	@Override

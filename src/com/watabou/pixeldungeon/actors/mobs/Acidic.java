@@ -25,7 +25,7 @@ import com.watabou.utils.Random;
 public class Acidic extends Scorpio {
 
 	{
-		name = "酸性巨蝎";
+		name = "酸性毒蝎";
 		spriteClass = AcidicSprite.class;
 	}
 	

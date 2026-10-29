@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfEvasion extends Ring {
 
 	{
-		name = "闪避之戒";
+		name = "凌波戒";
 	}
 	
 	@Override
@@ -31,7 +31,7 @@ public class RingOfEvasion extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"这枚戒指提升你闪避敌人攻击的几率。" :
+			"这枚法宝提升你闪避敌人攻击的几率。" :
 			super.desc();
 	}
 	

@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class DriedRose extends Item {
 	
 	{
-		name = "干枯玫瑰";
+		name = "干枯灵花";
 		image = ItemSpriteSheet.ROSE;
 		
 		unique = true;
@@ -42,6 +42,6 @@ public class DriedRose extends Item {
 	@Override
 	public String info() {
 		return
-			"玫瑰早已干枯，却不知为何保留了所有花瓣。";
+			"这朵灵花早已干枯，却不知为何，花瓣一片未散。";
 	}
 }

@@ -31,7 +31,7 @@ public class Dewdrop extends Item {
 	private static final String TXT_VALUE	= "%+d生命";
 	
 	{
-		name = "露珠";
+		name = "晨露";
 		image = ItemSpriteSheet.DEWDROP;
 		
 		stackable = true;
@@ -70,6 +70,6 @@ public class Dewdrop extends Item {
 	
 	@Override
 	public String info() {
-		return "一滴晶莹剔透的露珠。";
+		return "一滴晶莹剔透的晨露。";
 	}
 }

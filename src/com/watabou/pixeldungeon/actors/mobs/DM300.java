@@ -48,7 +48,7 @@ import com.watabou.utils.Random;
 public class DM300 extends Mob {
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "DM-300" : "DM-350";
+		name = Dungeon.depth == Statistics.deepestFloor ? "傀儡王" : "傀儡王之影";
 		spriteClass = DM300Sprite.class;
 		
 		HP = HT = 200;
@@ -143,7 +143,7 @@ public class DM300 extends Mob {
 	
 	@Override
 	public String description() {
-		return "这台机器是几个世纪前由矮人制造的。后来矮人开始用石魔像、元素甚至恶魔取代机器，最终导致文明衰落。DM-300及类似机器通常用于建筑和采矿，有时也用于城市防御。";
+		return "这具傀儡是上古炼器师以秘法铸成。后来炼器师们改用禁制傀儡、火灵乃至域外魔物，最终招致大祸。傀儡王一类多用于开凿灵矿、修筑洞府，有时也用于守护山门。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

@@ -20,7 +20,7 @@ package com.watabou.pixeldungeon.items.rings;
 public class RingOfPower extends Ring {
 	
 	{
-		name = "能量之戒";
+		name = "聚灵戒";
 	}
 	
 	@Override
@@ -31,8 +31,8 @@ public class RingOfPower extends Ring {
 	@Override
 	public String desc() {
 		return isKnown() ?
-			"在戒指散发的能量场中，你的法杖会变得更强。" +
-			"损坏的能量之戒反而会削弱法杖。" :
+			"在法宝散发的能量场中，你的法器会变得更强。" +
+			"损坏的聚灵法宝反而会削弱法器。" :
 			super.desc();
 	}
 	

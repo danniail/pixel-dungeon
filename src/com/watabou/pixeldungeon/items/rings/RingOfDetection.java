@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.actors.hero.Hero;
 public class RingOfDetection extends Ring {
 
 	{
-		name = "侦测之戒";
+		name = "洞察戒";
 	}
 	
 	@Override

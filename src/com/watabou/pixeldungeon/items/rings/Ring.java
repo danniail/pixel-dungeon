@@ -45,9 +45,9 @@ public class Ring extends EquipableItem {
 	private static final String TXT_IDENTIFY =
 		"你现在对%s足够熟悉，能鉴定它了。它是%s。";
 
-	private static final String TXT_UNEQUIP_TITLE = "脱下一枚戒指";
+	private static final String TXT_UNEQUIP_TITLE = "取下一件法宝";
 	private static final String TXT_UNEQUIP_MESSAGE =
-		"你一次只能戴两枚戒指。" +
+		"你一次只能装备两件法宝。" +
 		"脱下你已装备的其中一枚。";
 	
 	protected Buff buff;
@@ -263,26 +263,26 @@ public class Ring extends EquipableItem {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : gem + "戒指";
+		return isKnown() ? name : gem + "法宝";
 	}
 	
 	@Override
 	public String desc() {
 		return
-			"这枚金属环上镶嵌着一颗硕大的" + gem + "宝石，" +
-			"在黑暗中闪闪发光。戴上它会有什么效果，谁知道呢？";
+			"这枚法宝上镶嵌着一颗硕大的" + gem + "灵石，" +
+			"在黑暗中灵光流转。它究竟有何妙用，尚未可知。";
 	}
-	
+
 	@Override
 	public String info() {
 		if (isEquipped( Dungeon.hero )) {
 
-			return desc() + "\n\n" + name() + "戴在你手指上" +
-				(cursed ? "，但由于它被诅咒，你无法将它脱下。" : "。" );
+			return desc() + "\n\n" + name() + "已戴在你手指上" +
+				(cursed ? "，但由于它被煞气禁制，你无法将它取下。" : "。" );
 
 		} else if (cursed && cursedKnown) {
 
-			return desc() + "\n\n你能感觉到" + name() + "中潜藏着邪恶的魔力。";
+			return desc() + "\n\n你能感觉到" + name() + "中潜藏着阴邪煞气。";
 
 		} else {
 
@@ -345,7 +345,7 @@ public class Ring extends EquipableItem {
 	
 	public class RingBuff extends Buff {
 		
-		private static final String TXT_KNOWN = "这是一枚%s";
+		private static final String TXT_KNOWN = "这是一件%s";
 		
 		public int level;
 		public RingBuff() {

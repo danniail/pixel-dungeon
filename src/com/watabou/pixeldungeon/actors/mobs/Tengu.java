@@ -49,7 +49,7 @@ public class Tengu extends Mob {
 	private static final int JUMP_DELAY = 5;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "天狗" : "天狗之影";
+		name = Dungeon.depth == Statistics.deepestFloor ? "鸦妖王" : "鸦妖王之影";
 		spriteClass = TenguSprite.class;
 		
 		HP = HT = 120;
@@ -175,7 +175,7 @@ public class Tengu extends Mob {
 	
 	@Override
 	public String description() {
-		return "天狗是古老刺客一族的成员，该族也叫天狗。这些刺客以大量使用手里剑和陷阱著称。";
+		return "鸦妖王出身于古老的刺客一族，族中人行事诡秘，擅长以飞刃与机关取人性命。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

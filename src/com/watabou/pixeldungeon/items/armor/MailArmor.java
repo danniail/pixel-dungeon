@@ -34,6 +34,6 @@ public class MailArmor extends Armor {
 	@Override
 	public String desc() {
 		return 
-			"相互咬合的金属环构成坚固而柔韧的护甲。";
+			"相互咬合的灵铁环构成坚固而柔韧的护甲。";
 	}
 }

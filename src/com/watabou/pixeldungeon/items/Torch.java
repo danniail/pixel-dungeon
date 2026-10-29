@@ -89,6 +89,6 @@ public class Torch extends Item {
 	@Override
 	public String info() {
 		return
-			"在以昏暗著称的恶魔大厅里，这是不可或缺的物品。";
+			"在以昏暗著称的秘境深处，这是不可或缺之物。";
 	}
 }

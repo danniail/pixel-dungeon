@@ -43,12 +43,12 @@ public class WarriorArmor extends ClassArmor {
 	private static int LEAP_TIME	= 1;
 	private static int SHOCK_TIME	= 3;
 	
-	private static final String AC_SPECIAL = "英勇跳跃"; 
+	private static final String AC_SPECIAL = "纵身跃击"; 
 	
-	private static final String TXT_NOT_WARRIOR	= "只有战士能使用这件护甲！";
+	private static final String TXT_NOT_WARRIOR	= "只有体修能使用这件战甲！";
 	
 	{
-		name = "战士铠甲";
+		name = "武修战甲";
 		image = ItemSpriteSheet.ARMOR_WARRIOR;
 	}
 	
@@ -74,7 +74,7 @@ public class WarriorArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return "这件护甲看似沉重，却能让战士向目标位置英勇跳跃，落地时震晕周围所有敌人。";
+		return "这件战甲看似沉重，却能让体修向目标方位纵身跃起，落地时震晕周身所有妖兽。";
 	}
 	
 	protected static CellSelector.Listener leaper = new  CellSelector.Listener() {
@@ -122,7 +122,7 @@ public class WarriorArmor extends ClassArmor {
 		
 		@Override
 		public String prompt() {
-			return "选择跳跃方向";
+			return "选择跃起方位";
 		}
 	};
 }

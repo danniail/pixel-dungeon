@@ -38,8 +38,8 @@ public class InterlevelScene extends PixelScene {
 
 	private static final float TIME_TO_FADE = 0.3f;
 	
-	private static final String TXT_DESCENDING	= "正在下降……";
-	private static final String TXT_ASCENDING	= "正在上升……";
+	private static final String TXT_DESCENDING	= "正在深入秘境……";
+	private static final String TXT_ASCENDING	= "正在返回上层……";
 	private static final String TXT_LOADING		= "正在加载……";
 	private static final String TXT_RESURRECTING= "正在复活……";
 	private static final String TXT_RETURNING	= "正在返回……";

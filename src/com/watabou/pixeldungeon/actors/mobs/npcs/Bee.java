@@ -32,7 +32,7 @@ import com.watabou.utils.Random;
 public class Bee extends NPC {
 	
 	{
-		name = "金色蜜蜂";
+		name = "灵蜂";
 		spriteClass = BeeSprite.class;
 		
 		viewDistance = 4;
@@ -116,7 +116,7 @@ public class Bee extends NPC {
 	
 	@Override
 	public String description() {
-		return "尽管体型微小，金色蜜蜂却会勇猛保护主人。不过它们寿命不长。";
+		return "尽管体型微小，灵蜂却会勇猛护主。只是它们的寿命并不长久。";
 	}
 
 	@Override

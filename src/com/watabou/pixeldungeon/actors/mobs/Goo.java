@@ -46,7 +46,7 @@ public class Goo extends Mob {
 	private static final float PUMP_UP_DELAY	= 2f;
 	
 	{
-		name = Dungeon.depth == Statistics.deepestFloor ? "胶泥" : "胶泥之子";
+		name = Dungeon.depth == Statistics.deepestFloor ? "污秽妖王" : "污秽妖王之影";
 		
 		HP = HT = 80;
 		EXP = 10;
@@ -214,7 +214,7 @@ public class Goo extends Mob {
 	
 	@Override
 	public String description() {
-		return "关于胶泥，人们所知甚少。它很可能根本不是生物，而是下水道中各种物质的聚合体，只是获得了初步的自由意志。";
+		return "关于污秽妖王，世人所知甚少。它或许根本不是活物，而是秘境水脉中种种污秽之物的聚合，只是生出了初步的灵智。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

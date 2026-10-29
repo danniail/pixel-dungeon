@@ -46,7 +46,7 @@ public class Armor extends EquipableItem {
 	private static final String TXT_BROKEN		= "损坏的%s ：%d";
 
 	private static final String TXT_INCOMPATIBLE =
-		"不同类型魔法的相互作用，抹去了这件护甲上的符印！";
+		"不同灵力的相互冲突，抹去了这件护甲上的符印！";
 	
 	public int tier;
 	public int STR;
@@ -227,11 +227,11 @@ public class Armor extends EquipableItem {
 
 				if (isEquipped( Dungeon.hero )) {
 					info.append(
-						"\n\n由于你的力量不足，你的" +
+						"\n\n由于你的力道不足，你的" +
 						"移动速度和防御技能下降了。" );
 				} else {
 					info.append(
-						"\n\n由于你的力量不足，穿上这件护甲" +
+						"\n\n由于你的力道不足，穿上这件护甲" +
 						"会降低你的移动速度和防御技能。" );
 				}
 
@@ -239,22 +239,22 @@ public class Armor extends EquipableItem {
 		} else {
 			info.append(
 				"\n\n普通的" + name + "每次攻击最多吸收" + typicalDR() + "点伤害，" +
-				"需要" + typicalSTR() + "点力量。" );
+				"需要" + typicalSTR() + "点力道。" );
 			if (typicalSTR() > Dungeon.hero.STR()) {
 				info.append( "这件护甲对你来说可能太重了。" );
 			}
 		}
 
 		if (glyph != null) {
-			info.append( "它带有附魔。" );
+			info.append( "它带有祭炼。" );
 		}
 
 		if (isEquipped( Dungeon.hero )) {
 			info.append( "\n\n你穿着" + name +
-				(cursed ? "，但由于它被诅咒，你无法将它脱下。" : "。") );
+				(cursed ? "，但由于它被煞气禁制，你无法将它脱下。" : "。") );
 		} else {
 			if (cursedKnown && cursed) {
-				info.append( "\n\n你能感觉到" + name + "中潜藏着邪恶的魔力。" );
+				info.append( "\n\n你能感觉到" + name + "中潜藏着邪异的灵力。" );
 			}
 		}
 		

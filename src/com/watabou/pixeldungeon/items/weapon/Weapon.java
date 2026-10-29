@@ -39,7 +39,7 @@ abstract public class Weapon extends KindOfWeapon {
 	private static final String TXT_IDENTIFY		= 
 		"你现在对%s足够熟悉，能鉴定它了。它是%s。";
 	private static final String TXT_INCOMPATIBLE	= 
-		"不同类型魔法的相互作用，抹去了这件武器上的附魔！";
+		"不同灵力的相互冲突，抹去了这件兵器上的祭炼！";
 	
 	private static final String TXT_TO_STRING	= "%s :%d";
 	private static final String TXT_BROKEN		= "损坏的%s :%d";

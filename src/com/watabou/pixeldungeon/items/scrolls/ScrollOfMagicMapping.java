@@ -34,7 +34,7 @@ public class ScrollOfMagicMapping extends Scroll {
 	private static final String TXT_LAYOUT = "你现在掌握了本层布局。";
 	
 	{
-		name = "魔法地图卷轴";
+		name = "勘灵符";
 	}
 	
 	@Override
@@ -86,7 +86,7 @@ public class ScrollOfMagicMapping extends Scroll {
 	
 	@Override
 	public String desc() {
-		return "阅读这张卷轴时，一幅清晰无比的图像会铭刻在你的记忆中，让你掌握本层的精确布局、揭示所有隐藏秘密。但物品和生物的位置仍未知。";
+		return "参悟这张符箓时，一幅清晰无比的图像会铭刻在你的记忆中，让你掌握本层的精确布局、揭示所有隐藏秘密。但物品和生物的位置仍未知。";
 	}
 	
 	@Override

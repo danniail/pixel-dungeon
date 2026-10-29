@@ -42,7 +42,7 @@ public class Shaman extends Mob implements Callback {
 	private static final String TXT_LIGHTNING_KILLED = "%s 的闪电击中了你……";
 	
 	{
-		name = "豺狼萨满";
+		name = "豺狼祭司";
 		spriteClass = ShamanSprite.class;
 		
 		HP = HT = 18;
@@ -126,7 +126,7 @@ public class Shaman extends Mob implements Callback {
 	
 	@Override
 	public String description() {
-		return "最聪明的豺狼能掌握萨满魔法。豺狼萨满偏爱战斗法术以弥补力量不足，对那些质疑它们在部落中地位的人毫不留情。";
+		return "最狡诈的豺狼人能掌握粗浅妖术。祭司偏爱以攻伐法术弥补力道不足，对任何胆敢质疑其在族群中地位者毫不留情。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

@@ -33,6 +33,6 @@ public class PlateArmor extends Armor {
 	
 	@Override
 	public String desc() {
-		return "巨大的金属板拼接成铠甲，为强壮到能承受其惊人重量的冒险者提供无与伦比的防护。";
+		return "巨大的金属板拼接成铠甲，为足以承受其惊人重量的修士提供无与伦比的防护。";
 	}
 }

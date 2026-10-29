@@ -22,7 +22,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Mace extends MeleeWeapon {
 
 	{
-		name = "钉头锤";
+		name = "狼牙棒";
 		image = ItemSpriteSheet.MACE;
 	}
 	
@@ -32,6 +32,6 @@ public class Mace extends MeleeWeapon {
 	
 	@Override
 	public String desc() {
-		return "这把武器的铁质锤头能造成可观伤害。";
+		return "这把兵器的铁质锤头能造成可观伤害。";
 	}
 }

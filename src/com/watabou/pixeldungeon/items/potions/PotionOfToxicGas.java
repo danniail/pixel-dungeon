@@ -27,7 +27,7 @@ import com.watabou.pixeldungeon.scenes.GameScene;
 public class PotionOfToxicGas extends Potion {
 
 	{
-		name = "毒气药水";
+		name = "瘴气丹";
 	}
 	
 	@Override
@@ -44,7 +44,7 @@ public class PotionOfToxicGas extends Potion {
 	
 	@Override
 	public String desc() {
-		return "拔开或打碎这个加压玻璃瓶，会让里面的东西爆成一团致命的绿色毒气。你可以把药水掷向远处敌人，而不是亲手拔开。";
+		return "拔开或打碎这个加压玻璃瓶，会让里面的东西爆成一团致命的绿色毒气。你可以把丹药掷向远处敌人，而不是亲手拔开。";
 	}
 	
 	@Override

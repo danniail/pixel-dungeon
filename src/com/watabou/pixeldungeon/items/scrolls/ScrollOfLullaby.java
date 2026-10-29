@@ -31,7 +31,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class ScrollOfLullaby extends Scroll {
 
 	{
-		name = "摇篮曲卷轴";
+		name = "安魂符";
 	}
 	
 	@Override
@@ -55,13 +55,13 @@ public class ScrollOfLullaby extends Scroll {
 		
 		switch (count) {
 		case 0:
-			GLog.i( "卷轴奏出舒缓的旋律。" );
+			GLog.i( "符箓奏出舒缓的旋律。" );
 			break;
 		case 1:
-			GLog.i( "卷轴奏出舒缓的旋律，" + affected.name + "睡着了！" );
+			GLog.i( "符箓奏出舒缓的旋律，" + affected.name + "睡着了！" );
 			break;
 		default:
-			GLog.i( "卷轴奏出舒缓的旋律，怪物们睡着了！" );
+			GLog.i( "符箓奏出舒缓的旋律，妖兽们睡着了！" );
 		}
 		setKnown();
 		

@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.windows.WndBag;
 public class ScrollOfIdentify extends InventoryScroll {
 
 	{
-		name = "鉴定卷轴";
+		name = "鉴定符";
 		inventoryTitle = "选择要鉴定的物品";
 		mode = WndBag.Mode.UNIDENTIFED;
 	}

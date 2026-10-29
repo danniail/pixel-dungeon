@@ -78,7 +78,7 @@ public class WaterOfHealth extends WellWater {
 	@Override
 	public String tileDesc() {
 		return 
-			"这口井的水散发着生命的力量。" +
-			"啜饮一口，治愈伤口并缓解饥饿。";
+			"这眼灵泉散发着蓬勃的生机。" +
+			"啜饮一口，可治愈伤口、缓解饥饿。";
 	}
 }

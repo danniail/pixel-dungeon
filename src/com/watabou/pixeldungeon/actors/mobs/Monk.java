@@ -37,7 +37,7 @@ public class Monk extends Mob {
 	public static final String TXT_DISARM	= "%s 把你手中的 %s 打落了！";
 	
 	{
-		name = "矮人武僧";
+		name = "武僧傀儡";
 		spriteClass = MonkSprite.class;
 		
 		HP = HT = 70;
@@ -102,7 +102,7 @@ public class Monk extends Mob {
 	
 	@Override
 	public String description() {
-		return "这些武僧是狂热者，致力于保护城市秘密，不让任何外来者知晓。他们不使用任何护甲或武器，完全依靠徒手格斗之术。";
+		return "这些武僧傀儡是被禁制驱使的狂热守卫，负责守护洞府中的秘密，不许外人窥探。它们不持兵器、不披甲胄，全凭一双铁拳近身搏杀。";
 	}
 	
 	private static final HashSet<Class<?>> IMMUNITIES = new HashSet<Class<?>>();

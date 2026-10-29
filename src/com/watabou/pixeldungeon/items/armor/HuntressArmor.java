@@ -33,13 +33,13 @@ import com.watabou.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {
 	
-	private static final String TXT_NO_ENEMIES 		= "视野内没有敌人";
-	private static final String TXT_NOT_HUNTRESS	= "只有女猎手能使用这件护甲！";
+	private static final String TXT_NO_ENEMIES 		= "视野内没有妖兽";
+	private static final String TXT_NOT_HUNTRESS	= "只有御兽能使用这件斗篷！";
 	
-	private static final String AC_SPECIAL = "幽灵之刃"; 
+	private static final String AC_SPECIAL = "灵刃"; 
 	
 	{
-		name = "猎手斗篷";
+		name = "御兽斗篷";
 		image = ItemSpriteSheet.ARMOR_HUNTRESS;
 	}
 	
@@ -99,6 +99,6 @@ public class HuntressArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return "穿着这种斗篷的女猎手能召唤扇形的幽灵之刃。每把飞刃会锁定她视野内的一个敌人，伤害取决于她当前装备的近战武器。";
+		return "身着这件斗篷，御兽可祭出数道扇形灵刃，每道灵刃锁定视野内的一个妖兽，威力取决于当前装备的近战兵器。";
 	}
 }

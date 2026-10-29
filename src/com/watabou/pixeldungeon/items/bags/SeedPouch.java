@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class SeedPouch extends Bag {
 
 	{
-		name = "种子袋";
+		name = "灵种袋";
 		image = ItemSpriteSheet.POUCH;
 		
 		size = 8;
@@ -43,6 +43,6 @@ public class SeedPouch extends Bag {
 	@Override
 	public String info() {
 		return
-			"这个小巧的天鹅绒袋子能装任意数量的种子，非常方便。";
+			"这个小巧的丝绒袋能装任意数量的灵种，十分方便。";
 	}
 }

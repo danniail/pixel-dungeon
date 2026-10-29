@@ -37,19 +37,19 @@ import com.watabou.utils.Bundle;
 public class LloydsBeacon extends Item {
 
 	private static final String TXT_PREVENTING = 
-		"这里强大的魔法气场让你无法使用劳埃德信标！";
+		"此处强大的禁制之力让你无法催动挪移信标！";
 	
 	private static final String TXT_CREATURES = 
-		"附近生物的灵能气场让你此刻无法使用劳埃德信标。";
+		"附近妖兽的灵能气场让你此刻无法催动挪移信标。";
 	
 	private static final String TXT_RETURN = 
-		"劳埃德信标已成功设置在你当前位置，现在你随时可以返回这里。";
+		"挪移信标已设在你当前位置，日后随时可返回此处。";
 			
 	private static final String TXT_INFO =
-		"劳埃德信标是精巧的魔法装置，能让你返回曾经到过的地方。";
+		"挪移信标是一件精巧的法器，能让你返回曾经到过的地方。";
 	
 	private static final String TXT_SET = 
-		"\n\n这个信标设置在像素地牢第%d层的某处。";
+		"\n\n这个信标设置在秘境第%d层的某处。";
 	
 	public static final float TIME_TO_USE = 1;
 	
@@ -60,7 +60,7 @@ public class LloydsBeacon extends Item {
 	private int returnPos;
 	
 	{
-		name = "劳埃德信标";
+		name = "挪移信标";
 		image = ItemSpriteSheet.BEACON;
 		
 		unique = true;

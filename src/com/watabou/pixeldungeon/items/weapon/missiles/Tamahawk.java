@@ -60,7 +60,7 @@ public class Tamahawk extends MissileWeapon {
 	
 	@Override
 	public String desc() {
-		return "这把投掷斧并不太重，但仍需要相当的力量才能有效使用。";
+		return "这把投掷斧并不太重，但仍需要相当的力道才能使得顺手。";
 	}
 	
 	@Override

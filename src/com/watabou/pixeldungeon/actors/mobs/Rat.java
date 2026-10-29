@@ -25,7 +25,7 @@ import com.watabou.utils.Random;
 public class Rat extends Mob {
 
 	{
-		name = "有袋巨鼠";
+		name = "有袋噬灵鼠";
 		spriteClass = RatSprite.class;
 		
 		HP = HT = 8;
@@ -58,6 +58,6 @@ public class Rat extends Mob {
 	
 	@Override
 	public String description() {
-		return "有袋巨鼠是下水道中好斗却相当弱小的居民。只有数量庞大时它们才会构成威胁。";
+		return "有袋噬灵鼠是秘境中好斗却相当弱小的妖兽，唯有成群结队时才会构成威胁。";
 	}
 }

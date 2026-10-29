@@ -42,10 +42,10 @@ import com.watabou.utils.Callback;
 
 public class WandOfReach extends Wand {
 
-	private static final String TXT_YOU_NOW_HAVE	= "你用魔法把%s移进了背包"; 
+	private static final String TXT_YOU_NOW_HAVE	= "你以隔空之力把%s移进了储物袋"; 
 	
 	{
-		name = "延伸法杖";
+		name = "法器·隔空";
 		hitChars = false;
 	}
 	
@@ -128,6 +128,6 @@ public class WandOfReach extends Wand {
 	
 	@Override
 	public String desc() {
-		return "这根实用法杖可从远处抓取物品，或与敌人交换位置。它发出的魔法力波会影响沿途所有格子：触发陷阱、踩倒高草、打开关闭的门、并关上敞开的门。";
+		return "这根实用法器可从远处抓取物品，或与敌人交换位置。它发出的灵力波动会影响沿途所有格子：触发陷阱、踩倒高草、打开关闭的门、并关上敞开的门。";
 	}
 }

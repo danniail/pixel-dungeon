@@ -940,9 +940,9 @@ public abstract class Level implements Bundlable {
 		case Terrain.SIGN:
 			return "告示牌";
 		case Terrain.WELL:
-			return "井";
+			return "灵泉";
 		case Terrain.EMPTY_WELL:
-			return "空井";
+			return "干涸灵泉";
 		case Terrain.STATUE:
 		case Terrain.STATUE_SP:
 			return "雕像";
@@ -967,7 +967,7 @@ public abstract class Level implements Bundlable {
 		case Terrain.BOOKSHELF:
 			return "书架";
 		case Terrain.ALCHEMY:
-			return "炼金釜";
+			return "炼丹炉";
 		default:
 			return "???";
 		}
@@ -981,18 +981,18 @@ public abstract class Level implements Bundlable {
 		case Terrain.WATER:
 			return "如果着火，踏进水里灭火。";
 		case Terrain.ENTRANCE:
-			return "楼梯通向上一层。";
+			return "石阶通向上一层。";
 		case Terrain.EXIT:
 		case Terrain.UNLOCKED_EXIT:
-			return "楼梯通向下一层。";
+			return "石阶通向下一层。";
 		case Terrain.EMBERS:
 			return "余烬铺满地面。";
 		case Terrain.HIGH_GRASS:
 			return "茂密的植被挡住了视线。";
 		case Terrain.LOCKED_DOOR:
-			return "这扇门锁着，你需要匹配的钥匙才能打开。";
+			return "这扇门锁着，你需要匹配的玉牌才能打开。";
 		case Terrain.LOCKED_EXIT:
-			return "沉重的铁栏挡住了向下的楼梯。";
+			return "沉重的铁栏挡住了向下的石阶。";
 		case Terrain.BARRICADE:
 			return "木栅栏很牢固，但岁月已让它干枯。它会燃烧吗？";
 		case Terrain.SIGN:
@@ -1012,9 +1012,9 @@ public abstract class Level implements Bundlable {
 		case Terrain.STATUE_SP:
 			return "有人想装饰这个地方，但显然失败了。";
 		case Terrain.ALCHEMY:
-			return "把种子扔到这里，酿造药水。";
+			return "把灵种扔到这里，炼制丹药。";
 		case Terrain.EMPTY_WELL:
-			return "井已经干涸。";
+			return "灵泉已经干涸。";
 		default:
 			if (tile >= Terrain.WATER_TILES) {
 				return tileDesc( Terrain.WATER );

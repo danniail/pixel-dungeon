@@ -41,10 +41,10 @@ public class WndHero extends WndTabbed {
 	private static final String TXT_STATS	= "属性";
 	private static final String TXT_BUFFS	= "状态";
 	
-	private static final String TXT_EXP		= "经验";
-	private static final String TXT_STR		= "力量";
+	private static final String TXT_EXP		= "修为";
+	private static final String TXT_STR		= "力道";
 	private static final String TXT_HEALTH	= "生命";
-	private static final String TXT_GOLD	= "收集金币";
+	private static final String TXT_GOLD	= "收集灵石";
 	private static final String TXT_DEPTH	= "最深层数";
 	
 	private static final int WIDTH		= 100;

@@ -77,11 +77,11 @@ import com.watabou.utils.Random;
 
 public class GameScene extends PixelScene {
 	
-	private static final String TXT_WELCOME			= "欢迎来到像素地牢第%d层！";
-	private static final String TXT_WELCOME_BACK	= "欢迎回到像素地牢第%d层！";
-	private static final String TXT_NIGHT_MODE		= "小心，夜晚的地牢更加危险！";
+	private static final String TXT_WELCOME			= "欢迎来到秘境第%d层！";
+	private static final String TXT_WELCOME_BACK	= "欢迎回到秘境第%d层！";
+	private static final String TXT_NIGHT_MODE		= "小心，夜晚的秘境更加危险！";
 	
-	private static final String TXT_CHASM	= "你的脚步声在地牢中回荡。";
+	private static final String TXT_CHASM	= "你的脚步声在秘境中回荡。";
 	private static final String TXT_WATER	= "你听见周围水花飞溅。";
 	private static final String TXT_GRASS	= "空气中弥漫着浓重的草木气息。";
 	private static final String TXT_SECRETS	= "气氛暗示这一层藏着许多秘密。";

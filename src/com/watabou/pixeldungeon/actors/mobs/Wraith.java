@@ -39,7 +39,7 @@ public class Wraith extends Mob {
 	private int level;
 	
 	{
-		name = "幽魂";
+		name = "怨灵";
 		spriteClass = WraithSprite.class;
 		
 		HP = HT = 1;
@@ -92,7 +92,7 @@ public class Wraith extends Mob {
 
 	@Override
 	public String description() {
-		return "幽魂是坟墓或墓穴被惊扰的罪人所化的复仇之灵。作为虚体存在，普通武器很难击中它。";
+		return "怨灵是被惊扰的墓穴中罪人之魂所化的复仇之灵。它是虚体，寻常兵器很难伤得了它。";
 	}
 	
 	public static void spawnAround( int pos ) {

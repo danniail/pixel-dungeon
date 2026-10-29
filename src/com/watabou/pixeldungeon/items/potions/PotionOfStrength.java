@@ -25,7 +25,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfStrength extends Potion {
 
 	{
-		name = "力量药水";
+		name = "大力丹";
 	}
 	
 	@Override
@@ -33,7 +33,7 @@ public class PotionOfStrength extends Potion {
 		setKnown();
 		
 		hero.STR++;
-		hero.sprite.showStatus( CharSprite.POSITIVE, "+1力量" );
+		hero.sprite.showStatus( CharSprite.POSITIVE, "+1力道" );
 		GLog.p( "新生的力量涌遍全身。" );
 		
 		Badges.validateStrengthAttained();
@@ -41,7 +41,7 @@ public class PotionOfStrength extends Potion {
 	
 	@Override
 	public String desc() {
-		return "这强大的液体会流遍你的肌肉，永久增加1点力量。";
+		return "这强大的液体会流遍你的肌肉，永久增加1点力道。";
 	}
 	
 	@Override

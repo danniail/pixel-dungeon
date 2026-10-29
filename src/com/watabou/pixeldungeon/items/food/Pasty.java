@@ -23,14 +23,14 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Pasty extends Food {
 
 	{
-		name = "馅饼";
+		name = "灵谷饼";
 		image = ItemSpriteSheet.PASTY;
 		energy = Hunger.STARVING;
 	}
 	
 	@Override
 	public String info() {
-		return "这是正宗的康沃尔馅饼，传统的牛肉土豆馅。";
+		return "这是灵谷饼，内馅是妖兽肉与灵谷，颇为顶饱。";
 	}
 	
 	@Override

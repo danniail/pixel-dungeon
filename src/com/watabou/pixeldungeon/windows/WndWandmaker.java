@@ -28,11 +28,11 @@ public class WndWandmaker extends WndQuest {
 	
 	private static final String TXT_MESSAGE	= 
 		"哦，看来你成功了！希望没让你太费周折。" +
-		"正如我承诺的，你可以从我的高品质法杖中选一根。";
-	private static final String TXT_BATTLE		= "战斗法杖";
-	private static final String TXT_NON_BATTLE	= "非战斗法杖";
+		"正如我承诺的，你可以从我的高品质法器中选一件。";
+	private static final String TXT_BATTLE		= "攻伐法器";
+	private static final String TXT_NON_BATTLE	= "辅助法器";
 	
-	private static final String TXT_FARAWELL	= "祝你冒险顺利，%s！";
+	private static final String TXT_FARAWELL	= "祝你修行顺利，%s！";
 	
 	private Wandmaker wandmaker;
 	private Item questItem;

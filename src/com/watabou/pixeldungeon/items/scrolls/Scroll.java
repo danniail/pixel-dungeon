@@ -32,9 +32,9 @@ import com.watabou.utils.Bundle;
 
 public abstract class Scroll extends Item {
 
-	private static final String TXT_BLINDED	= "你不能在失明时阅读卷轴";
+	private static final String TXT_BLINDED	= "你不能在失明时参悟符箓";
 
-	public static final String AC_READ	= "阅读";
+	public static final String AC_READ	= "参悟";
 	
 	protected static final float TIME_TO_READ	= 1f;
 	
@@ -52,8 +52,8 @@ public abstract class Scroll extends Item {
 		ScrollOfUpgrade.class,
 		ScrollOfEnchantment.class
 	};
-	private static final String[] runes = 
-		{"KAUNAN", "SOWILO", "LAGUZ", "YNGVI", "GYFU", "RAIDO", "ISAZ", "MANNAZ", "NAUDIZ", "BERKANAN", "ODAL", "TIWAZ"};
+	private static final String[] runes =
+		{"甲子", "乙丑", "丙寅", "丁卯", "戊辰", "己巳", "庚午", "辛未", "壬申", "癸酉", "甲戌", "乙亥"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.SCROLL_KAUNAN, 
 		ItemSpriteSheet.SCROLL_SOWILO, 
@@ -151,15 +151,15 @@ public abstract class Scroll extends Item {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : "卷轴“" + rune + "”";
+		return isKnown() ? name : "符箓“" + rune + "”";
 	}
 	
 	@Override
 	public String info() {
 		return isKnown() ?
 			desc() :
-			"这张羊皮纸上写满无法辨认的文字，标题是符文" +
-			"“" + rune + "”。大声朗读它会发生什么，谁知道呢？";
+			"这张黄纸符上写满无法辨认的云篆，标题是" +
+			"“" + rune + "”。参悟之后会发生什么，谁知道呢？";
 	}
 	
 	@Override

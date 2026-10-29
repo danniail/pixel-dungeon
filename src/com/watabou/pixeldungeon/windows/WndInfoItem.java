@@ -35,8 +35,8 @@ public class WndInfoItem extends Window {
 	private static final String TXT_TOMB			= "坟墓";
 	private static final String TXT_SKELETON		= "骸骨";
 	private static final String TXT_WONT_KNOW		= "打开之前，你不知道里面有什么！";
-	private static final String TXT_NEED_KEY		= TXT_WONT_KNOW + "但要打开它，你需要一把金钥匙。";
-	private static final String TXT_INSIDE			= "你能看见里面的%s，但要打开箱子需要一把金钥匙。";
+	private static final String TXT_NEED_KEY		= TXT_WONT_KNOW + "但要打开它，你需要一枚金玉牌。";
+	private static final String TXT_INSIDE			= "你能看见里面的%s，但要打开箱子需要一枚金玉牌。";
 	private static final String TXT_OWNER	= 
 		"这座古墓里也许有有用的东西，" +
 		"但它的主人肯定不会同意你翻找。";

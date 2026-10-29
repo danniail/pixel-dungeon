@@ -208,7 +208,7 @@ public class CavesLevel extends RegularLevel {
 		case Terrain.WALL_DECO:
 			return "墙上能看见一条矿脉。是金子吗？";
 		case Terrain.BOOKSHELF:
-			return "谁会在洞穴里需要书架？";
+			return "谁会在这洞府深处摆一座书架？";
 		default:
 			return super.tileDesc( tile );
 		}

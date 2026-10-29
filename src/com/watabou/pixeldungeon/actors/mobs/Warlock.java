@@ -42,7 +42,7 @@ public class Warlock extends Mob implements Callback {
 	private static final String TXT_SHADOWBOLT_KILLED = "%s 的暗影飞弹杀死了你……";
 	
 	{
-		name = "矮人术士";
+		name = "邪修";
 		spriteClass = WarlockSprite.class;
 		
 		HP = HT = 70;
@@ -127,7 +127,7 @@ public class Warlock extends Mob implements Callback {
 	
 	@Override
 	public String description() {
-		return "当矮人的兴趣从工程转向奥术，术士开始在城市掌权。他们从元素魔法起步，但很快转向恶魔学和死灵术。";
+		return "当炼器师的兴趣从机关转向邪道法术，邪修便开始在洞府中掌权。他们起初研习五行术法，很快便堕入御魔与御魂之术。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class DwarfToken extends Item {
 	
 	{
-		name = "矮人信物";
+		name = "傀儡信物";
 		image = ItemSpriteSheet.TOKEN;
 		
 		stackable = true;
@@ -42,7 +42,7 @@ public class DwarfToken extends Item {
 	
 	@Override
 	public String info() {
-		return "许多矮人和它们一些较大的造物，都带着这些用途不明的小金属片。也许是首饰，也许是某种证件。矮人真是奇怪的民族。";
+		return "许多傀儡与它们较大的造物身上，都带着这些用途不明的小金属片。或许是首饰，或许是某种凭证，实在古怪。";
 	}
 	
 	@Override

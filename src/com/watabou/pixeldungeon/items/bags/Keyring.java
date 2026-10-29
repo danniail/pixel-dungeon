@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class Keyring extends Bag {
 
 	{
-		name = "钥匙环";
+		name = "玉牌环";
 		image = ItemSpriteSheet.KEYRING;
 		
 		size = 12;
@@ -42,6 +42,6 @@ public class Keyring extends Bag {
 	
 	@Override
 	public String info() {
-		return "这是一个铜制钥匙环，让你把所有钥匙与其他物品分开存放。";
+		return "这是一个铜制玉牌环，可将所有玉牌与其他物品分开存放。";
 	}
 }

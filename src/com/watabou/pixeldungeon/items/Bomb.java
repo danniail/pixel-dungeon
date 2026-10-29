@@ -38,7 +38,7 @@ import com.watabou.utils.Random;
 public class Bomb extends Item {
 	
 	{
-		name = "炸弹";
+		name = "雷火珠";
 		image = ItemSpriteSheet.BOMB;
 		defaultAction = AC_THROW;
 		stackable = true;
@@ -78,7 +78,7 @@ public class Bomb extends Item {
 								Buff.prolong( ch, Paralysis.class, 2 );
 							} else if (ch == Dungeon.hero) {
 								Dungeon.fail( Utils.format( ResultDescriptions.BOMB, Dungeon.depth ) );
-								GLog.n( "你用炸弹把自己炸死了……" );
+								GLog.n( "你用雷火珠把自己炸死了……" );
 							}
 						}
 					}
@@ -115,6 +115,6 @@ public class Bomb extends Item {
 	@Override
 	public String info() {
 		return
-			"这是一枚装满黑火药的小型炸弹。方便的是，炸弹投出时引信会自动点燃。";
+			"这是一枚封着火雷之力的珠子，扔出时会自行引爆，威力不小。";
 	}
 }

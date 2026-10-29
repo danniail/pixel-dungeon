@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.sprites.RatKingSprite;
 public class RatKing extends NPC {
 
 	{
-		name = "鼠王";
+		name = "鼠妖王";
 		spriteClass = RatKingSprite.class;
 		
 		state = SLEEPEING;
@@ -68,12 +68,12 @@ public class RatKing extends NPC {
 			yell( "我没在睡觉！" );
 			state = WANDERING;
 		} else {
-			yell( "什么事？我没时间胡闹，我的王国可不会自己统治自己！" );
+			yell( "什么事？我没时间胡闹，我的领地可不会自己管自己！" );
 		}
 	}
 	
 	@Override
 	public String description() {
-		return "这只老鼠比普通有袋巨鼠稍大一点，头上还戴着一顶小皇冠。";
+		return "这只鼠妖比寻常噬灵鼠稍大一些，头上还戴着一顶小皇冠。";
 	}
 }

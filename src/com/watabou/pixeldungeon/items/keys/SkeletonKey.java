@@ -22,12 +22,12 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class SkeletonKey extends Key {
 	
 	{
-		name = "万能钥匙";
+		name = "万能玉牌";
 		image = ItemSpriteSheet.SKELETON_KEY;
 	}
 	
 	@Override
 	public String info() {
-		return "这把钥匙看起来很严肃：头部是骷髅形状。也许能打开某扇重要的门。";
+		return "这枚玉牌形制古朴，牌头雕成骷髅模样，也许能开启某扇至关重要的禁制之门。";
 	}
 }

@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.windows.WndBag;
 
 public class AlchemyPot {
 
-	private static final String TXT_SELECT_SEED	= "选择要扔的种子"; 
+	private static final String TXT_SELECT_SEED	= "选择要扔的灵种"; 
 	
 	private static Hero hero;
 	private static int pos;

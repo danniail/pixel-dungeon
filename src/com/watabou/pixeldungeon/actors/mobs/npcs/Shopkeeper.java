@@ -31,7 +31,7 @@ import com.watabou.pixeldungeon.windows.WndTradeItem;
 public class Shopkeeper extends NPC {
 
 	{
-		name = "店主";
+		name = "坊市店主";
 		spriteClass = ShopkeeperSprite.class;
 	}
 	
@@ -76,7 +76,7 @@ public class Shopkeeper extends NPC {
 	
 	@Override
 	public String description() {
-		return "这个矮胖的家伙更适合大城市的商业区，而不是地牢。他的定价解释了他为什么更喜欢在这里做生意。";
+		return "这矮胖的家伙更适合待在大城坊市之中，而非秘境深处。他的定价解释了为何他偏要在此处做生意。";
 	}
 	
 	public static WndBag sell() {

@@ -25,7 +25,7 @@ import com.watabou.utils.Bundle;
 
 abstract public class ClassArmor extends Armor {
 	
-	private static final String TXT_LOW_HEALTH		= "你的生命值太低了！";
+	private static final String TXT_LOW_HEALTH		= "你的气血太低了！";
 	private static final String TXT_NOT_EQUIPPED	= "你需要穿上这件护甲才能使用它的特殊能力！";
 	
 	private int DR;

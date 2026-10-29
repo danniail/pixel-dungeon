@@ -126,8 +126,8 @@ public class Viscosity extends Glyph {
 				target.damage( 1, this );
 				if (target == Dungeon.hero && !target.isAlive()) {
 					// FIXME
-					Dungeon.fail( Utils.format( ResultDescriptions.GLYPH, "黏滞附魔", Dungeon.depth ) );
-					GLog.n( "黏滞附魔杀死了你……" );
+					Dungeon.fail( Utils.format( ResultDescriptions.GLYPH, "黏滞符印", Dungeon.depth ) );
+					GLog.n( "黏滞符印杀死了你……" );
 					
 					Badges.validateDeathFromGlyph();
 				}

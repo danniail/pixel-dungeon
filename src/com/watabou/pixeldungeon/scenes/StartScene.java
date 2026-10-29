@@ -54,6 +54,7 @@ public class StartScene extends PixelScene {
 	private static final float BUTTON_HEIGHT	= 24;
 	private static final float GAP				= 2;
 	
+	private static final String TXT_TITLE	= "选择你的修仙者";
 	private static final String TXT_LOAD	= "继续游戏";
 	private static final String TXT_NEW		= "新游戏";
 
@@ -65,7 +66,7 @@ public class StartScene extends PixelScene {
 	private static final String TXT_YES		= "是，开始新游戏";
 	private static final String TXT_NO		= "否，返回主菜单";
 
-	private static final String TXT_UNLOCK	= "用任意其他职业击败第三个Boss，即可解锁该职业";
+	private static final String TXT_UNLOCK	= "用任意其他职业击败第三层妖王，即可解锁该职业";
 
 	private static final String TXT_WIN_THE_GAME =
 		"用任意职业通关游戏，即可解锁“挑战模式”。";
@@ -118,7 +119,9 @@ public class StartScene extends PixelScene {
 		archs.setSize( w, h );
 		add( archs ); 
 		
-		Image title = BannerSprites.get( Type.SELECT_YOUR_HERO );
+		BitmapText title = PixelScene.createText( TXT_TITLE, 18 );
+		title.measure();
+		title.hardlight( 0xCCCCCC );
 		title.x = align( (w - title.width()) / 2 );
 		title.y = align( top );
 		add( title );
@@ -223,7 +226,7 @@ public class StartScene extends PixelScene {
 		ExitButton btnExit = new ExitButton();
 		btnExit.setPos( Camera.main.width - btnExit.width(), 0 );
 		add( btnExit );
-		
+
 		curClass = null;
 		updateClass( HeroClass.values()[PixelDungeon.lastClass()] );
 		

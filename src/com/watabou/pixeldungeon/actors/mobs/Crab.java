@@ -26,7 +26,7 @@ import com.watabou.utils.Random;
 public class Crab extends Mob {
 
 	{
-		name = "下水道螃蟹";
+		name = "毒鳌蟹";
 		spriteClass = CrabSprite.class;
 		
 		HP = HT = 15;
@@ -68,6 +68,6 @@ public class Crab extends Mob {
 	
 	@Override
 	public String description() {
-		return "这些巨大的螃蟹位于下水道食物链顶端。它们速度极快，厚实的外骨骼能承受重击。";
+		return "这些巨大的毒鳌蟹居于秘境水脉顶端。它们速度极快，坚硬的甲壳能承受重击。";
 	}
 }

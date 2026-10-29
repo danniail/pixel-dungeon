@@ -30,7 +30,7 @@ import com.watabou.utils.Callback;
 public class WandOfTeleportation extends Wand {
 
 	{
-		name = "传送法杖";
+		name = "法器·挪移";
 	}
 
 	@Override
@@ -81,6 +81,6 @@ public class WandOfTeleportation extends Wand {
 	
 	@Override
 	public String desc() {
-		return "法杖的冲击会违背生物的意愿，将其传送到当前层的随机位置。";
+		return "法器的冲击会违背生物的意愿，将其传送到当前层的随机位置。";
 	}
 }

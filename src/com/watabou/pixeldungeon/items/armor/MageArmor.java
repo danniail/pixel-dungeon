@@ -34,12 +34,12 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class MageArmor extends ClassArmor {	
 	
-	private static final String AC_SPECIAL = "熔土之术"; 
+	private static final String AC_SPECIAL = "焚天烈焰"; 
 	
-	private static final String TXT_NOT_MAGE	= "只有法师能使用这件护甲！";
+	private static final String TXT_NOT_MAGE	= "只有修仙者能使用这件法袍！";
 	
 	{
-		name = "法师长袍";
+		name = "修仙道袍";
 		image = ItemSpriteSheet.ARMOR_MAGE;
 	}
 	
@@ -50,7 +50,7 @@ public class MageArmor extends ClassArmor {
 	
 	@Override
 	public String desc() {
-		return "穿着这件华丽长袍，法师能施放熔土之术：视野内所有敌人都会被点燃，同时无法移动。";
+		return "穿上这件灵光流转的道袍，修仙者可施展焚天烈焰：视野内所有敌人都会被点燃，同时周身如被灵藤缠绕，无法移动。";
 	}
 	
 	@Override

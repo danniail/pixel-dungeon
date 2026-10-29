@@ -56,7 +56,7 @@ import com.watabou.utils.Random;
 public class Ghost extends NPC {
 
 	{
-		name = "悲伤幽魂";
+		name = "悲伤怨灵";
 		spriteClass = GhostSprite.class;
 		
 		flying = true;
@@ -114,7 +114,7 @@ public class Ghost extends NPC {
 	@Override
 	public String description() {
 		return 
-			"幽魂几乎看不见，它看起来像一团没有形状的" +
+			"这怨灵几乎看不见，它像一团没有形状的" +
 			"微光，带着悲伤的面容。";
 	}
 	
@@ -354,12 +354,12 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler roseQuest = new QuestHandler() {
 		private static final String TXT_ROSE1	=
-			"你好，冒险者……我曾和你一样——强壮而自信……" +
-			"现在我死了……但我无法离开这里……除非我找回我的 _干枯玫瑰_……" +
-			"它对我很重要……有怪物从我身上偷走了它……";
+			"你好，修士……我曾和你一样——强壮而自信……" +
+			"现在我死了……但我无法离开这里……除非我找回我的 _干枯灵花_……" +
+			"它对我很重要……有妖兽从我身上偷走了它……";
 		
 		private static final String TXT_ROSE2	=
-			"求求你……帮帮我……_找到那朵玫瑰_……";
+			"求求你……帮帮我……_找到那朵灵花_……";
 		
 		private static final String TXT_ROSE3	= 
 			"对！就是它！请把它给我！" +
@@ -388,15 +388,15 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler ratQuest = new QuestHandler() {
 		private static final String TXT_RAT1	=
-			"你好，冒险者……我曾和你一样——强壮而自信……" +
+			"你好，修士……我曾和你一样——强壮而自信……" +
 			"现在我死了……但我无法离开这里……除非我能复仇……" +
-			"杀死那只夺走我生命的 _恶臭巨鼠_……";
+			"杀死那只夺走我生命的 _恶臭噬灵鼠_……";
 			
 		private static final String TXT_RAT2	=
-			"求求你……帮帮我……_杀死那个怪物_……";
+			"求求你……帮帮我……_杀死那个妖兽_……";
 		
 		private static final String TXT_RAT3	= 
-			"太好了！那丑陋的怪物已被杀死，我终于可以安息了……" +
+			"太好了！那丑陋的妖兽已被杀死，我终于可以安息了……" +
 			"请从这些物品中选一件，也许它们" +
 			"会在你的旅途中派上用场……";
 		
@@ -422,7 +422,7 @@ public class Ghost extends NPC {
 	
 	private static final QuestHandler curseQuest = new QuestHandler() {
 		private static final String TXT_CURSE1 =
-			"你好，冒险者……我曾和你一样——强壮而自信……" +
+			"你好，修士……我曾和你一样——强壮而自信……" +
 			"现在我死了……但我无法离开这里，因为我被可怕的诅咒束缚……" +
 			"求求你……帮帮我……_破除诅咒_……";
 		private static final String TXT_CURSE2 =

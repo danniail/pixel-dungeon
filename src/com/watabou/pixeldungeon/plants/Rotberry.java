@@ -24,7 +24,7 @@ public class Rotberry extends Plant {
 	
 	{
 		image = 7;
-		plantName = "腐莓";
+		plantName = "腐灵莓";
 	}
 	
 	@Override
@@ -47,9 +47,9 @@ public class Rotberry extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "腐莓";
+			plantName = "腐灵莓";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_ROTBERRY;
 			
 			plantClass = Rotberry.class;
@@ -65,7 +65,7 @@ public class Rotberry extends Plant {
 						mob.beckon( Dungeon.hero.pos );
 					}
 					
-					GLog.w( "种子发出一声怒吼，响彻整个地牢！" );
+					GLog.w( "灵种发出一声怒吼，响彻整个秘境！" );
 					CellEmitter.center( Dungeon.hero.pos ).start( Speck.factory( Speck.SCREAM ), 0.3f, 3 );
 					Sample.INSTANCE.play( Assets.SND_CHALLENGE );
 				}

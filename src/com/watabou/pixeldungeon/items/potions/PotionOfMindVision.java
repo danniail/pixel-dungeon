@@ -26,7 +26,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 public class PotionOfMindVision extends Potion {
 
 	{
-		name = "心灵视界药水";
+		name = "天眼丹";
 	}
 	
 	@Override
@@ -44,7 +44,7 @@ public class PotionOfMindVision extends Potion {
 	
 	@Override
 	public String desc() {
-		return "喝下后，你的心灵会与远处生物的灵能印记共鸣，让你隔墙感知生物的存在。这药水还能让你看穿附近的墙壁和门。";
+		return "喝下后，你的心灵会与远处生物的灵能印记共鸣，让你隔墙感知生物的存在。这丹药还能让你看穿附近的墙壁和门。";
 	}
 	
 	@Override

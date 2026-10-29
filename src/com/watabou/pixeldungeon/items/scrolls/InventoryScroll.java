@@ -30,7 +30,7 @@ public abstract class InventoryScroll extends Scroll {
 	protected String inventoryTitle = "选择物品";
 	protected WndBag.Mode mode = WndBag.Mode.ALL;
 	
-	private static final String TXT_WARNING	= "你确定要取消使用这张卷轴吗？它还是会被消耗。";
+	private static final String TXT_WARNING	= "你确定要取消使用这张符箓吗？它还是会被消耗。";
 	private static final String TXT_YES		= "是，我确定";
 	private static final String TXT_NO		= "否，我改主意了";
 	

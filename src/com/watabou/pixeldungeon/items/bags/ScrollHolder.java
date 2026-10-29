@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class ScrollHolder extends Bag {
 
 	{
-		name = "卷轴筒";
+		name = "符箓筒";
 		image = ItemSpriteSheet.HOLDER;
 		
 		size = 12;
@@ -42,6 +42,6 @@ public class ScrollHolder extends Bag {
 	
 	@Override
 	public String info() {
-		return "你可以把任意数量的卷轴放进这个筒形容器。它节省背包空间，并保护卷轴免受火烧。";
+		return "你可将任意数量的符箓放进这个筒形容器。它节省储物袋空间，并使符箓免受火烧。";
 	}
 }

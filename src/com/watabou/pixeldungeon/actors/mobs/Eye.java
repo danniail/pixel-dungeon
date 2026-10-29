@@ -145,7 +145,7 @@ public class Eye extends Mob {
 	
 	@Override
 	public String description() {
-		return "这个恶魔的另一个名字是“仇恨之球”，因为它一看到敌人就会肆无忌惮地施放死亡凝视，常常误伤盟友。";
+		return "这域外魔物又称“仇恨之眼”，一旦看见敌人便肆无忌惮地放出死亡凝视，常常误伤同伙。";
 	}
 	
 	private static final HashSet<Class<?>> RESISTANCES = new HashSet<Class<?>>();

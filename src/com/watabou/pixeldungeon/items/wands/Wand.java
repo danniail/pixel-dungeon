@@ -51,11 +51,11 @@ public abstract class Wand extends KindOfWeapon {
 	
 	public static final String AC_ZAP	= "施放";
 
-	private static final String TXT_WOOD	= "这根细长的%s法杖摸起来温热。使用它会发生什么，谁知道呢？";
-	private static final String TXT_DAMAGE	= "当这根法杖当作近战武器使用时，它每次命中的平均伤害为%d点。";
-	private static final String TXT_WEAPON	= "你可以把这根法杖当作近战武器使用。";
+	private static final String TXT_WOOD	= "这件古朴的%s法器微微发烫，内蕴灵光。它究竟有何妙用，尚未可知。";
+	private static final String TXT_DAMAGE	= "将这件法器当作近战兵器使用时，每次命中的平均伤害为%d点。";
+	private static final String TXT_WEAPON	= "你可以将这件法器当作近战兵器使用。";
 
-	private static final String TXT_FIZZLES		= "你的法杖嘶嘶作响，暂时没有充能了";
+	private static final String TXT_FIZZLES		= "你的法器灵光黯淡，暂时灵力耗尽了";
 	private static final String TXT_SELF_TARGET	= "你不能以自己为目标";
 
 	private static final String TXT_IDENTIFY	= "你现在对你的%s足够熟悉了。";
@@ -88,7 +88,7 @@ public abstract class Wand extends KindOfWeapon {
 		WandOfAvalanche.class
 	};
 	private static final String[] woods =
-		{"冬青", "紫杉", "乌木", "樱桃木", "柚木", "花楸", "柳木", "红木", "竹", "紫心木", "橡木", "桦木"};
+		{"青竹", "紫檀", "玄铁", "桃木", "灵木", "花梨", "垂柳", "红木", "紫竹", "墨玉", "沉香", "黄杨"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.WAND_HOLLY, 
 		ItemSpriteSheet.WAND_YEW, 
@@ -260,7 +260,7 @@ public abstract class Wand extends KindOfWeapon {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : wood + "法杖";
+		return isKnown() ? name : wood + "法器";
 	}
 	
 	@Override

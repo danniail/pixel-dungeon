@@ -31,7 +31,7 @@ public class Dreamweed extends Plant {
 	
 	{
 		image = 3;
-		plantName = "幻梦草";
+		plantName = "迷梦草";
 	}
 	
 	@Override
@@ -50,9 +50,9 @@ public class Dreamweed extends Plant {
 	
 	public static class Seed extends Plant.Seed {
 		{
-			plantName = "幻梦草";
+			plantName = "迷梦草";
 			
-			name = plantName + "种子";
+			name = plantName + "灵种";
 			image = ItemSpriteSheet.SEED_DREAMWEED;
 			
 			plantClass = Dreamweed.class;

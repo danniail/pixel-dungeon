@@ -33,6 +33,6 @@ public class LeatherArmor extends Armor {
 	
 	@Override
 	public String desc() {
-		return "用鞣制的怪物皮革制成的护甲。不如布甲轻便，但防护更好。";
+		return "以鞣制的妖兽皮革制成。不如布袍轻便，防护却更胜一筹。";
 	}
 }

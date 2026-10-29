@@ -40,15 +40,15 @@ public class WndTradeItem extends Window {
 	private static final int WIDTH		= 120;
 	private static final int BTN_HEIGHT	= 16;
 	
-	private static final String TXT_SALE		= "出售：%s - %d金币";
-	private static final String TXT_BUY			= "花%d金币购买";
-	private static final String TXT_SELL		= "以%d金币卖出";
-	private static final String TXT_SELL_1		= "卖1个，得%d金币";
-	private static final String TXT_SELL_ALL	= "全部卖出，得%d金币";
+	private static final String TXT_SALE		= "出售：%s - %d灵石";
+	private static final String TXT_BUY			= "花%d灵石购买";
+	private static final String TXT_SELL		= "以%d灵石卖出";
+	private static final String TXT_SELL_1		= "卖1个，得%d灵石";
+	private static final String TXT_SELL_ALL	= "全部卖出，得%d灵石";
 	private static final String TXT_CANCEL		= "算了";
 	
-	private static final String TXT_SOLD	= "你以%d金币卖出了%s";
-	private static final String TXT_BOUGHT	= "你以%d金币买下了%s";
+	private static final String TXT_SOLD	= "你以%d灵石卖出了%s";
+	private static final String TXT_BOUGHT	= "你以%d灵石买下了%s";
 	
 	private WndBag owner;
 	

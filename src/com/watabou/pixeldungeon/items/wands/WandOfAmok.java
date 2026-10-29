@@ -32,7 +32,7 @@ import com.watabou.utils.Callback;
 public class WandOfAmok extends Wand {
 
 	{
-		name = "狂乱法杖";
+		name = "法器·乱心";
 	}
 
 	@Override
@@ -60,6 +60,6 @@ public class WandOfAmok extends Wand {
 	
 	@Override
 	public String desc() {
-		return "法杖发出的紫光会让目标陷入狂乱，攻击它附近的随机生物。";
+		return "法器发出的紫光会让目标陷入狂乱，攻击它附近的随机生物。";
 	}
 }
