@@ -20,16 +20,16 @@ package com.watabou.pixeldungeon;
 public class ResultDescriptions {
 
 	// Mobs 
-	public static final String MOB	= "在第%d层被%s击杀";
-	public static final String BOSS	= "在第%d层被%s击杀";
+	public static final String MOB	= "被%s在第%d层击杀";
+	public static final String BOSS	= "被%s在第%d层击杀";
 	
 	// Items
-	public static final String WAND		= "在第%d层被自己的%s击杀";
-	public static final String GLYPH	= "在第%d层被%s击杀";
+	public static final String WAND		= "在第%2$d层被自己的%1$s击杀";
+	public static final String GLYPH	= "被%s在第%d层击杀";
 	public static final String BOMB		= "在第%d层被雷火珠引爆击杀";
 	
 	// Dungeon features
-	public static final String TRAP	= "在第%d层被%s的放电击杀";
+	public static final String TRAP	= "被%s的放电在第%d层击杀";
 	
 	// Debuffs & blobs
 	public static final String BURNING	= "在第%d层被烧死";
